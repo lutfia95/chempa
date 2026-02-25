@@ -6,7 +6,21 @@ from typing import Dict, List, Optional, Tuple, Union
 
 import pandas as pd
 from rdkit import Chem
+from io import BytesIO
 
+from rdkit.Chem import AllChem
+from rdkit.Chem.Draw import rdMolDraw2D
+
+try:
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.units import mm
+    from reportlab.pdfgen import canvas
+    from reportlab.lib.utils import ImageReader
+    from reportlab.pdfbase.pdfmetrics import stringWidth
+
+    _HAVE_REPORTLAB = True
+except Exception:
+    _HAVE_REPORTLAB = False
 
 PathLike = Union[str, Path]
 
@@ -91,6 +105,22 @@ class AmineSplitter:
         self._write_bucket(df.columns.tolist(), buckets["secondary_aliphatic"], self.output_dir / "secondary_aliphatic_amines.tsv")
         self._write_bucket(df.columns.tolist(), buckets["aromatic_amines"], self.output_dir / "aromatic_amines.tsv")
         self._write_bucket(df.columns.tolist(), buckets["others"], self.output_dir / "others.tsv")
+        
+        primary_pdf = self.output_dir / "primary_aliphatic_amines.pdf"
+        secondary_pdf = self.output_dir / "secondary_aliphatic_amines.pdf"
+        aromatic_pdf = self.output_dir / "aromatic_amines.pdf"
+        others_pdf = self.output_dir / "others.pdf"
+
+        cols = df.columns.tolist()
+        df_primary = pd.DataFrame(buckets["primary_aliphatic"], columns=cols)
+        df_secondary = pd.DataFrame(buckets["secondary_aliphatic"], columns=cols)
+        df_aromatic = pd.DataFrame(buckets["aromatic_amines"], columns=cols)
+        df_others = pd.DataFrame(buckets["others"], columns=cols)
+
+        self.write_bucket_pdf(df_primary, primary_pdf, title_col="Label")
+        self.write_bucket_pdf(df_secondary, secondary_pdf, title_col="Label")
+        self.write_bucket_pdf(df_aromatic, aromatic_pdf, title_col="Label")
+        self.write_bucket_pdf(df_others, others_pdf, title_col="Label")
 
         total = len(df)
         p = len(buckets["primary_aliphatic"])
@@ -184,6 +214,162 @@ class AmineSplitter:
             return False
 
         return True
+    
+    def _mol_to_png_bytes(
+        self,
+        mol: Chem.Mol,
+        size_px: tuple[int, int] = (520, 360),
+        legend: str = "",
+    ) -> bytes:
+        """Render an RDKit Mol to PNG bytes (Cairo drawer)."""
+        m = Chem.Mol(mol)
+        try:
+            if m.GetNumConformers() == 0:
+                AllChem.Compute2DCoords(m)
+        except Exception:
+            pass
+
+        w, h = size_px
+        drawer = rdMolDraw2D.MolDraw2DCairo(w, h)
+        try:
+            rdMolDraw2D.PrepareAndDrawMolecule(drawer, m, legend=legend, kekulize=True)
+        except Exception:
+            rdMolDraw2D.PrepareAndDrawMolecule(drawer, m, legend=legend, kekulize=False)
+        drawer.FinishDrawing()
+        return drawer.GetDrawingText()
+
+
+    @staticmethod
+    def _wrap_by_width(text: str, font_name: str, font_size: int, max_width: float) -> list[str]:
+        """Word-wrap based on rendered width in points (prevents clipping)."""
+        words = text.split()
+        if not words:
+            return [""]
+
+        lines: list[str] = []
+        cur = words[0]
+        for w in words[1:]:
+            trial = cur + " " + w
+            if stringWidth(trial, font_name, font_size) <= max_width:
+                cur = trial
+            else:
+                lines.append(cur)
+                cur = w
+        lines.append(cur)
+        return lines
+
+
+    def write_bucket_pdf(
+        self,
+        bucket_df: pd.DataFrame,
+        out_pdf: PathLike,
+        *,
+        smiles_col: str | None = None,
+        title_col: str = "Label",
+        per_page: int = 6,
+        font_size: int = 9,
+    ) -> Path:
+        """
+        Write a PDF for one bucket TSV/DataFrame.
+        Each entry: structure image + title + SMILES + some useful columns (if present).
+        """
+        if not _HAVE_REPORTLAB:
+            raise RuntimeError("PDF export requires reportlab. Install it or set write_pdfs=False.")
+
+        s_col = smiles_col or self.smiles_col
+        out_path = Path(out_pdf)
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+
+        c = canvas.Canvas(str(out_path), pagesize=A4)
+        page_w, page_h = A4
+
+        margin_x = 12 * mm
+        margin_y = 12 * mm
+
+        # layout
+        usable_h = page_h - 2 * margin_y
+        row_h = usable_h / per_page
+
+        img_w = 70 * mm
+        img_h = 50 * mm
+        gap = 6 * mm
+
+        # what text fields to show (if present)
+        show_cols = [title_col, "File", "Index", "NumAtoms", "MW", "logP", "HBD", "HBA", "TPSA", "RB", "Rings", "HeavyAtoms"]
+        show_cols = [x for x in show_cols if x in bucket_df.columns]
+
+        def draw_entry(y_top: float, mol: Chem.Mol, header: str, body: str) -> None:
+            png = self._mol_to_png_bytes(mol, size_px=(520, 360))
+            if png:
+                img = ImageReader(BytesIO(png))
+                c.drawImage(
+                    img,
+                    margin_x,
+                    y_top - img_h,
+                    width=img_w,
+                    height=img_h,
+                    preserveAspectRatio=True,
+                    mask="auto",
+                )
+
+            tx = margin_x + img_w + gap
+            max_w = (page_w - margin_x) - tx
+
+            # header
+            c.setFont("Helvetica-Bold", font_size + 1)
+            c.drawString(tx, y_top - 2 * mm, header)
+
+            # body (wrapped)
+            c.setFont("Helvetica", font_size)
+            lines = self._wrap_by_width(body, "Helvetica", font_size, max_w)
+
+            t_y = y_top - (font_size + 6)
+            max_lines = 10
+            for ln in lines[:max_lines]:
+                c.drawString(tx, t_y, ln)
+                t_y -= (font_size + 2)
+
+        # iterate rows
+        n_written = 0
+        for i, row in bucket_df.reset_index(drop=True).iterrows():
+            smi = (row.get(s_col) or "").strip()
+            mol = Chem.MolFromSmiles(smi) if smi else None
+            if mol is None:
+                continue
+
+            entry_i = n_written % per_page
+            y_top = page_h - margin_y - entry_i * row_h
+
+            # header: Label + IDX (inside-file index) if available
+            lbl = (row.get(title_col) or "").strip()
+            idx = (row.get("Index") or "").strip() if "Index" in bucket_df.columns else ""
+            header = lbl if lbl else (f"IDX {idx}" if idx else f"Row {i+1}")
+            if idx and lbl:
+                header = f"{lbl}   |   IDX: {idx}"
+
+            # body: SMILES + key props
+            parts = [f"SMILES={smi}"]
+            for col in show_cols:
+                if col == title_col:
+                    continue
+                v = (row.get(col) or "").strip()
+                if v:
+                    parts.append(f"{col}={v}")
+            body = "   ".join(parts)
+
+            draw_entry(y_top, mol, header, body)
+
+            # separator line
+            y_sep = y_top - row_h + 2 * mm
+            c.setLineWidth(0.5)
+            c.line(margin_x, y_sep, page_w - margin_x, y_sep)
+
+            n_written += 1
+            if entry_i == per_page - 1:
+                c.showPage()
+
+        c.save()
+        return out_path
 
     @staticmethod
     def _is_aromatic_amine_n(n: Chem.Atom) -> bool:
