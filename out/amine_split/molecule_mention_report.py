@@ -306,8 +306,22 @@ def write_jsonl(path: Path, records: list[dict[str, Any]]) -> None:
             handle.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
+def append_jsonl_record(handle: Any, record: dict[str, Any]) -> None:
+    handle.write(json.dumps(record, ensure_ascii=False) + "\n")
+    handle.flush()
+
+
 def write_tsv(path: Path, records: list[dict[str, Any]]) -> None:
-    fields = [
+    fields = tsv_fields()
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t")
+        writer.writeheader()
+        for record in records:
+            write_tsv_record(writer, record)
+
+
+def tsv_fields() -> list[str]:
+    return [
         "Label",
         "InputSMILES",
         "CID",
@@ -328,40 +342,128 @@ def write_tsv(path: Path, records: list[dict[str, Any]]) -> None:
         "JournalOrPublication",
         "Snippet",
     ]
-    with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t")
-        writer.writeheader()
-        for record in records:
-            base = {
-                "Label": record["input"].get("Label", ""),
-                "InputSMILES": record["input"].get("SMILES", ""),
-                "CID": record["identity"].get("cid") or "",
-                "InChIKey": record["identity"].get("inchikey") or "",
-                "IUPACName": record["identity"].get("iupac_name") or "",
-                "ResolveError": record["identity"].get("resolve_error") or "",
-                "MentionCount": len(record["mentions"]),
+
+
+def _tsv_base_record(record: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "Label": record["input"].get("Label", ""),
+        "InputSMILES": record["input"].get("SMILES", ""),
+        "CID": record["identity"].get("cid") or "",
+        "InChIKey": record["identity"].get("inchikey") or "",
+        "IUPACName": record["identity"].get("iupac_name") or "",
+        "ResolveError": record["identity"].get("resolve_error") or "",
+        "MentionCount": len(record["mentions"]),
+    }
+
+
+def write_tsv_record(writer: csv.DictWriter, record: dict[str, Any]) -> None:
+    base = _tsv_base_record(record)
+    if not record["mentions"]:
+        writer.writerow(base)
+        return
+    for mention in record["mentions"]:
+        writer.writerow(
+            {
+                **base,
+                "SourceType": mention.get("source_type", ""),
+                "Database": mention.get("database", ""),
+                "Query": mention.get("query", ""),
+                "MatchMode": mention.get("match_mode", ""),
+                "Confidence": mention.get("confidence", ""),
+                "Title": mention.get("title", ""),
+                "Year": mention.get("year", ""),
+                "ReferenceID": mention.get("id", ""),
+                "URL": mention.get("url", ""),
+                "AuthorsOrAssignee": mention.get("authors_or_assignee", ""),
+                "JournalOrPublication": mention.get("journal_or_publication", ""),
+                "Snippet": mention.get("snippet", ""),
             }
-            if not record["mentions"]:
-                writer.writerow(base)
-                continue
-            for mention in record["mentions"]:
-                writer.writerow(
-                    {
-                        **base,
-                        "SourceType": mention.get("source_type", ""),
-                        "Database": mention.get("database", ""),
-                        "Query": mention.get("query", ""),
-                        "MatchMode": mention.get("match_mode", ""),
-                        "Confidence": mention.get("confidence", ""),
-                        "Title": mention.get("title", ""),
-                        "Year": mention.get("year", ""),
-                        "ReferenceID": mention.get("id", ""),
-                        "URL": mention.get("url", ""),
-                        "AuthorsOrAssignee": mention.get("authors_or_assignee", ""),
-                        "JournalOrPublication": mention.get("journal_or_publication", ""),
-                        "Snippet": mention.get("snippet", ""),
-                    }
-                )
+        )
+
+
+def summarize_records(records: list[dict[str, Any]], include_papers: bool, include_patents: bool) -> str:
+    database_counts: dict[str, int] = {}
+    source_counts: dict[str, int] = {}
+    rows_with_mentions = 0
+    resolve_errors = 0
+
+    for record in records:
+        mentions = record.get("mentions", [])
+        if mentions:
+            rows_with_mentions += 1
+        if record.get("identity", {}).get("resolve_error"):
+            resolve_errors += 1
+        for mention in mentions:
+            database = mention.get("database", "Unknown") or "Unknown"
+            source_type = mention.get("source_type", "unknown") or "unknown"
+            database_counts[database] = database_counts.get(database, 0) + 1
+            source_counts[source_type] = source_counts.get(source_type, 0) + 1
+
+    looked_into = ["PubChem"]
+    if include_papers:
+        looked_into.append("Europe PMC")
+    if include_patents:
+        looked_into.append("Google Patents")
+
+    lines = [
+        "Molecule mention processing summary",
+        f"Total input rows: {len(records)}",
+        f"Rows with mentions: {rows_with_mentions}",
+        f"Rows with PubChem resolve errors: {resolve_errors}",
+        f"Databases looked into: {', '.join(looked_into)}",
+    ]
+
+    if source_counts:
+        lines.append("Mentions by source type:")
+        for source_type in sorted(source_counts):
+            lines.append(f"- {source_type}: {source_counts[source_type]}")
+
+    if database_counts:
+        lines.append("Mentions by database:")
+        for database in sorted(database_counts):
+            lines.append(f"- {database}: {database_counts[database]}")
+    else:
+        lines.append("Mentions by database: none")
+
+    return "\n".join(lines) + "\n"
+
+
+def write_summary(path: Path, records: list[dict[str, Any]], include_papers: bool, include_patents: bool) -> None:
+    path.write_text(
+        summarize_records(records, include_papers=include_papers, include_patents=include_patents),
+        encoding="utf-8",
+    )
+
+
+def log_record_result(record: dict[str, Any], index: int, total: int) -> None:
+    label = record.get("input", {}).get("Label", "") or "-"
+    smiles = record.get("input", {}).get("SMILES", "") or "-"
+    identity = record.get("identity", {})
+    cid = identity.get("cid")
+    resolve_error = identity.get("resolve_error")
+    mentions = record.get("mentions", [])
+
+    database_counts: dict[str, int] = {}
+    for mention in mentions:
+        database = mention.get("database", "Unknown") or "Unknown"
+        database_counts[database] = database_counts.get(database, 0) + 1
+
+    if database_counts:
+        found_summary = ", ".join(f"{name}={database_counts[name]}" for name in sorted(database_counts))
+        print(
+            f"[{index}/{total}] info label={label} smiles={smiles} pubchem_cid={cid or '-'} found={found_summary}",
+            file=sys.stderr,
+        )
+    elif resolve_error:
+        print(
+            f"[{index}/{total}] info label={label} smiles={smiles} pubchem_error={resolve_error}",
+            file=sys.stderr,
+        )
+    else:
+        print(
+            f"[{index}/{total}] info label={label} smiles={smiles} pubchem_cid={cid or '-'} found=none",
+            file=sys.stderr,
+        )
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -426,33 +528,45 @@ def main() -> int:
     patent_rl = RateLimiter(args.patent_rps)
 
     records: list[dict[str, Any]] = []
+    prefix = Path(args.out_prefix)
+    jsonl_path = prefix.with_suffix(".jsonl")
+    tsv_path = prefix.with_suffix(".tsv")
+    summary_path = prefix.with_name(f"{prefix.name}_summary").with_suffix(".txt")
     with ThreadPoolExecutor(max_workers=args.workers) as executor:
         futures = [
             executor.submit(process_row, row, args, pubchem_rl, epmc_rl, patent_rl)
             for row in rows
         ]
-        for index, future in enumerate(as_completed(futures), start=1):
-            try:
-                record = future.result()
-            except Exception as exc:  # noqa: BLE001
-                record = {
-                    "input": {"SMILES": "", "Label": ""},
-                    "identity": asdict(PubChemIdentity(None, None, None, None, str(exc))),
-                    "mentions": [],
-                }
-            records.append(record)
-            print(f"[{index}/{len(rows)}] processed", file=sys.stderr)
+        with jsonl_path.open("w", encoding="utf-8") as jsonl_handle, tsv_path.open(
+            "w", newline="", encoding="utf-8"
+        ) as tsv_handle:
+            tsv_writer = csv.DictWriter(tsv_handle, fieldnames=tsv_fields(), delimiter="\t")
+            tsv_writer.writeheader()
+            tsv_handle.flush()
+            write_summary(summary_path, records, include_papers=args.include_papers, include_patents=args.include_patents)
 
-    records.sort(key=lambda record: (record["input"].get("Label", ""), record["input"].get("SMILES", "")))
-
-    prefix = Path(args.out_prefix)
-    jsonl_path = prefix.with_suffix(".jsonl")
-    tsv_path = prefix.with_suffix(".tsv")
-    write_jsonl(jsonl_path, records)
-    write_tsv(tsv_path, records)
+            for index, future in enumerate(as_completed(futures), start=1):
+                try:
+                    record = future.result()
+                except Exception as exc:  # noqa: BLE001
+                    record = {
+                        "input": {"SMILES": "", "Label": ""},
+                        "identity": asdict(PubChemIdentity(None, None, None, None, str(exc))),
+                        "mentions": [],
+                    }
+                records.append(record)
+                append_jsonl_record(jsonl_handle, record)
+                write_tsv_record(tsv_writer, record)
+                tsv_handle.flush()
+                write_summary(
+                    summary_path, records, include_papers=args.include_papers, include_patents=args.include_patents
+                )
+                log_record_result(record, index, len(rows))
+                print(f"[{index}/{len(rows)}] processed", file=sys.stderr)
 
     print(f"Wrote {jsonl_path}")
     print(f"Wrote {tsv_path}")
+    print(f"Wrote {summary_path}")
     return 0
 
 
