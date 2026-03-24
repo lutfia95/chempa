@@ -435,6 +435,34 @@ def write_summary(path: Path, records: list[dict[str, Any]], include_papers: boo
     )
 
 
+def _compact_text(value: str, limit: int = 140) -> str:
+    text = re.sub(r"\s+", " ", value or "").strip()
+    if len(text) <= limit:
+        return text
+    return text[: limit - 3] + "..."
+
+
+def log_found_mentions(record: dict[str, Any], index: int, total: int) -> None:
+    mentions = record.get("mentions", [])
+    if not mentions:
+        return
+
+    for mention in mentions:
+        title = _compact_text(mention.get("title", "") or "-", limit=120)
+        year = mention.get("year", "") or "-"
+        database = mention.get("database", "") or "Unknown"
+        source_type = mention.get("source_type", "") or "unknown"
+        confidence = mention.get("confidence", "") or "-"
+        match_mode = mention.get("match_mode", "") or "-"
+        reference_id = mention.get("id", "") or "-"
+        query = _compact_text(mention.get("query", "") or "-", limit=80)
+        print(
+            f"[{index}/{total}] found source={source_type} db={database} confidence={confidence} "
+            f"match={match_mode} year={year} id={reference_id} query={query} title={title}",
+            file=sys.stderr,
+        )
+
+
 def log_record_result(record: dict[str, Any], index: int, total: int) -> None:
     label = record.get("input", {}).get("Label", "") or "-"
     smiles = record.get("input", {}).get("SMILES", "") or "-"
@@ -464,6 +492,7 @@ def log_record_result(record: dict[str, Any], index: int, total: int) -> None:
             f"[{index}/{total}] info label={label} smiles={smiles} pubchem_cid={cid or '-'} found=none",
             file=sys.stderr,
         )
+    log_found_mentions(record, index, total)
 
 
 def build_parser() -> argparse.ArgumentParser:
