@@ -1,0 +1,9 @@
+Molecule mention processing summary
+Total input rows: 5394
+Rows with mentions: 43
+Rows with PubChem resolve errors: 9
+Databases looked into: PubChem, Europe PMC, Google Patents
+Mentions by source type:
+- paper: 129
+Mentions by database:
+- Europe PMC: 129

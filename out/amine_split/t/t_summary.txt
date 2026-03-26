@@ -1,0 +1,6 @@
+Molecule mention processing summary
+Total input rows: 1
+Rows with mentions: 0
+Rows with PubChem resolve errors: 0
+Databases looked into: PubChem, Europe PMC, Google Patents
+Mentions by database: none
