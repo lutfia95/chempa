@@ -1,252 +1,232 @@
 # Molecule Mention Report
 
-This folder contains a small pipeline for scanning a TSV of molecules and producing a report of likely literature and patent mentions.
+This folder contains the inputs and outputs for `molecule_mention_report.py`.
 
-The main script is [molecule_mention_report.py](./molecule_mention_report.py).
+The purpose of the script is simple: take a TSV of molecules, search for likely mentions of those molecules in papers and patents, and write the results in machine-readable files.
 
-## What The Script Does
+## What The Script Searches
 
-For each input row:
+The script searches for mentions of molecules represented by `SMILES` strings.
 
-1. Read the `SMILES` string from the TSV.
-2. Resolve that SMILES through PubChem.
-3. Extract PubChem identity fields:
+In this folder, the main input molecule lists are:
+
+- `primary_aliphatic_amines.tsv`
+- `secondary_aliphatic_amines.tsv`
+- `aromatic_amines.tsv`
+- `others.tsv`
+
+Each row is one molecule. The minimum required input column is:
+
+- `SMILES`
+
+An optional `Label` column can also be present. If it exists, it is carried into the outputs and log messages.
+
+## Where The Search Happens
+
+The script searches in two external sources:
+
+- Europe PMC for papers
+- Google Patents for patents
+
+This is a text-retrieval workflow. It is not doing:
+
+- substructure search
+- similarity search
+- RDKit structure matching against external databases
+- full document chemistry parsing
+
+## How The Search Works
+
+For each input molecule, `molecule_mention_report.py` does the following:
+
+1. Read the molecule's `SMILES`.
+2. Send that SMILES to PubChem.
+3. Try to resolve identifier fields such as:
    - `CID`
    - `InChIKey`
    - `IUPACName`
    - canonical or connectivity SMILES
-4. Build search queries from those identity fields.
-5. Search:
-   - Europe PMC for paper hits
-   - Google Patents for patent hits
-6. Write structured outputs as:
-   - JSONL
-   - TSV
-   - summary text
-7. Print runtime progress to stderr while running.
+4. Build quoted text queries from those resolved identifiers.
+5. Search Europe PMC and Google Patents with those queries.
+6. Collect the returned records as candidate mentions.
+7. Write JSONL, TSV, and summary outputs.
 
-## Input Format
+So the search is identifier-driven. The script tries to find literature and patent records that mention the same molecule textually.
 
-The input file must be a tab-separated file with at least:
+## What The Script Looks For
 
-- `SMILES`
+The script tries to determine whether each molecule is:
 
-It can also include:
+- found in papers
+- found in patents
+- found in both
+- not found
 
-- `Label`
+In the current implementation:
 
-If `Label` is present, it is carried through into the output and progress logs.
+- paper hits come from Europe PMC search results
+- patent hits come from Google Patents search results
 
-## Search Strategy
+## Search Queries Used
 
-The search is not based on substructure chemistry or RDKit matching. It is text-based retrieval built from PubChem-resolved identifiers.
-
-For each molecule, the script builds up to three quoted query types:
+For each molecule, the script can build up to three query types:
 
 1. `exact_identifier`
-   - Query: the PubChem `InChIKey`
-   - Confidence label: `high`
+   - uses the PubChem `InChIKey`
 2. `exact_name`
-   - Query: the PubChem `IUPACName`
-   - Confidence label: `medium`
+   - uses the PubChem `IUPACName`
 3. `exact_smiles`
-   - Query: PubChem canonical/connectivity SMILES, or the original input SMILES
-   - Confidence label: `low`
+   - uses canonical/connectivity SMILES from PubChem, or the original input SMILES
 
-These labels are query-strength labels. They are not proof of chemical identity in the source text.
+These are quoted text queries. They are not proof that the compound was chemically verified in the source.
 
-## What "Match" Means Here
+## What "Found" Means
 
-This script does not currently implement a formal `complete match` vs `partial match` classifier.
+For this workflow, a molecule is treated as found when the search returns one or more candidate mention records.
 
-What it really does is:
+Current interpretation:
 
-- send exact quoted text queries to the external search systems
-- collect the returned records
-- tag the result with the query type that produced it
+- `papers only`: at least one paper mention was recorded, and no patent mention was recorded
+- `patents only`: at least one patent mention was recorded, and no paper mention was recorded
+- `both`: at least one paper mention and at least one patent mention were recorded
+- `not found`: no mention records were recorded for that molecule
 
-So the current meaning is:
+## Important Limitations
 
-- `exact_identifier`: strongest signal because `InChIKey` is specific
-- `exact_name`: moderate signal because names can vary
-- `exact_smiles`: weaker signal because SMILES strings are brittle in text and can vary by normalization
+This is a first-pass discovery workflow, not a final validation system.
 
-There is currently no explicit:
+Important limits:
 
-- fuzzy name match
-- synonym expansion
-- alias resolution
-- partial structure match
-- substructure search
-- stereochemistry-aware equivalence check across text mentions
+- no synonym expansion beyond PubChem-resolved names
+- no fuzzy name matching
+- no full-text article verification
+- no patent body verification
+- no chemistry-aware equivalence checking beyond PubChem normalization
+- `exact_smiles` matches are relatively weak because textual SMILES usage is inconsistent
 
-## Paper Search Behavior
+Patent hits especially should be treated as leads for review, not automatic confirmation.
 
-Paper search uses Europe PMC.
+## Output Layout In This Folder
 
-For each quoted query, the script calls the Europe PMC search API and accepts returned records as candidate mentions. It stores metadata such as:
+The top-level TSV files are molecule input sets.
 
-- title
-- year
-- authors
-- journal/source
-- DOI/PMID URL when available
-- abstract snippet
+The `*_scan/` folders hold the outputs from `molecule_mention_report.py`.
 
-This means the script depends on Europe PMC search behavior. It does not fetch and verify the full article body itself.
+Example layout:
 
-## Patent Search Behavior
+```text
+out/amine_split/
+├── primary_aliphatic_amines.tsv
+├── secondary_aliphatic_amines.tsv
+├── aromatic_amines.tsv
+├── others.tsv
+├── primary_scan/
+│   ├── primary_aliphatic_amines.jsonl
+│   ├── primary_aliphatic_amines.tsv
+│   └── primary_aliphatic_amines_summary.txt
+├── secondary_scan/
+├── aromatic_scan/
+└── others_scan/
+```
 
-Patent search uses Google Patents search result pages.
+## Meaning Of The Output Files
 
-For each quoted query, the script:
+For a scan prefix such as `primary_aliphatic_amines`, the script writes:
 
-1. fetches the search results page
-2. parses patent links from the HTML
-3. records those patents as candidate mentions
+- `primary_aliphatic_amines.jsonl`
+- `primary_aliphatic_amines.tsv`
+- `primary_aliphatic_amines_summary.txt`
 
-Important limitation:
+### `.jsonl`
 
-Current patent hits are mostly "search-result leads", not body-verified patent mentions.
+One JSON record per input molecule.
 
-In other words, a patent record in the output currently means:
+Each record includes:
 
-- Google Patents returned this patent for the query
+- the original input row
+- PubChem identity fields
+- the collected mention records
 
-It does not yet mean:
+This is the most structured output if you want to post-process results programmatically.
 
-- the exact identifier/name/SMILES was confirmed in the patent body, abstract, claims, or examples
+### `.tsv`
 
-So patents should be treated as review targets unless the script is extended with body-text verification.
+Flattened tabular output.
 
-## Runtime Logging
+Important detail:
 
-While running, the script prints progress information to stderr.
+- if a molecule has multiple mentions, the TSV can contain multiple rows for that same molecule
+- if a molecule has no mentions, the TSV still includes a base row with `MentionCount = 0`
 
-There are two log styles:
+This is the main file used by `plot_tsv.py`.
 
-1. Per-row summary
-   - example:
-   - `[73/619] info label=WX604420 smiles=COC(=O)c1ccc(C2(N)CC2)cc1 pubchem_cid=45140209 found=Europe PMC=1`
-2. Per-hit detail
-   - includes source, database, confidence, match mode, year, reference id, query, and title
+### `_summary.txt`
 
-The first tells you that the row produced one or more hits.
-The second tells you which records were found.
+Human-readable running summary of the scan, including:
 
-## Output Files
-
-Given:
-
-- `--out-prefix mention_report`
-
-The script writes:
-
-- `mention_report.jsonl`
-- `mention_report.tsv`
-- `mention_report_summary.txt`
-
-### JSONL
-
-One record per input molecule, including:
-
-- original input row
-- resolved PubChem identity
-- list of mention records
-
-### TSV
-
-Flattened tabular output with one row per mention.
-
-If a molecule has no mentions, a base row is still written with identity information and `MentionCount = 0`.
-
-### Summary
-
-A rolling summary of:
-
-- total input rows processed
-- rows with mentions
-- PubChem resolve errors
-- databases searched
+- how many input rows were processed
+- how many rows had mentions
+- how many PubChem resolutions failed
 - counts by source type
 - counts by database
 
-## Deduplication
+## Plotting The Scan Results
 
-Mentions are deduplicated by:
+The plotting script at `/Users/ahmadlutfi/Downloads/Xiaoyi/chempa/github/chempa/plot_tsv.py` reads the flattened scan TSV and collapses it back to one result per unique molecule.
 
-- `(database, id)`
-- or `(database, url)` if `id` is missing
+It then groups molecules into:
 
-If the same mention is found via multiple query types, the script keeps the best confidence in this order:
+- `Papers`
+- `Patents`
+- `Both`
+- `Not found`
 
-1. `high`
-2. `medium`
-3. `low`
+It also writes two text files:
 
-## Current Strengths
+- one listing the found molecules
+- one listing the not-found molecules
 
-- Simple and easy to run
-- Good for first-pass triage
-- Strongest when `InChIKey` is available
-- Produces structured outputs for later review
-- Supports concurrent processing with rate limiting
+Those files are generated from the scan TSV content, not from the raw input TSV.
 
-## Current Weaknesses
-
-- No synonym expansion beyond PubChem `IUPACName`
-- No partial/fuzzy matching logic
-- No article full-text verification
-- No patent body verification
-- No chemistry-aware structure equivalence beyond PubChem normalization
-- `exact_smiles` is often fragile for literature text search
-
-## How To Run
+## How To Run The Search
 
 Example:
 
 ```bash
 python3 molecule_mention_report.py \
-  --input aromatic_amines.tsv \
-  --out-prefix aromatic_amines_mentions
+  --input primary_aliphatic_amines.tsv \
+  --out-prefix primary_scan/primary_aliphatic_amines
 ```
 
 Useful options:
 
-- `--limit 20`
-- `--workers 8`
-- `--timeout 30`
-- `--retries 2`
-- `--per-source-limit 5`
+- `--limit`
+- `--workers`
+- `--timeout`
+- `--retries`
+- `--per-source-limit`
 - `--no-papers`
 - `--no-patents`
 
-See full CLI help:
+Help:
 
 ```bash
 python3 molecule_mention_report.py --help
 ```
 
-## Recommended Interpretation
+## How To Plot The Search Results
 
-Use this script as a discovery and prioritization tool.
+Example for one scan TSV:
 
-Interpret results this way:
+```bash
+python3 plot_tsv.py \
+  --tsv ./out/amine_split/primary_scan/primary_aliphatic_amines.tsv
+```
 
-- Europe PMC `exact_identifier`: usually strong evidence worth reviewing first
-- Europe PMC `exact_name`: useful but can still be ambiguous
-- Europe PMC `exact_smiles`: weak and should be checked manually
-- Google Patents hits: leads only unless manually verified
+Example for all scan TSVs in this folder:
 
-## Recommended Next Improvement
-
-The most important upgrade would be patent body verification:
-
-- fetch each patent page
-- extract visible text
-- confirm the identifier/name/SMILES is actually present
-- distinguish:
-  - `search_result_only`
-  - `body_verified`
-
-That would make the patent side much more reliable.
+```bash
+python3 plot_tsv.py \
+  --input-dir ./out/amine_split \
+  --output-dir ./out/plots/scan_audit
+```
