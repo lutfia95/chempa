@@ -1,0 +1,602 @@
+Label	InputSMILES	CID	InChIKey	IUPACName	ResolveError	MentionCount	SourceType	Database	Query	MatchMode	Confidence	Title	Year	ReferenceID	URL	AuthorsOrAssignee	JournalOrPublication	Snippet	Category
+AK1768_BT0007	COc1ccc(-c2ccc3c(CCN)c[nH]c3c2)cc1	75366098	BQQACQHIFAOWRY-UHFFFAOYSA-N	2-[6-(4-methoxyphenyl)-1H-indol-3-yl]ethanamine		0													not_found
+AK1768_BT0021	COc1cccc(-c2ccc3c(CCN)c[nH]c3c2)c1	75366095	DRRHILLACIIIPY-UHFFFAOYSA-N	2-[6-(3-methoxyphenyl)-1H-indol-3-yl]ethanamine		0													not_found
+AK1946_BT0021	COc1cccc(-c2ccc3[nH]cc(CCN)c3c2)c1	75366093	WUHZSKKKDBICGI-UHFFFAOYSA-N	2-[5-(3-methoxyphenyl)-1H-indol-3-yl]ethanamine		0													not_found
+Chemistry 2545	NCC(C(=O)N1CCC2(CCCN(C(=O)c3ccc(C#Cc4ccccc4)cc3)C2)C1)c1ccccc1	171705985	XIBKZTUGHDYRSO-UHFFFAOYSA-N	3-amino-2-phenyl-1-[9-[4-(2-phenylethynyl)benzoyl]-2,9-diazaspiro[4.5]decan-2-yl]propan-1-one		0													not_found
+Chemistry 361	C=CCn1c2c(ccc1=O)CC(N)CC2	131278365	KQNSAFCGRQPIQU-UHFFFAOYSA-N	6-amino-1-prop-2-enyl-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+LN00199670_BT0253	NC1(c2ccc(-c3cncnc3)cc2)CCC1	172894916	CZVWKRWRRGAXIO-UHFFFAOYSA-N	1-(4-pyrimidin-5-ylphenyl)cyclobutan-1-amine		0													not_found
+LN00199670_BT0257	NC1(c2ccc(-c3cncn3C3CCCCO3)cc2)CCC1	172895953	SNZZPISAGLJDGW-UHFFFAOYSA-N	1-[4-[3-(oxan-2-yl)imidazol-4-yl]phenyl]cyclobutan-1-amine		0													not_found
+LN00199670_BT0321	CCNC(=O)Nc1ccc(-c2ccc(C3(N)CCC3)cc2)cc1	172894621	FWICUGRAVFVFHS-UHFFFAOYSA-N	1-[4-[4-(1-aminocyclobutyl)phenyl]phenyl]-3-ethylurea		0													not_found
+LN00199670_BT0325	NC1(c2ccc(-c3ccc4c(c3)COC4=O)cc2)CCC1	172895257	WIILCMCLDSOTGQ-UHFFFAOYSA-N	5-[4-(1-aminocyclobutyl)phenyl]-3H-2-benzofuran-1-one		0													not_found
+LN00199670_BT0369	NC1(c2ccc(-c3cccc4ncnn34)cc2)CCC1	172894930	HHPDVGNNIUOKRJ-UHFFFAOYSA-N	1-[4-([1,2,4]triazolo[1,5-a]pyridin-5-yl)phenyl]cyclobutan-1-amine		0													not_found
+LN00199670_BT0424	NC1(c2ccc(-c3ccccn3)cc2)CCC1	172895852	IWUQAKZSXMXKPL-UHFFFAOYSA-N	1-(4-pyridin-2-ylphenyl)cyclobutan-1-amine		0													not_found
+LN00199670_BT0492	CC(C)(CO)Cn1cc(-c2ccc(C3(N)CCC3)cc2)cn1	172895005	WXSVTNHDLWQXBA-UHFFFAOYSA-N	3-[4-[4-(1-aminocyclobutyl)phenyl]pyrazol-1-yl]-2,2-dimethylpropan-1-ol		0													not_found
+LN00199670_BT0545	COc1ncncc1-c1ccc(C2(N)CCC2)cc1	172894729	RMPPCYQPCCURPW-UHFFFAOYSA-N	1-[4-(4-methoxypyrimidin-5-yl)phenyl]cyclobutan-1-amine		0													not_found
+LN00199670_BT1880	Cc1cc(-c2ccc(C3(N)CCC3)cc2)n[nH]1	172895895	NCCYAFDDGYCHDU-UHFFFAOYSA-N	1-[4-(5-methyl-1H-pyrazol-3-yl)phenyl]cyclobutan-1-amine		0													not_found
+LN00244457_BT0167	CC(C)(C)NS(=O)(=O)c1ccc(-c2ccc(CN)cn2)cc1F	172895186	HDMPGVVPURTLEF-UHFFFAOYSA-N	4-[5-(aminomethyl)-2-pyridinyl]-N-tert-butyl-2-fluorobenzenesulfonamide		0													not_found
+LN00244457_BT0263	NCc1ccc(-c2cc(F)c(F)c(N3CCOCC3)c2)nc1	172895357	AOZAADUDAYJZOV-UHFFFAOYSA-N	[6-(3,4-difluoro-5-morpholin-4-ylphenyl)-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT0480	COCCN1CCc2cc(-c3ccc(CN)cn3)ccc21	172895956	NFCJMRZHAAARMM-UHFFFAOYSA-N	[6-[1-(2-methoxyethyl)-2,3-dihydroindol-5-yl]-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT0510	Cc1cc2cccc(-c3ccc(CN)cn3)c2[nH]1	172895049	SDPGBLIDYGYLQP-UHFFFAOYSA-N	[6-(2-methyl-1H-indol-7-yl)-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT0513	NCc1ccc(-c2cccc(C3CC3)c2)nc1	172895350	VNULGCLGPQHOEN-UHFFFAOYSA-N	[6-(3-cyclopropylphenyl)-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT2647	Cc1nn(C)c2cc(-c3ccc(CN)cn3)ccc12	172895386	DDXGXBRPACVAMS-UHFFFAOYSA-N	[6-(1,3-dimethylindazol-6-yl)-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT3592	NCc1ccc(-c2cccc3ccoc23)nc1	172895136	XOLSOPIBCLDIMC-UHFFFAOYSA-N	[6-(1-benzofuran-7-yl)-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT4099	NCc1ccc(-c2ccc(C(=O)Nc3ccc(F)cc3)cc2)nc1	172895145	KQAODBAOWNXUCM-UHFFFAOYSA-N	4-[5-(aminomethyl)-2-pyridinyl]-N-(4-fluorophenyl)benzamide		0													not_found
+LN00244457_BT4652	NCc1ccc(-c2cccc(C(=O)Nc3cccc(F)c3)c2)nc1	172895372	SHDFCKNDKPGASH-UHFFFAOYSA-N	3-[5-(aminomethyl)-2-pyridinyl]-N-(3-fluorophenyl)benzamide		0													not_found
+LN00244457_BT5139	Cc1cc(-c2ccc(CN)cn2)cc2cnn(C)c12	172895295	SXTLDGPMEYANAB-UHFFFAOYSA-N	[6-(1,7-dimethylindazol-5-yl)-3-pyridinyl]methanamine		0													not_found
+LN00244457_BT5768	NCc1ccc(-c2cccc3sccc23)nc1	172898772	VTJDORJAODPZJF-UHFFFAOYSA-N	[6-(1-benzothiophen-4-yl)-3-pyridinyl]methanamine		0													not_found
+LN00338518_BT0243	C[C@@H](N)c1ccc(-c2ccc3ncsc3c2)cc1	172895307	SZGLGOMBTBDYTE-SNVBAGLBSA-N	(1R)-1-[4-(1,3-benzothiazol-6-yl)phenyl]ethanamine		0													not_found
+LN00338518_BT0325	C[C@@H](N)c1ccc(-c2ccc3c(c2)COC3=O)cc1	172895243	XTEKVMNJFLCINL-SNVBAGLBSA-N	5-[4-[(1R)-1-aminoethyl]phenyl]-3H-2-benzofuran-1-one		0													not_found
+LN00338518_BT0365	CC(=O)Nc1cc(-c2ccc([C@@H](C)N)cc2)ccc1F	172895992	GCUSSBJTFDOPNT-SNVBAGLBSA-N	N-[5-[4-[(1R)-1-aminoethyl]phenyl]-2-fluorophenyl]acetamide		0													not_found
+LN00338518_BT0895	C[C@@H](N)c1ccc(-c2ccncc2C#N)cc1	172894990	RJQQBSHJQAMKGP-SNVBAGLBSA-N	4-[4-[(1R)-1-aminoethyl]phenyl]pyridine-3-carbonitrile		0													not_found
+LN00338518_BT0922	C[C@@H](N)c1ccc(-c2ccc(F)cn2)cc1	172896053	ODKBJTVYVDVJNI-SECBINFHSA-N	(1R)-1-[4-(5-fluoro-2-pyridinyl)phenyl]ethanamine		0													not_found
+LN00338518_BT2567	COc1nccc(C)c1-c1ccc([C@@H](C)N)cc1	172894861	OCTYLLDZSQFJAW-LLVKDONJSA-N	(1R)-1-[4-(2-methoxy-4-methyl-3-pyridinyl)phenyl]ethanamine		0													not_found
+LN00338518_BT4500	C[C@@H](N)c1ccc(-c2ccc(NC(=O)N3CCCC3)cc2)cc1	172895010	WTIZSGARSUUXIB-CQSZACIVSA-N	N-[4-[4-[(1R)-1-aminoethyl]phenyl]phenyl]pyrrolidine-1-carboxamide		0													not_found
+LN01477175_LP0072	COc1cc(N2CCC(F)(F)C(N)C2)ncn1	172894802	XZJIYROKPMWQCO-UHFFFAOYSA-N	4,4-difluoro-1-(6-methoxypyrimidin-4-yl)piperidin-3-amine		0													not_found
+LN01477175_SA0060	Cc1ccc2[nH]cc(CC(=O)N3CCC(F)(F)C(N)C3)c2c1	172894850	TWDPVKPFBUEJON-UHFFFAOYSA-N	1-(3-amino-4,4-difluoropiperidin-1-yl)-2-(5-methyl-1H-indol-3-yl)ethanone		0													not_found
+LN01477175_SA0097	COc1ccc(Cn2cc(CC(=O)N3CCC(F)(F)C(N)C3)cn2)cc1	172898793	NMXKQKMQMUURSE-UHFFFAOYSA-N	1-(3-amino-4,4-difluoropiperidin-1-yl)-2-[1-[(4-methoxyphenyl)methyl]pyrazol-4-yl]ethanone		0													not_found
+LN01477175_SB7755	NC1CN(C(=O)Cn2cnc3ccccc32)CCC1(F)F	172894942	YBAIYEUUOYWEKC-UHFFFAOYSA-N	1-(3-amino-4,4-difluoropiperidin-1-yl)-2-(benzimidazol-1-yl)ethanone		0													not_found
+LN01477175_SC00047	CC(C)Cc1cc(C(=O)N2CCC(F)(F)C(N)C2)n(C)n1	172895332	GPBFOWHSOPUOAG-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-[1-methyl-3-(2-methylpropyl)pyrazol-5-yl]methanone		0													not_found
+LN01477175_SC0432	Cc1cc(C(=O)N2CCC(F)(F)C(N)C2)c(C)[nH]1	172895880	FPGZDDGVYFXEPY-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-(2,5-dimethyl-1H-pyrrol-3-yl)methanone		0													not_found
+LN01477175_SC0938	NC1CN(C(=O)c2cccnc2Oc2ccccc2)CCC1(F)F	172895289	AZAVBQKZLNWRQW-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-(2-phenoxy-3-pyridinyl)methanone		0													not_found
+LN01477175_SC1134	COc1ccc(C(=O)N2CCC(F)(F)C(N)C2)s1	172898788	QAUGDLAHKBPXJC-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-(5-methoxythiophen-2-yl)methanone		0													not_found
+LN01477175_SD0376	NC1CN(C(=O)c2ccc(NC(=O)c3ccccc3)cc2)CCC1(F)F	172895346	ZBOJQRWZKWWYIO-UHFFFAOYSA-N	N-[4-(3-amino-4,4-difluoropiperidine-1-carbonyl)phenyl]benzamide		0													not_found
+LN01477175_SD1674	CS(=O)(=O)Nc1ccc(Cl)cc1C(=O)N1CCC(F)(F)C(N)C1	172898790	BOWOHIBBPSQSTG-UHFFFAOYSA-N	N-[2-(3-amino-4,4-difluoropiperidine-1-carbonyl)-4-chlorophenyl]methanesulfonamide		0													not_found
+LN01477175_SE0045	NC1CN(C(=O)c2cccc3nc[nH]c23)CCC1(F)F	172895160	QSFSRJHKNXJHJQ-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-(1H-benzimidazol-4-yl)methanone		0													not_found
+LN01477175_SE0142	Cc1nc2cc(C(=O)N3CCC(F)(F)C(N)C3)ccc2s1	172895433	STXZXQBMZUDXOI-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-(2-methyl-1,3-benzothiazol-5-yl)methanone		0													not_found
+LN01477175_SE0201	NC1CN(C(=O)c2cc(-c3cc[nH]n3)n3ccccc23)CCC1(F)F	172894560	PRQFPOSKFCAVOI-UHFFFAOYSA-N	(3-amino-4,4-difluoropiperidin-1-yl)-[3-(1H-pyrazol-5-yl)indolizin-1-yl]methanone		0													not_found
+LN01477175_SE0979	COc1cccc2[nH]cc(C(=O)N3CCC(F)(F)C(N)C3)c12					0													not_found
+LN01477175_YV0147	NC1CN(C(=O)Nc2ccccc2-c2ccccc2)CCC1(F)F	172895353	HWSCVHBBTJPYSV-UHFFFAOYSA-N	3-amino-4,4-difluoro-N-(2-phenylphenyl)piperidine-1-carboxamide		0													not_found
+RS20010602	COC(=O)CC(N)C(=O)OC	419227	BYHXBBOSJKPUJL-UHFFFAOYSA-N	dimethyl 2-aminobutanedioate		0													not_found
+WUXI01-0823_X03Y109	N[C@@H]1CCCN(C(=O)CC2CC3(CCNCC3)Oc3ccccc32)C1	131642234	ZZSQULJUTHCYGS-OEMAIJDKSA-N	1-[(3R)-3-aminopiperidin-1-yl]-2-spiro[3,4-dihydrochromene-2,4'-piperidine]-4-ylethanone		0													not_found
+WUXI01-0823_X12AY319	N[C@@H](C(=O)N1CCOC2(CCNCC2)C1)c1ccccc1	97407754	DKJCPAKGKXIYKF-CQSZACIVSA-N	(2R)-2-amino-1-(1-oxa-4,9-diazaspiro[5.5]undecan-4-yl)-2-phenylethanone		0													not_found
+WUXI01-0823_X12BY236Z001	CC(=O)N1CCOC2(CCN(C(=O)C3(N)CCCCC3)CC2)C1	97448889	RCRIQKNOEYTXTI-UHFFFAOYSA-N	1-[9-(1-aminocyclohexanecarbonyl)-1-oxa-4,9-diazaspiro[5.5]undecan-4-yl]ethanone		0													not_found
+WUXI01-0823_X14AY261	NCC(=O)N1CCC2(CC1)CNCc1ccccc12	97527978	HJUCWQMRVJJRRN-UHFFFAOYSA-N	2-amino-1-spiro[2,3-dihydro-1H-isoquinoline-4,4'-piperidine]-1'-ylethanone		0													not_found
+WUXI01-0823_X15AY236Z001	CC(=O)N1CC2(CCN(C(=O)C3(N)CCCCC3)CC2)c2cc(Cl)ccc21	97410916	KGSWTQUKQMLXQE-UHFFFAOYSA-N	1-[1'-(1-aminocyclohexanecarbonyl)-5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl]ethanone		0													not_found
+WUXI01-0823_X15BY261	NCC(=O)N1CC2(CCNCC2)c2cc(Cl)ccc21	97527994	KWHHNKXJUHQBME-UHFFFAOYSA-N	2-amino-1-(5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl)ethanone		0													not_found
+WUXI01-0823_X15BY272	N[C@H](Cc1ccccc1)C(=O)N1CC2(CCNCC2)c2cc(Cl)ccc21	97410921	YYMRXOFNRUKEDZ-GOSISDBHSA-N	(2R)-2-amino-1-(5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl)-3-phenylpropan-1-one		0													not_found
+WUXI01-0823_X15BY317	N[C@H](Cc1c[nH]c2ccccc12)C(=O)N1CC2(CCNCC2)c2cc(Cl)ccc21	97448931	HFDQBJRPUAHEBS-LJQANCHMSA-N	(2R)-2-amino-1-(5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl)-3-(1H-indol-3-yl)propan-1-one		0													not_found
+WUXI01-0823_X15BY320	C[C@@H](N)C(=O)N1CC2(CCNCC2)c2cc(Cl)ccc21	97527999	DKHPYDPMQDYXSX-SNVBAGLBSA-N	(2R)-2-amino-1-(5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl)propan-1-one		0													not_found
+WUXI01-0823_X15BY326	CC(C)C[C@H](N)C(=O)N1CC2(CCNCC2)c2cc(Cl)ccc21	97448932	OLSKMQFBFJJURO-HNNXBMFYSA-N	(2S)-2-amino-1-(5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl)-4-methylpentan-1-one		0													not_found
+WUXI01-0823_X15BY332	CC[C@@H](N)C(=O)N1CC2(CCNCC2)c2cc(Cl)ccc21	97448935	WXZOIWYXSVCGRS-CYBMUJFWSA-N	(2R)-2-amino-1-(5-chlorospiro[2H-indole-3,4'-piperidine]-1-yl)butan-1-one		0													not_found
+WUXI01-0823_X16AY236	NC1(C(=O)N2C[C@@H]3NCc4ccccc4[C@@H]3C2)CCCCC1	95043347	TYWFRDKFUNRQJC-HOTGVXAUSA-N	[(3aR,9bR)-1,3,3a,4,5,9b-hexahydropyrrolo[3,4-c]isoquinolin-2-yl]-(1-aminocyclohexyl)methanone		0													not_found
+WUXI01-0823_X16AY272Z001	CC(=O)N1Cc2ccccc2[C@@H]2CN(C(=O)[C@H](N)Cc3ccccc3)C[C@@H]21	95043301	AUPFWLQVXCAIKN-HBMCJLEFSA-N	(2R)-1-[(3aR,9bR)-4-acetyl-3,3a,5,9b-tetrahydro-1H-pyrrolo[3,4-c]isoquinolin-2-yl]-2-amino-3-phenylpropan-1-one		0													not_found
+WUXI01-0823_X17AY210	N[C@@H]1c2ccccc2[C@@H]2CN(C(=O)C3C[C@@H]4CC[C@H]3C4)C[C@H]12	134078634	TWRYUVKICDEGGZ-OTOUMXLNSA-N	[(3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-[(1S,4R)-2-bicyclo[2.2.1]heptanyl]methanone		0													not_found
+WUXI01-0823_X17AY222	CC(=O)N1CCC(C(=O)N2C[C@@H]3[C@H](N)c4ccccc4[C@@H]3C2)CC1	97410930	KTPMJBVGPPXIIP-OKZBNKHCSA-N	1-[4-[(3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrole-2-carbonyl]piperidin-1-yl]ethanone		0													not_found
+WUXI01-0823_X17AY279	N[C@@H]1c2ccccc2[C@@H]2CN(C(=O)c3cccs3)C[C@H]12	97528020	OBHHKXQZCHHRBU-KCQAQPDRSA-N	[(3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-thiophen-2-ylmethanone		0													not_found
+WUXI01-0823_X17AY294	Cc1cc(=O)oc2cc(OCC(=O)N3C[C@@H]4[C@H](N)c5ccccc5[C@@H]4C3)ccc12	97407803	XIZUYVQUOQMUFC-SFYKDHMMSA-N	7-[2-[(3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-2-oxoethoxy]-4-methylchromen-2-one		0													not_found
+WUXI01-0823_X17AY311	N[C@@H]1c2ccccc2[C@@H]2CN(C(=O)c3cnccn3)C[C@H]12	97528022	KPJIOCSFEFCYOO-KCQAQPDRSA-N	[(3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-pyrazin-2-ylmethanone		0													not_found
+WUXI01-0823_X17AY334	Cc1ncsc1C(=O)N1C[C@@H]2[C@H](N)c3ccccc3[C@@H]2C1	95043250	CNBPNEWBYFUFMF-MELADBBJSA-N	[(3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-(4-methyl-1,3-thiazol-5-yl)methanone		0													not_found
+WUXI01-0823_X17BY316	NCCCC(=O)N[C@@H]1c2ccccc2[C@@H]2CNC[C@H]12	97528031	FBASDVXXRZWFTE-KCQAQPDRSA-N	N-[(3aR,4S,8bR)-1,2,3,3a,4,8b-hexahydroindeno[1,2-c]pyrrol-4-yl]-4-aminobutanamide		0													not_found
+WUXI01-0823_X17BY325Z001	CC(=O)N1C[C@@H]2[C@H](NC(=O)[C@@H](N)Cc3c[nH]cn3)c3ccccc3[C@@H]2C1	95043382	NHSYWXILXMCMKF-XLAORIBOSA-N	(2S)-N-[(3aR,4S,8bR)-2-acetyl-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-4-yl]-2-amino-3-(1H-imidazol-5-yl)propanamide		0													not_found
+WUXI01-0823_X18AY201	N[C@H]1c2ccccc2[C@@H]2CN(C(=O)c3ccc(-c4cccs4)cc3)C[C@H]12	97410935	AAOBVBFAVVQDPS-ZJOUEHCJSA-N	[(3aR,4R,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-(4-thiophen-2-ylphenyl)methanone		0													not_found
+WUXI01-0823_X18AY202	CC(C)c1sc(Cl)nc1C(=O)N1C[C@@H]2[C@@H](N)c3ccccc3[C@@H]2C1	97407808	LKEVIEKZJMRRHY-IHRRRGAJSA-N	[(3aR,4R,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-(2-chloro-5-propan-2-yl-1,3-thiazol-4-yl)methanone		0													not_found
+WUXI01-0823_X18AY222	CC(=O)N1CCC(C(=O)N2C[C@@H]3[C@@H](N)c4ccccc4[C@@H]3C2)CC1	97528039	KTPMJBVGPPXIIP-BZSNNMDCSA-N	1-[4-[(3aR,4R,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrole-2-carbonyl]piperidin-1-yl]ethanone		0													not_found
+WUXI01-0823_X18AY284	N[C@H]1c2ccccc2[C@@H]2CN(C(=O)c3cn4ccccc4n3)C[C@H]12	97410936	BMNCOIZBGOMBNT-MPGHIAIKSA-N	[(3aR,4R,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-imidazo[1,2-a]pyridin-2-ylmethanone		0													not_found
+WUXI01-0823_X18AY337	N[C@H]1c2ccccc2[C@@H]2CN(C(=O)c3ccccn3)C[C@H]12	97407810	WGPVAGRIADMOBF-DZKIICNBSA-N	[(3aR,4R,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrol-2-yl]-pyridin-2-ylmethanone		0													not_found
+WUXI01-0823_X19AY316Z001	CC(=O)N1CC2CN(C(=O)CCCN)CC2c2ccccc21	134075470	UMHRNBBJAAZVEA-UHFFFAOYSA-N	1-(5-acetyl-3,3a,4,9b-tetrahydro-1H-pyrrolo[3,4-c]quinolin-2-yl)-4-aminobutan-1-one		0													not_found
+WUXI01-0823_X20BY201	NCC1CCC2(CCN(C(=O)c3ccc(-c4cccs4)cc3)CC2)CO1	131648681	UHRYABRLKODCGX-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-(4-thiophen-2-ylphenyl)methanone		0													not_found
+WUXI01-0823_X20BY216	NCC1CCC2(CCN(C(=O)CCc3ccc(F)cc3)CC2)CO1	134078635	RDXVSYGIOKYECA-UHFFFAOYSA-N	1-[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-3-(4-fluorophenyl)propan-1-one		0													not_found
+WUXI01-0823_X20BY262	CN(C)c1cccc(C(=O)N2CCC3(CCC(CN)OC3)CC2)c1	131640802	QGJPNNDHARNWKW-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-[3-(dimethylamino)phenyl]methanone		0													not_found
+WUXI01-0823_X20BY275	NCC1CCC2(CCN(C(=O)c3ccc[nH]3)CC2)CO1	134078643	PESHIRFRCBLBBN-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-(1H-pyrrol-2-yl)methanone		0													not_found
+WUXI01-0823_X20BY279	NCC1CCC2(CCN(C(=O)c3cccs3)CC2)CO1	134077327	NUJPDAIDGGKSNJ-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-thiophen-2-ylmethanone		0													not_found
+WUXI01-0823_X20BY284	NCC1CCC2(CCN(C(=O)c3cn4ccccc4n3)CC2)CO1	134078644	ODALQMGSMDELSK-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-imidazo[1,2-a]pyridin-2-ylmethanone		0													not_found
+WUXI01-0823_X20BY286	NCC1CCC2(CCN(C(=O)Cc3coc4ccccc34)CC2)CO1	134077328	MJHYGYYNJVAIRF-UHFFFAOYSA-N	1-[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-2-(1-benzofuran-3-yl)ethanone		0													not_found
+WUXI01-0823_X20BY304	CC(C)(C)CC(=O)N1CCC2(CCC(CN)OC2)CC1	131651635	WQXMZXKVUKLTDB-UHFFFAOYSA-N	1-[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-3,3-dimethylbutan-1-one		0													not_found
+WUXI01-0823_X20BY339	CSc1ccc(C(=O)N2CCC3(CCC(CN)OC3)CC2)s1	134077298	IUHINGWDSXQAQL-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-(5-methylsulfanylthiophen-2-yl)methanone		0													not_found
+WUXI01-0823_X20BY343	NCC1CCC2(CCN(C(=O)c3ccc4c(c3)OCCO4)CC2)CO1	134078645	GGOYMSYDKMUXRB-UHFFFAOYSA-N	[3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecan-9-yl]-(2,3-dihydro-1,4-benzodioxin-6-yl)methanone		0													not_found
+WUXI01-0823_X21BY261Z002	CN1CC2(CCN(C(=O)CN)CC2)CC1=O	97528130	LTLOLXTYDNWVQD-UHFFFAOYSA-N	8-(2-aminoacetyl)-2-methyl-2,8-diazaspiro[4.5]decan-3-one		0													not_found
+WUXI01-0823_X21BY320Z002	C[C@@H](N)C(=O)N1CCC2(CC1)CC(=O)N(C)C2	97528131	PWBWLEXIGDHFGE-SECBINFHSA-N	8-[(2R)-2-aminopropanoyl]-2-methyl-2,8-diazaspiro[4.5]decan-3-one		0													not_found
+WUXI01-0823_X25Y003Z001	CC(=O)N1CCC2(C=C(C(=O)N3CC[C@H](N)C3)c3ccccc3O2)CC1	97528143	LQLMOBDCWFALLZ-HNNXBMFYSA-N	1-[4-[(3S)-3-aminopyrrolidine-1-carbonyl]spiro[chromene-2,4'-piperidine]-1'-yl]ethanone		0													not_found
+WUXI01-0824_X001Y002Z033	N[C@@H](C(=O)N1CCC2(CC1)C(=O)Nc1ccc(-c3ccncc3)cc12)c1ccccc1	97411018	QZMMVPJGDWDWAR-JOCHJYFZSA-N	1'-[(2R)-2-amino-2-phenylacetyl]-5-pyridin-4-ylspiro[1H-indole-3,4'-piperidine]-2-one		0													not_found
+WUXI01-0824_X003Y005Z004	NCC(=O)N1CC2(CCCC2)c2cc(-c3cncnc3)ccc21	97407914	AIJSACBJJHAPRV-UHFFFAOYSA-N	2-amino-1-(5-pyrimidin-5-ylspiro[2H-indole-3,1'-cyclopentane]-1-yl)ethanone		0													not_found
+WUXI03-05_Y099RZ30	Cc1ccc(C(=O)N2CCC3(CC2)CC(N)CO3)cc1	131653097	GWGKIFOPOZUEJM-UHFFFAOYSA-N	(3-amino-1-oxa-8-azaspiro[4.5]decan-8-yl)-(4-methylphenyl)methanone		0													not_found
+WUXI_WX140514_Y06A500	COCCn1cc2c(n1)C(CN)OCC2	121229519	ZZIHBRQPYJIBCC-UHFFFAOYSA-N	[2-(2-methoxyethyl)-5,7-dihydro-4H-pyrano[3,4-c]pyrazol-7-yl]methanamine		0													not_found
+WUXI_WX190029_Y34Z100A500	NCC1COCc2c(-c3ccc4c(c3)OCO4)nnn2C1	131646245	KFTWBMVMZHDPKV-UHFFFAOYSA-N	[3-(1,3-benzodioxol-5-yl)-4,6,7,8-tetrahydrotriazolo[5,1-c][1,4]oxazepin-7-yl]methanamine		0													not_found
+WX100056	CC(C)(C)OC(=O)N1CCC2(CC1)CC(N)CO2	46835582	GBLUNQGZHFQTPW-UHFFFAOYSA-N	tert-butyl 3-amino-1-oxa-8-azaspiro[4.5]decane-8-carboxylate		0													not_found
+WX100064	CC(C)(C)OC(=O)N1CCC2(CCC(CN)OC2)CC1	56973605	PIQKTGXRLAEQBB-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-2-oxa-9-azaspiro[5.5]undecane-9-carboxylate		0													not_found
+WX100106_Y02	CN1C(=O)CCC12CCC(N)CC2	72699010	USEOQORLJURNEF-UHFFFAOYSA-N	8-amino-1-methyl-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100106_Y08	CN(C)C(=O)CN1C(=O)CCC12CCC(N)CC2	124243559	UEPAUEPENONVCR-UHFFFAOYSA-N	2-(8-amino-2-oxo-1-azaspiro[4.5]decan-1-yl)-N,N-dimethylacetamide		0													not_found
+WX100106_Y09	NC1CCC2(CCC(=O)N2CC2CC2)CC1	97397456	FQCAYIDYQYJEFP-UHFFFAOYSA-N	8-amino-1-(cyclopropylmethyl)-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100106_Y09Z100	N[C@H]1CC[C@@]2(CCC(=O)N2CC2CC2)CC1	97397456	FQCAYIDYQYJEFP-UHFFFAOYSA-N	8-amino-1-(cyclopropylmethyl)-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100106_Y14	NC1CCC2(CCC(=O)N2Cc2ccncc2)CC1	97494270	GGYTZYXAQFOOBB-UHFFFAOYSA-N	8-amino-1-(pyridin-4-ylmethyl)-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100106_Y16	NC1CCC2(CCC(=O)N2Cc2cccc(F)c2)CC1	97494286	OVBIAZCDZRBMMY-UHFFFAOYSA-N	8-amino-1-[(3-fluorophenyl)methyl]-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100106_Y16Z100	N[C@H]1CC[C@@]2(CCC(=O)N2Cc2cccc(F)c2)CC1	97494286	OVBIAZCDZRBMMY-UHFFFAOYSA-N	8-amino-1-[(3-fluorophenyl)methyl]-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100113	N[C@H]1CC[C@]2(CCC(=O)N2)CC1	55280247	ZSUJRZJQVMYCTE-UHFFFAOYSA-N	8-amino-1-azaspiro[4.5]decan-2-one		0													not_found
+WX100128	CC(C)(C)OC(=O)N1CCC2(CC1)CC2CN	45791314	KUFZKQLFEAITSM-UHFFFAOYSA-N	tert-butyl 2-(aminomethyl)-6-azaspiro[2.5]octane-6-carboxylate		0													not_found
+WX100188	CC(C)(C)OC(=O)N1CC2(COC(CN)C2)C1	71305965	IXCHOXSIUCWEJS-UHFFFAOYSA-N	tert-butyl 7-(aminomethyl)-6-oxa-2-azaspiro[3.4]octane-2-carboxylate		0													not_found
+WX100330	CC(C)(C)OC(=O)N1CCC2(CC(N)C2)C1	56962195	TWNDWKDXPSDFLL-UHFFFAOYSA-N	tert-butyl 2-amino-6-azaspiro[3.4]octane-6-carboxylate		0													not_found
+WX100333	CC(C)(C)OC(=O)N1CCC2(CCC2N)CC1	25212937	FGWHJPYFWUDBIX-UHFFFAOYSA-N	tert-butyl 3-amino-7-azaspiro[3.5]nonane-7-carboxylate		0													not_found
+WX100454	CC(C)(C)OC(=O)N1CCOCC2(CC(CN)CO2)C1	71305620	VAUTUPYFRABMRW-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-1,10-dioxa-7-azaspiro[4.6]undecane-7-carboxylate		0													not_found
+WX100600	CC(C)(C)OC(=O)N1CC2(CCC2N)C1	71306105	UXISSJKZFYQLHL-UHFFFAOYSA-N	tert-butyl 7-amino-2-azaspiro[3.3]heptane-2-carboxylate		0													not_found
+WX100812	CC(C)(C)OC(=O)N1CC2(C1)C(N)CCS2(=O)=O	72207477	WMBSIHWRPQTLQI-UHFFFAOYSA-N	tert-butyl 8-amino-5,5-dioxo-5lambda6-thia-2-azaspiro[3.4]octane-2-carboxylate		0													not_found
+WX100917	CC(C)(C)OC(=O)N1CC2(CCOCC2N)C1	71305964	GNQAATURSWLECH-UHFFFAOYSA-N	tert-butyl 5-amino-7-oxa-2-azaspiro[3.5]nonane-2-carboxylate		0													not_found
+WX101043_X12	Cc1cncc(CN2CCC3(CC2)CC(N)C3)n1	155874827	YUEFGWIYHBNWMJ-UHFFFAOYSA-N	7-[(6-methylpyrazin-2-yl)methyl]-7-azaspiro[3.5]nonan-2-amine		0													not_found
+WX101043_X14	Cc1ccc2ncc(CN3CCC4(CC3)CC(N)C4)n2c1	155875119	DYNKKUBIZCIFNN-UHFFFAOYSA-N	7-[(6-methylimidazo[1,2-a]pyridin-3-yl)methyl]-7-azaspiro[3.5]nonan-2-amine		0													not_found
+WX101513	CC(C)(C)OC(=O)N1CC[C@]2(C1)C[C@@H](N)C2	56962195	TWNDWKDXPSDFLL-UHFFFAOYSA-N	tert-butyl 2-amino-6-azaspiro[3.4]octane-6-carboxylate		0													not_found
+WX101667	CC(C)(C)OC(=O)N1CC2(C1)OCCC2CCN	121229900	QDFYBBOCEAHFOU-UHFFFAOYSA-N	tert-butyl 8-(2-aminoethyl)-5-oxa-2-azaspiro[3.4]octane-2-carboxylate		0													not_found
+WX101685	CC(C)(C)OC(=O)N1CCC2(CC1)OCCC2CCN	121229932	XRJZCTFEQWCZOV-UHFFFAOYSA-N	tert-butyl 4-(2-aminoethyl)-1-oxa-8-azaspiro[4.5]decane-8-carboxylate		0													not_found
+WX101828	CC(C)(C)OC(=O)N1CC2(C1)OCCC2N	72207892	LSACGXFQGVBFLY-UHFFFAOYSA-N	tert-butyl 8-amino-5-oxa-2-azaspiro[3.4]octane-2-carboxylate		0													not_found
+WX101850	NC1CN(C(=O)OCc2ccccc2)CC12CC2	85809832	HQHBNTVXZGJLAI-UHFFFAOYSA-N	benzyl 7-amino-5-azaspiro[2.4]heptane-5-carboxylate		0													not_found
+WX101882	CC(C)(C)OC(=O)N1CCC2(CC1)CC(CN)O2	72208172	BXYHKGJGEWCZMB-UHFFFAOYSA-N	tert-butyl 2-(aminomethyl)-1-oxa-7-azaspiro[3.5]nonane-7-carboxylate		0													not_found
+WX102155	CC(C)(C)OC(=O)N1CCO[C@]2(CCCC[C@@H]2N)C1	124244124	UVNQOHDCZZUHKK-SMDDNHRTSA-N	tert-butyl (6R,11S)-11-amino-1-oxa-4-azaspiro[5.5]undecane-4-carboxylate		0													not_found
+WX102156	CC(C)(C)OC(=O)N1CCO[C@]2(CCCC[C@H]2N)C1	124244123	UVNQOHDCZZUHKK-BXUZGUMPSA-N	tert-butyl (6R,11R)-11-amino-1-oxa-4-azaspiro[5.5]undecane-4-carboxylate		0													not_found
+WX102165	CC(C)(C)OC(=O)N1CC[C@@]2(C1)OCC[C@H]2N	124556030	BYWZUQBXSAUYII-SKDRFNHKSA-N	tert-butyl (4R,5S)-4-amino-1-oxa-7-azaspiro[4.4]nonane-7-carboxylate		0													not_found
+WX10502710_Y06Z01	COCCN1CCC2(CC1)CC(N)c1ccccc12	134077676	ZZDCOJNIGZUIHO-UHFFFAOYSA-N	1'-(2-methoxyethyl)spiro[1,2-dihydroindene-3,4'-piperidine]-1-amine		0													not_found
+WX105061	COc1ccc2c(c1)C1(CCN(C(=O)OC(C)(C)C)CC1)CC2N	49760927	ZJUZFFVXVMFGPU-UHFFFAOYSA-N	tert-butyl 1-amino-5-methoxyspiro[1,2-dihydroindene-3,4'-piperidine]-1'-carboxylate		0													not_found
+WX10509110_Y11Z01	NC1CC2(CCN(CC3CC3)CC2)Oc2ccccc21	134079421	WUSFDNGDPMJIAD-UHFFFAOYSA-N	1'-(cyclopropylmethyl)spiro[3,4-dihydrochromene-2,4'-piperidine]-4-amine		0													not_found
+WX10509110_Y16Z01	NC1CC2(CCN(CCO)CC2)Oc2ccccc21	134077545	NPBZNGRDSMVWAR-UHFFFAOYSA-N	2-(4-aminospiro[3,4-dihydrochromene-2,4'-piperidine]-1'-yl)ethanol		0													not_found
+WX10509110_Y25Z01	CS(=O)(=O)N1CCC2(CC1)CC(N)c1ccccc1O2	134075732	DYNSOZHCWMZPSQ-UHFFFAOYSA-N	1'-methylsulfonylspiro[3,4-dihydrochromene-2,4'-piperidine]-4-amine		0													not_found
+WX105105_Y01C572	NCCNC(=O)C1CC12C(=O)Nc1ccccc12	134073266	GWGBIVCIPLVDBR-UHFFFAOYSA-N	N-(2-aminoethyl)-2-oxospiro[1H-indole-3,2'-cyclopropane]-1'-carboxamide		0													not_found
+WX105105_Y02C572	CN1C(=O)C2(CC2C(=O)NCCN)c2ccccc21	131663299	SLELVYWBQPXNDR-UHFFFAOYSA-N	N-(2-aminoethyl)-1'-methyl-2'-oxospiro[cyclopropane-2,3'-indole]-1-carboxamide		0													not_found
+WX110026	CC(C)(C)OC(=O)N1C[C@@H]2[C@@H](N)[C@@H]2C1	28820283	UWWZMHWHRBGMIT-DHBOJHSNSA-N	tert-butyl (1R,5S)-6-amino-3-azabicyclo[3.1.0]hexane-3-carboxylate		0													not_found
+WX110030_A001	NC[C@@H]1[C@H]2CN(Cc3ccco3)C[C@@H]12	98815619	ICBHYAYGNUBHHV-FGWVZKOKSA-N	[(1S,5R)-3-(furan-2-ylmethyl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A004	NC[C@@H]1[C@H]2CN(Cc3ccsc3)C[C@@H]12	98815620	RHPXRZWAHORCFY-FGWVZKOKSA-N	[(1S,5R)-3-(thiophen-3-ylmethyl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A010	Cc1ccc(CN2C[C@@H]3C(CN)[C@@H]3C2)s1	97377571	UHTVMCZQSTYLCG-YOGCLGLASA-N	[(1R,5S)-3-[(5-methylthiophen-2-yl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A013	NC[C@H]1[C@H]2CN(Cc3ccccc3)C[C@@H]12	11672888	UNLBCCJUBAVNHR-YHWZYXNKSA-N	[(1R,5S)-3-benzyl-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A014	Cc1ccc(CN2C[C@@H]3[C@H](CN)[C@@H]3C2)cc1	98815622	AJIBZSLAFUCEHU-AGUYFDCRSA-N	[(1S,5R)-3-[(4-methylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A015	NC[C@@H]1[C@H]2CN(Cc3ccc(F)cc3)C[C@@H]12	98815624	CFGGBMREHKLJTB-YHWZYXNKSA-N	[(1S,5R)-3-[(4-fluorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A017	Cc1cc(C)cc(CN2C[C@@H]3[C@H](CN)[C@@H]3C2)c1	98815625	FCENSDPJCKIYCY-GOOCMWNKSA-N	[(1S,5R)-3-[(3,5-dimethylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A021	NC[C@H]1[C@H]2CN(Cc3cccnc3)C[C@@H]12	98815626	WDHCBXZNVPBORX-YOGCLGLASA-N	[(1S,5R)-3-(pyridin-3-ylmethyl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A029	NC[C@H]1[C@H]2CN(c3cc(C(F)(F)F)ncn3)C[C@@H]12	98815628	KMWKYBXSCJGKKD-IEESLHIDSA-N	[(1R,5S)-3-[6-(trifluoromethyl)pyrimidin-4-yl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A030	Cc1cnc(N2C[C@@H]3[C@H](CN)[C@@H]3C2)nc1	98815630	DCMVMFKAZFWTAK-PBINXNQUSA-N	[(1S,5R)-3-(5-methylpyrimidin-2-yl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A055	NCC1[C@H]2CN(C(=O)Cc3ccccc3)C[C@@H]12	97377572	UNIVJBNVBRIQKV-YHWZYXNKSA-N	1-[(1S,5R)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]-2-phenylethanone		0													not_found
+WX110030_A087	Cc1ccccc1C(=O)N1C[C@@H]2[C@@H](CN)[C@@H]2C1	97377573	ORYNLGHNJVTJLB-YHWZYXNKSA-N	[(1S,5R)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]-(2-methylphenyl)methanone		0													not_found
+WX110030_A105	NCC1[C@H]2CN(C(=O)Cc3ccc(F)cc3)C[C@@H]12	97377575	BRZYOBACYJLIOT-YHWZYXNKSA-N	1-[(1S,5R)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]-2-(4-fluorophenyl)ethanone		0													not_found
+WX110030_A137	Cc1ccc(CN2C[C@@H]3C(CN)[C@@H]3C2)cc1C	97377576	CNMDRKAXXWLREK-GOOCMWNKSA-N	[(1R,5S)-3-[(3,4-dimethylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A138	CCc1ccc(CN2C[C@@H]3C(CN)[C@@H]3C2)cc1	97377577	POACMADOUNDKOW-GOOCMWNKSA-N	[(1R,5S)-3-[(4-ethylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A139	NCC1[C@H]2CN(CCc3ccccc3)C[C@@H]12	95934190	MTVLERFBUUMJEA-AGUYFDCRSA-N	[(1S,5R)-3-(2-phenylethyl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A142	NC[C@@H]1[C@H]2CN(Cc3ccc(Cl)c(F)c3)C[C@@H]12	97377578	FAAZCSOJONMFIE-FGWVZKOKSA-N	[(1R,5S)-3-[(4-chloro-3-fluorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A170	NC[C@@H]1[C@H]2CN(Cc3ccccc3F)C[C@@H]12	97377579	BPTZIVDEXNNJCR-YOGCLGLASA-N	[(1S,5R)-3-[(2-fluorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A172	NC[C@@H]1[C@H]2CN(Cc3cccc(Cl)c3)C[C@@H]12	97377580	DADZZUVKEHQCEL-YHWZYXNKSA-N	[(1S,5R)-3-[(3-chlorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A175	NC[C@@H]1[C@H]2CN(c3ccncn3)C[C@@H]12	95935233	FCNXFDSORRCQQY-CBLAIPOGSA-N	[(1R,5S)-3-pyrimidin-4-yl-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A510	NCC1[C@H]2CN(CC3CCCC3)C[C@@H]12	97377581	INWUZPBXFFMBAS-YOGCLGLASA-N	[(1R,5S)-3-(cyclopentylmethyl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A514	NCC1[C@H]2CN(CCF)C[C@@H]12	97402925	RLRYUSJKXCIFQC-IEESLHIDSA-N	[(1S,5R)-3-(2-fluoroethyl)-3-azabicyclo[3.1.0]hexan-6-yl]methanamine		0													not_found
+WX110030_A524	CCC(=O)N1C[C@@H]2C(CN)[C@@H]2C1	97377582	ZPVJVPKNUJQJCX-IEESLHIDSA-N	1-[(1S,5R)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]propan-1-one		0													not_found
+WX110030_A525	CC(C)C(=O)N1C[C@@H]2C(CN)[C@@H]2C1	97377583	FNMHSIVIXGOQFM-CBLAIPOGSA-N	1-[(1R,5S)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]-2-methylpropan-1-one		0													not_found
+WX110030_A527	CC(C)(C)C(=O)N1C[C@@H]2C(CN)[C@@H]2C1	97377584	MWZNEGPILIBSRO-CBLAIPOGSA-N	1-[(1R,5S)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]-2,2-dimethylpropan-1-one		0													not_found
+WX110030_A535	NCC1[C@H]2CN(C(=O)C(F)F)C[C@@H]12	97377585	XDUIWBSALBNKHL-GOHHTPAQSA-N	1-[(1S,5R)-6-(aminomethyl)-3-azabicyclo[3.1.0]hexan-3-yl]-2,2-difluoroethanone		0													not_found
+WX110030_A550	CN(C)C(=O)N1C[C@@H]2C(CN)[C@@H]2C1	97377586	ZEGKQZVHSOCAIE-IEESLHIDSA-N	(1S,5R)-6-(aminomethyl)-N,N-dimethyl-3-azabicyclo[3.1.0]hexane-3-carboxamide		0													not_found
+WX110030_A565	CCCCNC(=O)N1C[C@@H]2[C@@H](CN)[C@@H]2C1	97377587	AZGYJZMLQIPJSF-PBINXNQUSA-N	(1R,5S)-6-(aminomethyl)-N-butyl-3-azabicyclo[3.1.0]hexane-3-carboxamide		0													not_found
+WX110036_DEBOC	CC(=O)N1CC2CC2(N)C1	89795732	ZNGWWFGKSHBIIU-UHFFFAOYSA-N	1-(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)ethanone		0													not_found
+WX110036_Y11	CS(=O)(=O)N1CC2CC2(N)C1	131658371	KVORELFZYUKPGQ-UHFFFAOYSA-N	3-methylsulfonyl-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110036_Y15	N[C@]12CC1CN(C(=O)c1ccco1)C2	121229380	IHWUOFILXCXWTK-MHPPCMCBSA-N	[(1R)-1-amino-3-azabicyclo[3.1.0]hexan-3-yl]-(furan-2-yl)methanone		0													not_found
+WX110041	CC(C)(C)OC(=O)N1C[C@H]2CC[C@H](N)[C@H]2C1	71306064	VMUXGMBHACBHJJ-UTLUCORTSA-N	tert-butyl (3aR,4S,6aS)-4-amino-3,3a,4,5,6,6a-hexahydro-1H-cyclopenta[c]pyrrole-2-carboxylate		0													not_found
+WX110042	CC(C)(C)OC(=O)N1C[C@H]2CC[C@@H](N)[C@H]2C1	71306061	VMUXGMBHACBHJJ-KXUCPTDWSA-N	tert-butyl (3aR,4R,6aS)-4-amino-3,3a,4,5,6,6a-hexahydro-1H-cyclopenta[c]pyrrole-2-carboxylate		0													not_found
+WX110044	CC(C)(C)OC(=O)N1C[C@H]2CC[C@H](CN)[C@H]2C1	71306002	GBPFKXPJCJSCBK-GMTAPVOTSA-N	tert-butyl (3aR,4S,6aS)-4-(aminomethyl)-3,3a,4,5,6,6a-hexahydro-1H-cyclopenta[c]pyrrole-2-carboxylate		0													not_found
+WX110049	CC(C)(C)OC(=O)N1C[C@H]2C[C@H](N)C[C@H]2C1	58147576	DPYIUHWPQGIBSS-ULKQDVFKSA-N	tert-butyl (3aR,6aS)-5-amino-3,3a,4,5,6,6a-hexahydro-1H-cyclopenta[c]pyrrole-2-carboxylate		0													not_found
+WX110057	CC(C)(C)OC(=O)N1C[C@H]2CCC[C@H](N)[C@H]2C1	71306004	IKTNEZKFSOMQJI-VWYCJHECSA-N	tert-butyl (3aR,4S,7aS)-4-amino-1,3,3a,4,5,6,7,7a-octahydroisoindole-2-carboxylate		0													not_found
+WX110058	CC(C)(C)OC(=O)N1C[C@H]2CCC[C@@H](N)[C@H]2C1	71306000	IKTNEZKFSOMQJI-OUAUKWLOSA-N	tert-butyl (3aR,4R,7aS)-4-amino-1,3,3a,4,5,6,7,7a-octahydroisoindole-2-carboxylate		0													not_found
+WX110060	CC(C)(C)OC(=O)N1C[C@H]2CCC[C@@H](CN)[C@H]2C1	71305902	ATFHYPICLWVHFR-QJPTWQEYSA-N	tert-butyl (3aR,4R,7aS)-4-(aminomethyl)-1,3,3a,4,5,6,7,7a-octahydroisoindole-2-carboxylate		0													not_found
+WX110100_A010	Cc1ccc(CN2CC3CC3(N)C2)s1	131658933	ORINDZCBBJXHQO-UHFFFAOYSA-N	3-[(5-methylthiophen-2-yl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A015	NC12CC1CN(Cc1ccc(F)cc1)C2	131657193	OHIMURQOEARGPK-UHFFFAOYSA-N	3-[(4-fluorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A017	Cc1cc(C)cc(CN2CC3CC3(N)C2)c1	131661354	AXMRCBHFAITPLG-UHFFFAOYSA-N	3-[(3,5-dimethylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A046	NC12CC1CN(C(=O)c1cccc(F)c1)C2	131643382	DSTFHPIFQDCPNW-UHFFFAOYSA-N	(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-(3-fluorophenyl)methanone		0													not_found
+WX110100_A048	NC12CC1CN(C(=O)c1cccc(Cl)c1)C2	131643491	DCBIGQXRIMBFOX-UHFFFAOYSA-N	(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-(3-chlorophenyl)methanone		0													not_found
+WX110100_A056	NC12CC1CN(C(=O)Cc1cccc(F)c1)C2	131664008	OVFXSOVHKWMPFE-UHFFFAOYSA-N	1-(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-2-(3-fluorophenyl)ethanone		0													not_found
+WX110100_A058	COc1ccc(CC(=O)N2CC3CC3(N)C2)cc1	131663946	BZDZXCWOXKTQDK-UHFFFAOYSA-N	1-(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-2-(4-methoxyphenyl)ethanone		0													not_found
+WX110100_A076	Cc1cccc(C(=O)N2CC3CC3(N)C2)n1	131650002	YFLFZLNHFYNYQM-UHFFFAOYSA-N	(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-(6-methyl-2-pyridinyl)methanone		0													not_found
+WX110100_A077	Cc1cncc(C(=O)N2CC3CC3(N)C2)c1	131663374	KWPQQPMLQIKMGL-UHFFFAOYSA-N	(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-(5-methyl-3-pyridinyl)methanone		0													not_found
+WX110100_A090	NC12CC1CN(C(=O)c1ccccc1F)C2	131663131	HBSPPKJBTPGFPH-UHFFFAOYSA-N	(1-amino-3-azabicyclo[3.1.0]hexan-3-yl)-(2-fluorophenyl)methanone		0													not_found
+WX110100_A091	Cc1cc(C(=O)N2C[C@@H]3C[C@]3(N)C2)c(C)o1	97403226	HXMMFNOTPNBNPV-CABZTGNLSA-N	[(1R,5S)-1-amino-3-azabicyclo[3.1.0]hexan-3-yl]-(2,5-dimethylfuran-3-yl)methanone		0													not_found
+WX110100_A127	NC12CC1CN(C(=O)NCc1ccccc1)C2	134077839	XWRDRFJGRAIORQ-UHFFFAOYSA-N	1-amino-N-benzyl-3-azabicyclo[3.1.0]hexane-3-carboxamide		0													not_found
+WX110100_A131	NC12CC1CN(C(=O)Nc1cccc(F)c1)C2	131655295	CVFJNSUSSZFAFJ-UHFFFAOYSA-N	1-amino-N-(3-fluorophenyl)-3-azabicyclo[3.1.0]hexane-3-carboxamide		0													not_found
+WX110100_A133	CCc1cccc(NC(=O)N2CC3CC3(N)C2)c1	131657453	DCBHTHSBIBXWPO-UHFFFAOYSA-N	1-amino-N-(3-ethylphenyl)-3-azabicyclo[3.1.0]hexane-3-carboxamide		0													not_found
+WX110100_A137	Cc1ccc(CN2CC3CC3(N)C2)cc1C	131644870	QUTUEZLUADMCHH-UHFFFAOYSA-N	3-[(3,4-dimethylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A138	CCc1ccc(CN2CC3CC3(N)C2)cc1	131652296	RHCOBWPGWAVOJU-UHFFFAOYSA-N	3-[(4-ethylphenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A139	NC12CC1CN(CCc1ccccc1)C2	131650029	NKGDBPKVSONMNG-UHFFFAOYSA-N	3-(2-phenylethyl)-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A142	NC12CC1CN(Cc1ccc(Cl)c(F)c1)C2	131656293	XHWADQIBDOKNPJ-UHFFFAOYSA-N	3-[(4-chloro-3-fluorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A172	N[C@]12C[C@H]1CN(Cc1cccc(Cl)c1)C2	97377874	VSOGENVWTLGJDG-JQWIXIFHSA-N	(1R,5S)-3-[(3-chlorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A173	NC12CC1CN(Cc1ccc(Cl)cc1)C2	131660000	JPHUSGKNGDHGDL-UHFFFAOYSA-N	3-[(4-chlorophenyl)methyl]-3-azabicyclo[3.1.0]hexan-1-amine		0													not_found
+WX110100_A566	NC12CC1CN(C(=O)NC1CCCCC1)C2	131663350	LDRYVWPNCNQXTA-UHFFFAOYSA-N	1-amino-N-cyclohexyl-3-azabicyclo[3.1.0]hexane-3-carboxamide		0													not_found
+WX110100_Y15	N[C@@]12C[C@@H]1CN(C(=O)c1ccco1)C2	97511029	IHWUOFILXCXWTK-GMSGAONNSA-N	[(1S,5R)-1-amino-3-azabicyclo[3.1.0]hexan-3-yl]-(furan-2-yl)methanone		0													not_found
+WX110317	CC(C)(C)OC(=O)N1C[C@H]2COC[C@@]2(CN)C1	124518933	OQERNDOJQQSAJJ-JOYOIKCWSA-N	tert-butyl (3aS,6aS)-3a-(aminomethyl)-3,4,6,6a-tetrahydro-1H-furo[3,4-c]pyrrole-5-carboxylate		0													not_found
+WX110545	CC(C)(C)OC(=O)N1C[C@H]2CC(CN)O[C@H]2C1	45489930	VKZFHDQGLQGCGB-FIBVVXLUSA-N	tert-butyl (3aR,6aR)-2-(aminomethyl)-2,3,3a,4,6,6a-hexahydrofuro[2,3-c]pyrrole-5-carboxylate		0													not_found
+WX110546	CC(C)(C)OC(=O)N1C[C@H]2C[C@H](CN)O[C@H]2C1	52324511	VKZFHDQGLQGCGB-BBBLOLIVSA-N	tert-butyl (2R,3aR,6aR)-2-(aminomethyl)-2,3,3a,4,6,6a-hexahydrofuro[2,3-c]pyrrole-5-carboxylate		0													not_found
+WX110661	CC(C)(C)OC(=O)N1C[C@@H]2[C@H](CN)CO[C@@H]2C1	124242249	SCNZIMGXJYWNJL-OPRDCNLKSA-N	tert-butyl (3R,3aS,6aS)-3-(aminomethyl)-2,3,3a,4,6,6a-hexahydrofuro[2,3-c]pyrrole-5-carboxylate		0													not_found
+WX110754	CC(C)(C)OC(=O)N1CC[C@H]2OCCC[C@@]2(CN)C1	124518787	UUOBDYOZHPKZNH-BXUZGUMPSA-N	tert-butyl (4aR,8aR)-4a-(aminomethyl)-3,4,5,7,8,8a-hexahydro-2H-pyrano[3,2-c]pyridine-6-carboxylate		0													not_found
+WX111177	CC(C)(C)OC(=O)N1CC[C@H]2CO[C@@H](CN)[C@H]2C1	71305879	HLBMPIBPEUZPJQ-DCAQKATOSA-N	tert-butyl (3R,3aR,7aR)-3-(aminomethyl)-3,3a,4,6,7,7a-hexahydro-1H-furo[3,4-c]pyridine-5-carboxylate		0													not_found
+WX111673	CC(C)(C)OC(=O)N1C[C@@H]2CCC[C@]2(CN)C1	66703911	LHUHSZDKNVVQSN-GWCFXTLKSA-N	tert-butyl (3aS,6aR)-3a-(aminomethyl)-1,3,4,5,6,6a-hexahydrocyclopenta[c]pyrrole-2-carboxylate		0													not_found
+WX111702	CC(C)(C)OC(=O)N1C[C@H](N)[C@H]2OCC[C@H]21	124556090	NWSWQZIICCESNY-DJLDLDEBSA-N	tert-butyl (3aR,6S,6aR)-6-amino-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]pyrrole-4-carboxylate		0													not_found
+WX111709	NC12CCN(C(=O)OCc3ccccc3)C1CC(=O)N2	121229807	FAPDWHJYURETBM-UHFFFAOYSA-N	benzyl 3a-amino-5-oxo-3,4,6,6a-tetrahydro-2H-pyrrolo[3,2-b]pyrrole-1-carboxylate		0													not_found
+WX111732	CC(C)(C)OC(=O)N1CCO[C@H]2[C@@H](N)CC[C@@H]21	124247012	YBKQTUGFQHAILU-GUBZILKMSA-N	tert-butyl (4aS,7S,7aS)-7-amino-3,4a,5,6,7,7a-hexahydro-2H-cyclopenta[b][1,4]oxazine-4-carboxylate		0													not_found
+WX115003	CC(C)(C)OC(=O)N1C[C@@H]2[C@H](N)c3ccccc3[C@@H]2C1	71305261	BSSUBMYYRYHUSD-MELADBBJSA-N	tert-butyl (3aR,4S,8bR)-4-amino-3,3a,4,8b-tetrahydro-1H-indeno[1,2-c]pyrrole-2-carboxylate		0													not_found
+WX120124	CC(C)(C)OC(=O)N1C2COCC1CC(N)C2	18507041	PEAPNBGPRYMRNJ-UHFFFAOYSA-N	tert-butyl 7-amino-3-oxa-9-azabicyclo[3.3.1]nonane-9-carboxylate		0													not_found
+WX120289	CC(C)(C)OC(=O)N1CC2CCC(C1)C2N	71305265	HLEQZRPOOJVDHJ-UHFFFAOYSA-N	tert-butyl 8-amino-3-azabicyclo[3.2.1]octane-3-carboxylate		0													not_found
+WX120552	CC(C)(C)OC(=O)N1C[C@H]2COC[C@@H](C1)[C@@H]2N	97112129	QYBPHULJRAEWEO-ULKQDVFKSA-N	tert-butyl (1S,5R)-9-amino-3-oxa-7-azabicyclo[3.3.1]nonane-7-carboxylate		0													not_found
+WX120567	CC(C)(C)OC(=O)N1[C@@H]2CC[C@H]1C[C@@H](N)C2	11218405	NZJKEPNCNBWESN-PBINXNQUSA-N	tert-butyl (1S,5R)-3-amino-8-azabicyclo[3.2.1]octane-8-carboxylate		0													not_found
+WX140089	CC(C)(C)OC(=O)N1CCCn2c(CN)nnc2C1	71305798	SPRWBMLFGUVARD-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-5,6,7,9-tetrahydro-[1,2,4]triazolo[4,3-a][1,4]diazepine-8-carboxylate		0													not_found
+WX140263_Y01	NC1CCc2[nH]c(=O)ccc2C1	84618283	IGEZGNFMAXDJNB-UHFFFAOYSA-N	6-amino-5,6,7,8-tetrahydro-1H-quinolin-2-one		0													not_found
+WX140263_Y02	Cn1c2c(ccc1=O)CC(N)CC2	84618284	KWEFPBYJASXXHR-UHFFFAOYSA-N	6-amino-1-methyl-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y03	CCn1c2c(ccc1=O)CC(N)CC2	84618285	FAFLLIORHPFYFQ-UHFFFAOYSA-N	6-amino-1-ethyl-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y04	CC(C)Cn1c2c(ccc1=O)CC(N)CC2	118738743	GBKGZYCERYCBIP-UHFFFAOYSA-N	6-amino-1-(2-methylpropyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y05	CN(C)CCn1c2c(ccc1=O)CC(N)CC2	121229763	XFPAZBPCPKOBPK-UHFFFAOYSA-N	6-amino-1-[2-(dimethylamino)ethyl]-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y06	COCCn1c2c(ccc1=O)CC(N)CC2	118738741	BFNBZJNDPVBQQX-UHFFFAOYSA-N	6-amino-1-(2-methoxyethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y09	NC1CCc2c(ccc(=O)n2CC2CC2)C1	118738729	ZTJNNRMCMJKKGE-UHFFFAOYSA-N	6-amino-1-(cyclopropylmethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y11	NC1CCc2c(ccc(=O)n2CCN2CCCC2)C1	121229656	RIMMTULTJWUTEG-UHFFFAOYSA-N	6-amino-1-(2-pyrrolidin-1-ylethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y13	NC1CCc2c(ccc(=O)n2CCN2CCCC2=O)C1	131638228	QAFRUIPUPZTZEQ-UHFFFAOYSA-N	6-amino-1-[2-(2-oxopyrrolidin-1-yl)ethyl]-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y14	NC1CCc2c(ccc(=O)n2CCN2CCOCC2)C1	131638264	RPQICAGBWFYOOJ-UHFFFAOYSA-N	6-amino-1-(2-morpholin-4-ylethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y17	NC1CCc2c(ccc(=O)n2CCn2cccn2)C1	131638213	MLIJLDPITVANGI-UHFFFAOYSA-N	6-amino-1-(2-pyrazol-1-ylethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y19	NC1CCc2c(ccc(=O)n2Cc2cccnc2)C1	131638206	PHCSRLNKBFIGHQ-UHFFFAOYSA-N	6-amino-1-(pyridin-3-ylmethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y20	Cc1nc(Cn2c3c(ccc2=O)CC(N)CC3)cs1	118740753	YJYSIJDOQXUVJM-UHFFFAOYSA-N	6-amino-1-[(2-methyl-1,3-thiazol-4-yl)methyl]-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y21	NC1CCc2c(ccc(=O)n2Cc2ccncc2)C1	118738736	PTHKGSSSKLLQEL-UHFFFAOYSA-N	6-amino-1-(pyridin-4-ylmethyl)-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140263_Y29	Cc1cccc(Cn2c3c(ccc2=O)CC(N)CC3)n1	121229405	YBTJFWWNBHIMDA-UHFFFAOYSA-N	6-amino-1-[(6-methyl-2-pyridinyl)methyl]-5,6,7,8-tetrahydroquinolin-2-one		0													not_found
+WX140514_Y01	Cn1cc2c(n1)C(CN)OCC2	121229666	RIZLOOCCJBXHAX-UHFFFAOYSA-N	(2-methyl-5,7-dihydro-4H-pyrano[3,4-c]pyrazol-7-yl)methanamine		0													not_found
+WX140514_Y08	CN(C)C(=O)Cn1cc2c(n1)C(CN)OCC2	121229404	HJTNGKUYVQEMEZ-UHFFFAOYSA-N	2-[7-(aminomethyl)-5,7-dihydro-4H-pyrano[3,4-c]pyrazol-2-yl]-N,N-dimethylacetamide		0													not_found
+WX140514_Y09	NCC1OCCc2cn(CC3CC3)nc21	121229560	UJXVKRCRWMWRQB-UHFFFAOYSA-N	[2-(cyclopropylmethyl)-5,7-dihydro-4H-pyrano[3,4-c]pyrazol-7-yl]methanamine		0													not_found
+WX140514_Y11	NCC1OCCc2cn(CC3CCOCC3)nc21	121229407	MMHVKQOJAXAYNK-UHFFFAOYSA-N	[2-(oxan-4-ylmethyl)-5,7-dihydro-4H-pyrano[3,4-c]pyrazol-7-yl]methanamine		0													not_found
+WX140514_Y23	NCC1OCCc2cn(Cc3ccccn3)nc21	121229691	ZAGFSHXIRFVVHQ-UHFFFAOYSA-N	[2-(pyridin-2-ylmethyl)-5,7-dihydro-4H-pyrano[3,4-c]pyrazol-7-yl]methanamine		0													not_found
+WX141616_AK0003ZZ0000	NC1CCc2onc(C(=O)NC3CCCC3)c2C1	155880087	IXFZZNWFMLUYJT-UHFFFAOYSA-N	5-amino-N-cyclopentyl-4,5,6,7-tetrahydro-1,2-benzoxazole-3-carboxamide		0													not_found
+WX141616_AK0010ZZ0000	NC1CCc2onc(C(=O)NCc3ccco3)c2C1	155873149	RUPVNBMYEMBMAR-UHFFFAOYSA-N	5-amino-N-(furan-2-ylmethyl)-4,5,6,7-tetrahydro-1,2-benzoxazole-3-carboxamide		0													not_found
+WX141616_AK0092ZZ0000	NC1CCc2onc(C(=O)NCC3CC3)c2C1	155879227	YLSQBJOEBHSVSU-UHFFFAOYSA-N	5-amino-N-(cyclopropylmethyl)-4,5,6,7-tetrahydro-1,2-benzoxazole-3-carboxamide		0													not_found
+WX141616_AN0008ZZ0000	NC1CCc2onc(C(=O)N3CCCC3)c2C1	155871507	GZFKBLMUEAOERH-UHFFFAOYSA-N	(5-amino-4,5,6,7-tetrahydro-1,2-benzoxazol-3-yl)-pyrrolidin-1-ylmethanone		0													not_found
+WX141617_AN0012ZZ0000	NC1CCc2onc(CN3CCOCC3)c2C1	155875759	NPUVSYISYVYMTP-UHFFFAOYSA-N	3-(morpholin-4-ylmethyl)-4,5,6,7-tetrahydro-1,2-benzoxazol-5-amine		0													not_found
+WX141617_AN0032ZZ0000	CN(C)Cc1noc2c1CC(N)CC2	155876308	ZSOXBVJOXBWSPO-UHFFFAOYSA-N	3-[(dimethylamino)methyl]-4,5,6,7-tetrahydro-1,2-benzoxazol-5-amine		0													not_found
+WX141617_AN0158ZZ0000	NC1CCc2onc(CN3CC[C@@H](O)C3)c2C1	155876541	BRAONHBMBIZVHG-YGPZHTELSA-N	(3R)-1-[(5-amino-4,5,6,7-tetrahydro-1,2-benzoxazol-3-yl)methyl]pyrrolidin-3-ol		0													not_found
+WX141618_HU0024ZZ0000	CS(=O)(=O)NCc1noc2c1CC(N)CC2	155872146	NEOKHJGYSCUMRH-UHFFFAOYSA-N	N-[(5-amino-4,5,6,7-tetrahydro-1,2-benzoxazol-3-yl)methyl]methanesulfonamide		0													not_found
+WX141618_SB0211ZZ0000	NC1CCc2onc(CNC(=O)C3CC(F)(F)C3)c2C1	155875396	ZYDHXKSTGMVTQT-UHFFFAOYSA-N	N-[(5-amino-4,5,6,7-tetrahydro-1,2-benzoxazol-3-yl)methyl]-3,3-difluorocyclobutane-1-carboxamide		0													not_found
+WX141769	CC(C)(C)OC(=O)N1Cc2ccnn2CC(CCN)C1	131638101	BVRPPUHRPACTET-UHFFFAOYSA-N	tert-butyl 7-(2-aminoethyl)-4,6,7,8-tetrahydropyrazolo[1,5-a][1,4]diazepine-5-carboxylate		0													not_found
+WX170041	CC(C)(C)OC(=O)N1CCC(N2CCC(N)CC2)CC1	53415311	AHAQZBVUGZUUMB-UHFFFAOYSA-N	tert-butyl 4-(4-aminopiperidin-1-yl)piperidine-1-carboxylate		0													not_found
+WX190026_Y29	NCC1Cn2nnc(-c3cccnc3)c2CO1	121229563	XPDDWUSBAQEXBS-UHFFFAOYSA-N	(3-pyridin-3-yl-6,7-dihydro-4H-triazolo[5,1-c][1,4]oxazin-6-yl)methanamine		0													not_found
+WX190026_Y31	NCC1Cn2nnc(-c3cccc(F)c3)c2CO1	118739738	RFPOGZWGYCHLCS-UHFFFAOYSA-N	[3-(3-fluorophenyl)-6,7-dihydro-4H-triazolo[5,1-c][1,4]oxazin-6-yl]methanamine		0													not_found
+WX190026_Y32	NCC1Cn2nnc(-c3cncnc3)c2CO1	121229491	FTOBCIQULCXXHQ-UHFFFAOYSA-N	(3-pyrimidin-5-yl-6,7-dihydro-4H-triazolo[5,1-c][1,4]oxazin-6-yl)methanamine		0													not_found
+WX190026_Y36	NCC1Cn2nnc(-c3ccccc3)c2CO1	121229689	PHZULVIGYJNFLP-UHFFFAOYSA-N	(3-phenyl-6,7-dihydro-4H-triazolo[5,1-c][1,4]oxazin-6-yl)methanamine		0													not_found
+WX600007	Cc1cc(CC(C)N)on1	46856408	JBKSNFMGMNTTLU-UHFFFAOYSA-N	1-(3-methyl-1,2-oxazol-5-yl)propan-2-amine		0													not_found
+WX600044	NCCN1CCCCO1	13092525	HVDGJEAETHCPMX-UHFFFAOYSA-N	2-(oxazinan-2-yl)ethanamine		0													not_found
+WX600105	CC(C)(C)OC(=O)N1CC(O)(CCN)C1	71306096	QSXRCDIVJJJTIH-UHFFFAOYSA-N	tert-butyl 3-(2-aminoethyl)-3-hydroxyazetidine-1-carboxylate		0													not_found
+WX600114	CC(C)(N)Cc1ccc2ccccc2c1	15369616	MUSKTCTZFQZRIL-UHFFFAOYSA-N	2-methyl-1-naphthalen-2-ylpropan-2-amine		0													not_found
+WX600138	CC(C)(C)OC(=O)N1CC(O)(CN)C1	57415900	NVEHYSKQUSAZBP-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-hydroxyazetidine-1-carboxylate		0													not_found
+WX600172	CC(C)C[C@@H](N)CO	2724002	VPSSPAXIFBTOHY-ZCFIWIBFSA-N	(2R)-2-amino-4-methylpentan-1-ol		0													not_found
+WX600190	Cc1cccc(C)c1OC[C@H](C)N	185376	VLPIATFUUWWMKC-JTQLQIEISA-N	(2S)-1-(2,6-dimethylphenoxy)propan-2-amine		0													not_found
+WX600207	COCC(CN)NC(=O)OC(C)(C)C	45092031	RIQNSCBRYGWVTD-UHFFFAOYSA-N	tert-butyl N-(1-amino-3-methoxypropan-2-yl)carbamate		0													not_found
+WX600232	CCOC(=O)CC(C)(C)N	11480520	CINTWGJQDJSXPJ-UHFFFAOYSA-N	ethyl 3-amino-3-methylbutanoate		0													not_found
+WX600299	C[C@@H](CN)NC(=O)OC(C)(C)C	15030821	JQXZBJAAOLPTKP-LURJTMIESA-N	tert-butyl N-[(2S)-1-aminopropan-2-yl]carbamate		0													not_found
+WX600316	NC(=O)C1(N)CC1	11708050	JFGXRDGYMLGBBB-UHFFFAOYSA-N	1-aminocyclopropane-1-carboxamide		0													not_found
+WX600333	CC(C)(CN)NC(=O)OC(C)(C)C	45072480	VFEPPZUGBHOHKH-UHFFFAOYSA-N	tert-butyl N-(1-amino-2-methylpropan-2-yl)carbamate		0													not_found
+WX601005	CC(C)(C)OC(=O)N1CC(F)(CN)C1	53487876	HRNGGAXXQINCHD-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-fluoroazetidine-1-carboxylate		0													not_found
+WX601045	CC(C)(C)OC(=O)N1CCOCC(N)C1	44119210	QIAURBVQLIUTQH-UHFFFAOYSA-N	tert-butyl 6-amino-1,4-oxazepane-4-carboxylate		0													not_found
+WX601108	CC(C)(C)OC(=O)N1CC(F)(F)C[C@H]1CN	72207733	MHRFRDWLNRHXMY-ZETCQYMHSA-N	tert-butyl (2S)-2-(aminomethyl)-4,4-difluoropyrrolidine-1-carboxylate		0													not_found
+WX601114	C[C@@H]1C[C@@H](CN)CN1C(=O)OC(C)(C)C	118798530	OMYUWTDLNUMEGX-BDAKNGLRSA-N	tert-butyl (2R,4S)-4-(aminomethyl)-2-methylpyrrolidine-1-carboxylate		0													not_found
+WX601130	CC(C)(C)OC(=O)N1CCCC(CN)CC1	74788437	RBXNJDUXLOZOIR-UHFFFAOYSA-N	tert-butyl 4-(aminomethyl)azepane-1-carboxylate		0													not_found
+WX601131	CC1(CN)CCCN(C(=O)OC(C)(C)C)CC1	118798191	WIJQXPPTCBFVFO-UHFFFAOYSA-N	tert-butyl 4-(aminomethyl)-4-methylazepane-1-carboxylate		0													not_found
+WX601147	CC(C)(C)OC(=O)N1CC[C@@H](O)[C@H](N)C1	10584836	LUQURLQDYAJECW-HTQZYQBOSA-N	tert-butyl (3R,4R)-3-amino-4-hydroxypiperidine-1-carboxylate		0													not_found
+WX601231	CC1(N)CCCN(C(=O)OC(C)(C)C)CC1	83487056	PSAWVQOJMPWLAJ-UHFFFAOYSA-N	tert-butyl 4-amino-4-methylazepane-1-carboxylate		0													not_found
+WX601253	CC(C)(C)OC(=O)N1C[C@H](F)C[C@H]1CN	72207990	DADYKTRZKFJROI-SFYZADRCSA-N	tert-butyl (2S,4R)-2-(aminomethyl)-4-fluoropyrrolidine-1-carboxylate		0													not_found
+WX601268	CC(C)(C)OC(=O)N1CCCC(O)(CN)CC1	56698914	IXTYMZYBENRBEC-UHFFFAOYSA-N	tert-butyl 4-(aminomethyl)-4-hydroxyazepane-1-carboxylate		0													not_found
+WX601284	CC(C)(C)OC(=O)N1CCCCC(F)(CN)C1	84031148	SBCDJBJDFDHWKQ-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-fluoroazepane-1-carboxylate		0													not_found
+WX601288	CC(C)(C)OC(=O)N1CCCCC(O)(CN)C1	82664679	GOTNKKDJDLFKAL-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-hydroxyazepane-1-carboxylate		0													not_found
+WX601293	CC1(CN)CN(C(=O)OC(C)(C)C)C1	57415859	NUSZXESXGDKVCH-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-methylazetidine-1-carboxylate		0													not_found
+WX601310	CC(C)(C)OC(=O)N1C[C@H](CN)[C@H](O)C1	59254357	AHJZEZIYOBGVSK-JGVFFNPUSA-N	tert-butyl (3S,4S)-3-(aminomethyl)-4-hydroxypyrrolidine-1-carboxylate		0													not_found
+WX601341	CC1(CN)CCCCN(C(=O)OC(C)(C)C)C1	118798590	KFWLROPMPGMJNO-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-methylazepane-1-carboxylate		0													not_found
+WX601360	NC[C@@H]1CCC[C@H]1F	97297733	IWXBLMSYJDSAIL-NTSWFWBYSA-N	[(1S,2R)-2-fluorocyclopentyl]methanamine		0													not_found
+WX601400	C[C@@H]1CCN(C(=O)OCc2ccccc2)C[C@H]1N	59382836	SRPCZFCRBYSYDY-DGCLKSJQSA-N	benzyl (3S,4R)-3-amino-4-methylpiperidine-1-carboxylate		0													not_found
+WX601408	C[C@H]1CC[C@H](N)CN1C(=O)OCc1ccccc1	95171263	MWKAMUJIXBCKIH-AAEUAGOBSA-N	benzyl (2S,5S)-5-amino-2-methylpiperidine-1-carboxylate		0													not_found
+WX601534	CC(C)(C)OC(=O)N1CCC(CN)(C(F)(F)F)C1	53417434	AHOVYALWYSSMRR-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-(trifluoromethyl)pyrrolidine-1-carboxylate		0													not_found
+WX601547	CC(C)(C)OC(=O)NC12CCC(N)(CC1)CC2	91800899	GRVKFPSOHUZDAY-UHFFFAOYSA-N	tert-butyl N-(4-amino-1-bicyclo[2.2.2]octanyl)carbamate		0													not_found
+WX601614	NC[C@]1(O)CCN(C(=O)OCc2ccccc2)C[C@@H]1F	125117327	YGOVYAMIHUJJDA-GXTWGEPZSA-N	benzyl (3S,4R)-4-(aminomethyl)-3-fluoro-4-hydroxypiperidine-1-carboxylate		0													not_found
+WX602205	NCC(=O)c1cccc(Br)c1	409750	LXFGLRAUAQVJCL-UHFFFAOYSA-N	2-amino-1-(3-bromophenyl)ethanone		0													not_found
+WX603040	Cc1cccn2c(CN)nnc12	55266771	TVBFJKJFGWEWNN-UHFFFAOYSA-N	(8-methyl-[1,2,4]triazolo[4,3-a]pyridin-3-yl)methanamine		0													not_found
+WX603055	C[C@@H](N)c1ccc(C#N)cc1	30082537	CANLULJYEHSQFU-SSDOTTSWSA-N	4-[(1R)-1-aminoethyl]benzonitrile		0													not_found
+WX603128	C[C@@H](N)c1cnc2ccccn12	39130384	XVTYDMPYGMBYBD-SSDOTTSWSA-N	(1R)-1-imidazo[1,2-a]pyridin-3-ylethanamine		0													not_found
+WX603129	NCc1ccc(Br)cn1	49761678	AUIXMWKVLPXKGC-UHFFFAOYSA-N	(5-bromo-2-pyridinyl)methanamine		0													not_found
+WX603166	CC(C)(C)OC(=O)Nc1cccc(CN)c1	2756481	NXQNEOIMZVWHQW-UHFFFAOYSA-N	tert-butyl N-[3-(aminomethyl)phenyl]carbamate		0													not_found
+WX603191	NCc1ccc(OCC(F)(F)F)nc1	16789486	ZZQBFHLZCABDRY-UHFFFAOYSA-N	[6-(2,2,2-trifluoroethoxy)-3-pyridinyl]methanamine		0													not_found
+WX604003	C[C@H]1CN(C(=O)OC(C)(C)C)C[C@@H]1N	57896451	DUBXUUPBIKNFEA-YUMQZZPRSA-N	tert-butyl (3R,4S)-3-amino-4-methylpyrrolidine-1-carboxylate		0													not_found
+WX604015	CC(C)(C)OC(=O)N1CCN(S(=O)(=O)CCN)CC1	17998886	FQXGBCXLSTWQHQ-UHFFFAOYSA-N	tert-butyl 4-(2-aminoethylsulfonyl)piperazine-1-carboxylate		0													not_found
+WX604018	CC(C)(C)OC(=O)N1CCN(C(=O)CCN)CC1	28505605	IAVGDVAEJBSATD-UHFFFAOYSA-N	tert-butyl 4-(3-aminopropanoyl)piperazine-1-carboxylate		0													not_found
+WX604095	CC(C)(C)OC(=O)N1CCCC[C@H](N)C1	34178419	WXWILWLHHQGUCX-VIFPVBQESA-N	tert-butyl (3S)-3-aminoazepane-1-carboxylate		0													not_found
+WX604202	N[C@@H]1CCNC1=O	21969418	YNDAMDVOGKACTP-GSVOUGTGSA-N	(3R)-3-aminopyrrolidin-2-one		0													not_found
+WX604220	CC(C)(C)OC(=O)N1C[C@@H](N)[C@H](O)C1	11275699	MOZOQDNRVPHFOO-RNFRBKRXSA-N	tert-butyl (3R,4R)-3-amino-4-hydroxypyrrolidine-1-carboxylate		0													not_found
+WX604294	CC(C)(C)OC(=O)N[C@H]1CCCC[C@H]1N	1514389	AKVIZYGPJIWKOS-BDAKNGLRSA-N	tert-butyl N-[(1S,2R)-2-aminocyclohexyl]carbamate		0													not_found
+WX604498	CC(C)(C)OC(=O)N1CCC(N)(CO)CC1	22975819	MQYPVGMYPYZMHJ-UHFFFAOYSA-N	tert-butyl 4-amino-4-(hydroxymethyl)piperidine-1-carboxylate		0													not_found
+WX604560	CC1(N)CCN(C(=O)OC(C)(C)C)CC1	11310432	DMBKWEHXTOCLTC-UHFFFAOYSA-N	tert-butyl 4-amino-4-methylpiperidine-1-carboxylate		0													not_found
+WX604577	CC(C)(C)OC(=O)NC1CC(N)C1	16228707	OPDOEOOBYOABCJ-UHFFFAOYSA-N	tert-butyl N-(3-aminocyclobutyl)carbamate		0													not_found
+WX604746	CC(C)(C)OC(=O)N[C@H]1COC[C@H]1N	90436776	HWYDCYLRWDJCCH-RQJHMYQMSA-N	tert-butyl N-[(3R,4S)-4-aminooxolan-3-yl]carbamate		0													not_found
+WX609537	Cc1cc(C)cc(OCC(C)N)c1	5305257	DPLCQNGJZJXXPM-UHFFFAOYSA-N	1-(3,5-dimethylphenoxy)propan-2-amine		0													not_found
+WX619924	CC(C)OC(=O)C1CCC(N)=N1	71306223	WKBRTHPHNNWKJO-UHFFFAOYSA-N	propan-2-yl 5-amino-3,4-dihydro-2H-pyrrole-2-carboxylate		0													not_found
+WX619947	N=C(N)c1cccc(Cl)c1Cl	18544327	AJVCKUGPVGPLRM-UHFFFAOYSA-N	2,3-dichlorobenzenecarboximidamide		0													not_found
+WX619951	N=C(N)c1ccccc1Cl	2740918	MXVMRHIWTSFDPU-UHFFFAOYSA-N	2-chlorobenzenecarboximidamide		0													not_found
+WX632011	N/C(Cc1cccc(Cl)c1)=N\O				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/N%2FC%28Cc1cccc%28Cl%29c1%29%3DN%5CO/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX665178	CC(C)CCNC(=O)[C@@H](N)CC(C)C	10917115	HCDLAJHOIWLVLK-JTQLQIEISA-N	(2S)-2-amino-4-methyl-N-(3-methylbutyl)pentanamide		0													not_found
+WX665181	COC(=O)[C@@H](N)C(C)(C)NC(=O)OC(C)(C)C	45382265	UTWVEOUYCGZORL-SSDOTTSWSA-N	methyl (2S)-2-amino-3-methyl-3-[(2-methylpropan-2-yl)oxycarbonylamino]butanoate		0													not_found
+WX665196	CC(C)C[C@H](N)C(=O)OCc1ccccc1	6451313	MBRRYUQWSOODEO-LBPRGKRZSA-N	benzyl (2S)-2-amino-4-methylpentanoate		0													not_found
+WX665219	CCOC(=O)CC1(N)CCN(C(=O)OC(C)(C)C)C1	118798429	BIENJLIIUBFKDP-UHFFFAOYSA-N	tert-butyl 3-amino-3-(2-ethoxy-2-oxoethyl)pyrrolidine-1-carboxylate		0													not_found
+WX684418	CC(C)(C)OC(=O)N1CCCC1/C(N)=N\O				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/CC%28C%29%28C%29OC%28%3DO%29N1CCCC1%2FC%28N%29%3DN%5CO/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX684428	CC(C)(C)OC(=O)N1CCCCC1C(=N)N	50986444	PKSOIBWMODHYAE-UHFFFAOYSA-N	tert-butyl 2-carbamimidoylpiperidine-1-carboxylate		0													not_found
+WX690071	N=C(N)c1ccc(Br)cc1	4436571	JODFDXUBCBQKNC-UHFFFAOYSA-N	4-bromobenzenecarboximidamide		0													not_found
+WX690072	N=C(N)c1ccc(N2CCOCC2)cc1	28409902	QBZZCBRXVNVDQX-UHFFFAOYSA-N	4-morpholin-4-ylbenzenecarboximidamide		0													not_found
+WX690143	N/C(Cc1ccc(Cl)cc1Cl)=N/O				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/N%2FC%28Cc1ccc%28Cl%29cc1Cl%29%3DN%2FO/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX690156	COc1cccc(/C(N)=N/O)c1				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/COc1cccc%28%2FC%28N%29%3DN%2FO%29c1/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX690163	N/C(Cc1ccsc1)=N/O				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/N%2FC%28Cc1ccsc1%29%3DN%2FO/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX690170	Cc1ccc(/C(N)=N/O)cc1C				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/Cc1ccc%28%2FC%28N%29%3DN%2FO%29cc1C/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX690178	CC(C)(C)OC(=O)N1CCC(/C(N)=N/O)CC1				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/CC%28C%29%28C%29OC%28%3DO%29N1CCC%28%2FC%28N%29%3DN%2FO%29CC1/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WX690180	N/C(Cc1cccc(Br)c1)=N/O				GET JSON failed: https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/smiles/N%2FC%28Cc1cccc%28Br%29c1%29%3DN%2FO/property/CanonicalSMILES,InChIKey,IUPACName/JSON: HTTP Error 400: PUGREST.BadRequest	0													not_found
+WXCD00100038_SC0234_AC0736	NCC(=O)N1CCCC12CCCN(C(=O)c1cnoc1)CC2					0													not_found
+WXCD00100094_SF053_SD0101	COc1ccc(C(=O)N2CCCC23CCN(C(=O)C(C)C2SC(N)=NC2=O)CC3)c(C)c1					0													not_found
+WXCD00100094_SF053_SD0141	CC(C(=O)N1CCC2(CCCN2C(=O)c2ccccc2C2CC2)CC1)C1SC(N)=NC1=O					0													not_found
+WXCD00100094_SF053_SE0791	CC(C(=O)N1CCC2(CCCN2C(=O)c2cc3ccsc3[nH]2)CC1)C1SC(N)=NC1=O					0													not_found
+WXCD00100142_AC0641_SE0048	CC(CN)C(=O)N1CCCC12CN(C(=O)c1c[nH]c3ncccc13)C2	171673745	OOGGJSMSYZPCIR-UHFFFAOYSA-N	3-amino-2-methyl-1-[2-(1H-pyrrolo[2,3-b]pyridine-3-carbonyl)-2,5-diazaspiro[3.4]octan-5-yl]propan-1-one		0													not_found
+WXCD00100142_AC0736_SB2286	NCC(=O)N1CCCC12CN(C(=O)CCc1c[nH]c3ncccc13)C2					0													not_found
+WXCD00100142_SC00111_SF053	Cc1c(C(=O)N2CCCC23CN(C(=O)C(C)C2SC(N)=NC2=O)C3)cn2nc[nH]c(=O)c12					0													not_found
+WXCD00100142_SC0490_AC2118	NC(C(=O)N1CC2(CCCN2C(=O)c2cc(-c3ccccn3)[nH]n2)C1)c1cccc(Cl)c1	171698338	DKAZMSWIQWMDPK-UHFFFAOYSA-N	2-amino-2-(3-chlorophenyl)-1-[5-(3-pyridin-2-yl-1H-pyrazole-5-carbonyl)-2,5-diazaspiro[3.4]octan-2-yl]ethanone		0													not_found
+WXCD00100142_SC1052_AC2118	NC(C(=O)N1CC2(CCCN2C(=O)c2cnc(-c3ccccn3)nc2)C1)c1cccc(Cl)c1	171698337	VUGRFKBMALMBQU-UHFFFAOYSA-N	2-amino-2-(3-chlorophenyl)-1-[5-(2-pyridin-2-ylpyrimidine-5-carbonyl)-2,5-diazaspiro[3.4]octan-2-yl]ethanone		0													not_found
+WXCD00100142_SD0212_AC2118	NC(C(=O)N1CC2(CCCN2C(=O)c2ccc(-c3ncc[nH]3)cc2)C1)c1cccc(Cl)c1	171698335	IYAKPCNLUXKCDC-UHFFFAOYSA-N	2-amino-2-(3-chlorophenyl)-1-[5-[4-(1H-imidazol-2-yl)benzoyl]-2,5-diazaspiro[3.4]octan-2-yl]ethanone		0													not_found
+WXCD00100142_SD0359_SF053	COC(=O)c1ccc(C(=O)N2CCCC23CN(C(=O)C(C)C2SC(N)=NC2=O)C3)c(C)c1					0													not_found
+WXCD00100142_SD0377_SF053	CC(C(=O)N1CC2(CCCN2C(=O)c2ccc(-c3cccnc3)cc2)C1)C1SC(N)=NC1=O					0													not_found
+WXCD00100142_SD0387_SF053	CC(C(=O)N1CC2(CCCN2C(=O)c2ccc(NC(=O)C3CC3)cc2)C1)C1SC(N)=NC1=O					0													not_found
+WXCD00100142_SE0164_SF053	CC(C(=O)N1CC2(CCCN2C(=O)c2ccc3c(cnn3C)c2)C1)C1SC(N)=NC1=O					0													not_found
+WXCD00100142_SE0201_SF053	CC(C(=O)N1CC2(CCCN2C(=O)c2cc(-c3cc[nH]n3)n3ccccc23)C1)C1SC(N)=NC1=O					0													not_found
+WXCD00100142_SE0219_AC2118	NC(C(=O)N1CC2(CCCN2C(=O)c2cc3cc(F)c(F)cc3[nH]2)C1)c1cccc(Cl)c1	171698190	JVNWLEPETJZLMR-UHFFFAOYSA-N	2-amino-2-(3-chlorophenyl)-1-[5-(5,6-difluoro-1H-indole-2-carbonyl)-2,5-diazaspiro[3.4]octan-2-yl]ethanone		0													not_found
+WXCD00100322_AK8027_SA0654	N[C@@H]1CCc2nc(NC(=O)CC3CC4(C3)CN(C(=O)[C@H]3CN(Cc5ccccn5)C[C@@H]3c3ccccc3)C4)sc2C1	171678029	PLTYLSMTPYTHDE-ARMFNRFLSA-N	N-[(6R)-6-amino-4,5,6,7-tetrahydro-1,3-benzothiazol-2-yl]-2-[2-[(3R,4S)-4-phenyl-1-(pyridin-2-ylmethyl)pyrrolidine-3-carbonyl]-2-azaspiro[3.3]heptan-6-yl]acetamide		0													not_found
+WXCD00100333_AC0736_SB1481	NCC(=O)NC1CCC12CCN(C(=O)C1(c3ccc(F)cc3)CC1)CC2					0													not_found
+WXCD00100333_SE0667_AC0736	NCC(=O)N1CCC2(CCC2NC(=O)c2cc3cn[nH]c3cn2)CC1	171686163	HJHOZJCTWWFPBA-UHFFFAOYSA-N	N-[7-(2-aminoacetyl)-7-azaspiro[3.5]nonan-3-yl]-1H-pyrazolo[3,4-c]pyridine-5-carboxamide		0													not_found
+WXCD00100546_SB0503_AC2348	NC(=O)[C@@H](N)CCC(=O)N1CCC2(COCCN2C(=O)c2cc(=O)c3ccccc3o2)C1	171698203	YFTPYNHFIDMWKX-UEDXYCIISA-N	(2S)-2-amino-5-oxo-5-[6-(4-oxochromene-2-carbonyl)-9-oxa-2,6-diazaspiro[4.5]decan-2-yl]pentanamide		0													not_found
+WXCD00100546_SC0182_SF053	CC(C(=O)N1CCC2(COCCN2C(=O)C2=NN(c3ccccc3)C(=O)C2)C1)C1SC(N)=NC1=O					0													not_found
+WXCD00100583_AC0736_SC0125	NCC(=O)NC1CC12CCN(C(=O)c1cc3n(n1)CCNC3=O)CC2	171673733	ZJXSOVSAJXABIE-UHFFFAOYSA-N	2-amino-N-[6-(4-oxo-6,7-dihydro-5H-pyrazolo[1,5-a]pyrazine-2-carbonyl)-6-azaspiro[2.5]octan-2-yl]acetamide		0													not_found
+WXCD00100583_AC0736_SC2225	Cc1n[nH]cc1C(=O)N1CCC2(CC1)CC2NC(=O)CN	171673736	PVZUXGGVCMUUCE-UHFFFAOYSA-N	2-amino-N-[6-(5-methyl-1H-pyrazole-4-carbonyl)-6-azaspiro[2.5]octan-2-yl]acetamide		0													not_found
+WXCD00100583_AC0736_SE0731	NCC(=O)NC1CC12CCN(C(=O)c1cc3cccnc3nc1O)CC2					0													not_found
+WXCD00100583_SE1658_AC0736	NCC(=O)N1CCC2(CC1)CC2NC(=O)c1cccc2[nH]ncc12	171673744	UPCKKTQKWNHJGD-UHFFFAOYSA-N	N-[6-(2-aminoacetyl)-6-azaspiro[2.5]octan-2-yl]-1H-indazole-4-carboxamide		0													not_found
+WXCD00100603_SC00065_AC0736	NCC(=O)N1CCN(C(=O)c2cc(Cl)nc3[nH]ncc23)C2(CC2)C1	171673741	MVTSADZUFFHBAP-UHFFFAOYSA-N	2-amino-1-[4-(6-chloro-1H-pyrazolo[5,4-b]pyridine-4-carbonyl)-4,7-diazaspiro[2.5]octan-7-yl]ethanone		0													not_found
+WXCD00100603_SE1753_AC0736	NCC(=O)N1CCN(C(=O)c2ccnc3[nH]ccc23)C2(CC2)C1	171686167	MWPPTLORJJYWGP-UHFFFAOYSA-N	2-amino-1-[4-(1H-pyrrolo[2,3-b]pyridine-4-carbonyl)-4,7-diazaspiro[2.5]octan-7-yl]ethanone		0													not_found
+WXCD00100603_SF026_SE1630	NC[C@@H](N)C(=O)N1CCN(C(=O)c2ccc3[nH]ncc3c2)CC12CC2	171688957	DDEQRBJQBDLYKV-CYBMUJFWSA-N	(2R)-2,3-diamino-1-[7-(1H-indazole-5-carbonyl)-4,7-diazaspiro[2.5]octan-4-yl]propan-1-one		0													not_found
+WXCD00100627_LP2263	NC1CN(c2ccnc(N3CCCCC3)n2)CC12CC2	172895101	VHJDWKIOUBQGNP-UHFFFAOYSA-N	5-(2-piperidin-1-ylpyrimidin-4-yl)-5-azaspiro[2.4]heptan-7-amine		0													not_found
+WXCD00100627_SC00089	NC1CN(C(=O)c2cc3ccoc3s2)CC12CC2	172895280	HSMRHMLTTHFXFG-UHFFFAOYSA-N	(7-amino-5-azaspiro[2.4]heptan-5-yl)-thieno[2,3-b]furan-5-ylmethanone		0													not_found
+WXCD00100627_SE0386	NC1CN(C(=O)c2ccc3nc(Cl)sc3c2)CC12CC2	172895884	AXCGAQHTGFEYCO-UHFFFAOYSA-N	(7-amino-5-azaspiro[2.4]heptan-5-yl)-(2-chloro-1,3-benzothiazol-6-yl)methanone		0													not_found
+WXCD00100627_SE1217	NC1CN(C(=O)c2ccc3[nH]nc(C(F)(F)F)c3c2)CC12CC2	172895194	IWZYYPXIFAGLJB-UHFFFAOYSA-N	(7-amino-5-azaspiro[2.4]heptan-5-yl)-[3-(trifluoromethyl)-2H-indazol-5-yl]methanone		0													not_found
+WXCD00101480_AK00399_SB4548	CCC[C@H](NC(=O)c1ccccc1)C(=O)N1CCC2(CCCC2C(=O)Nc2ccc(C(N)CCO)cc2)C1					0													not_found
+WXCD00102217_AK8027_SC00128	N[C@@H]1CCc2nc(NC(=O)[C@@H]3CC4(CC4)CN3C(=O)c3cc4cn[nH]c4cc3Br)sc2C1	171677853	ZOJFEFOTLPASTG-PXAZEXFGSA-N	(6S)-N-[(6R)-6-amino-4,5,6,7-tetrahydro-1,3-benzothiazol-2-yl]-5-(6-bromo-1H-indazole-5-carbonyl)-5-azaspiro[2.4]heptane-6-carboxamide		0													not_found
+WXCD00102261_AK00027_AC2348	CN1C(=O)CC[C@@H]1CNC(=O)C1CN(Cc2ccccc2)CC12CN(C(=O)CC[C@H](N)C(N)=O)C2	171698208	XQSSKYJDWDZXNO-ITIDOPETSA-N	7-benzyl-2-[(4S)-4,5-diamino-5-oxopentanoyl]-N-[[(2R)-1-methyl-5-oxopyrrolidin-2-yl]methyl]-2,7-diazaspiro[3.4]octane-5-carboxamide		0													not_found
+WXCD00102261_AK00111_AC2348	NC(=O)[C@@H](N)CCC(=O)N1CC2(CN(Cc3ccccc3)CC2C(=O)NC23CC(F)(C2)C3)C1	171698204	WDIIXYZYZGDPCN-QJYVOINNSA-N	7-benzyl-2-[(4S)-4,5-diamino-5-oxopentanoyl]-N-(3-fluoro-1-bicyclo[1.1.1]pentanyl)-2,7-diazaspiro[3.4]octane-5-carboxamide		0													not_found
+WXCD00102261_AN00141_AC2348	NC(=O)[C@@H](N)CCC(=O)N1CC2(CN(Cc3ccccc3)CC2C(=O)N2CCC3(CCCC3)CC2)C1	171698210	AWPTZLAGUJVMSX-WCSIJFPASA-N	(2S)-2-amino-5-[5-(8-azaspiro[4.5]decane-8-carbonyl)-7-benzyl-2,7-diazaspiro[3.4]octan-2-yl]-5-oxopentanamide		0													not_found
+WXCD00102261_AN00189_AC2348	CC(C)(O)[C@@H]1CCN(C(=O)C2CN(Cc3ccccc3)CC23CN(C(=O)CC[C@H](N)C(N)=O)C3)C1	171698334	ZCGNSGKDYKSWNK-TYVLQRECSA-N	(2S)-2-amino-5-[7-benzyl-5-[(3R)-3-(2-hydroxypropan-2-yl)pyrrolidine-1-carbonyl]-2,7-diazaspiro[3.4]octan-2-yl]-5-oxopentanamide		0													not_found
+WXCD00102261_AN0128_AC2348	NC(=O)[C@@H](N)CCC(=O)N1CC2(CN(Cc3ccccc3)CC2C(=O)N2Cc3cccnc3C2)C1	171698207	FTPDHBUOHQQSOW-LBAQZLPGSA-N	(2S)-2-amino-5-[7-benzyl-5-(5,7-dihydropyrrolo[3,4-b]pyridine-6-carbonyl)-2,7-diazaspiro[3.4]octan-2-yl]-5-oxopentanamide		0													not_found
+WXCD00102261_AN0283_AC2348	CC(C)(C)C1CCN(C(=O)C2CN(Cc3ccccc3)CC23CN(C(=O)CC[C@@H](N)C(N)=O)C3)CC1	171698206	YCDDEBXXOJTTGL-OZAIVSQSSA-N	(2R)-2-amino-5-[7-benzyl-5-(4-tert-butylpiperidine-1-carbonyl)-2,7-diazaspiro[3.4]octan-2-yl]-5-oxopentanamide		0													not_found
+WXCD00102261_AN2739_AC2348	Cc1nnc2n1CCN(C(=O)C1CN(Cc3ccccc3)CC13CN(C(=O)CC[C@@H](N)C(N)=O)C3)C2	171698202	ZOHZGXAYMJOOCK-GFOWMXPYSA-N	(2R)-2-amino-5-[7-benzyl-5-(3-methyl-6,8-dihydro-5H-[1,2,4]triazolo[4,3-a]pyrazine-7-carbonyl)-2,7-diazaspiro[3.4]octan-2-yl]-5-oxopentanamide		0													not_found
+WXCD00102638_SF044_SC1869	N[C@@H](Cc1cccnc1)C(=O)NC1CCC2(CC1)CCN(C(=O)c1cc(-c3ccccc3C(F)(F)F)[nH]n1)C2					0													not_found
+WXCD00102742_SE0058_SF026	Cc1c(C(=O)N2CC3(CCCN(C(=O)[C@@H](N)CN)C3)C2)oc2ccccc12					0													not_found
+WXCD00102748_SB1606_AC2348	COc1ccc(CC(=O)N2CCCC3(CCN(C(=O)CC[C@H](N)C(N)=O)CC3)C2)c(Cl)c1	172894752	NEDCWXQPGBZQJA-IBGZPJMESA-N	(2S)-2-amino-5-[2-[2-(2-chloro-4-methoxyphenyl)acetyl]-2,9-diazaspiro[5.5]undecan-9-yl]-5-oxopentanamide		0													not_found
+WXCD00102789_SA0507_AC0641	CC(CN)C(=O)N1CCC2(CC(NC(=O)C(C)n3ccnc3)C2)C1					0													not_found
+WXCD00102799_AC4230_SB0775	NC(CC(=O)NCC1CC2(CCN(C(=O)C34CC(c5ccccc5)(C3)C4)CC2)CO1)c1cccnc1	171705939	FOVZBZPGKZVLFQ-UHFFFAOYSA-N	3-amino-N-[[8-(3-phenylbicyclo[1.1.1]pentane-1-carbonyl)-2-oxa-8-azaspiro[4.5]decan-3-yl]methyl]-3-pyridin-3-ylpropanamide		0													not_found
+WXCD00102800_SE0992_SF053	CC(C(=O)N1CC2(CCN2C(=O)c2ccc3sccc3c2O)C1)C1SC(N)=NC1=O					0													not_found
+WXCD00102826_AC0736_SE0728	Cc1cc(C(=O)N2CC3(CCCC3NC(=O)CN)C2)cc2c[nH]nc12	171673740	MGIVJZFLIVJQOC-UHFFFAOYSA-N	2-amino-N-[2-(7-methyl-1H-indazole-5-carbonyl)-2-azaspiro[3.4]octan-5-yl]acetamide		0													not_found
+WXCD00102826_SD0410_SF044	N[C@@H](Cc1cccnc1)C(=O)N1CC2(CCCC2NC(=O)c2cc(I)ccc2Cl)C1	171680099	QZXLJJGQZCOPMI-OYKVQYDMSA-N	N-[2-[(2S)-2-amino-3-pyridin-3-ylpropanoyl]-2-azaspiro[3.4]octan-5-yl]-2-chloro-5-iodobenzamide		0													not_found
+WXCD00102826_SE0015_AC4147	NCC(C(=O)N1CC2(CCCC2NC(=O)c2ccc3c(c2)OCO3)C1)c1ccccc1	171680465	OOJAQMOJNXQTHJ-UHFFFAOYSA-N	N-[2-(3-amino-2-phenylpropanoyl)-2-azaspiro[3.4]octan-5-yl]-1,3-benzodioxole-5-carboxamide		0													not_found
+WXCD00105008_AC0641_SD0123	Cc1ccc2c(c1)C1(CCN(C(=O)C(C)CN)CC1)CN2C(=O)c1cccc(F)c1C					0													not_found
+WXCD00110002_AC0736_SE0667	NCC(=O)N1C[C@H]2CN(C(=O)c3cc4cn[nH]c4cn3)[C@@H]2C1	171673737	PIIHACCWRAMNEB-JOYOIKCWSA-N	2-amino-1-[(1S,5S)-6-(1H-pyrazolo[3,4-c]pyridine-5-carbonyl)-3,6-diazabicyclo[3.2.0]heptan-3-yl]ethanone		0													not_found
+WXCD00110002_SE1753_SF026	NC[C@@H](N)C(=O)N1C[C@H]2CN(C(=O)c3ccnc4[nH]ccc34)C[C@H]21	171688961	YMCCCPJEIWJWLM-OASPWFOLSA-N	(2R)-2,3-diamino-1-[(1R,5S)-3-(1H-pyrrolo[2,3-b]pyridine-4-carbonyl)-3,6-diazabicyclo[3.2.0]heptan-6-yl]propan-1-one		0													not_found
+WXCD00110007_SB1551_AC2348	NC(=O)[C@@H](N)CCC(=O)N1CC[C@@H]2[C@@H]1CCN2C(=O)C1COc2ccccc2O1	172894520	UNXOMRQOZJOTBH-NRMMMPIQSA-N	(2S)-5-[(3aR,6aS)-4-(2,3-dihydro-1,4-benzodioxine-3-carbonyl)-2,3,3a,5,6,6a-hexahydropyrrolo[3,2-b]pyrrol-1-yl]-2-amino-5-oxopentanamide		0													not_found
+WXCD00110022_SE0003_AC2348	Cn1c(C(=O)N2CCO[C@@H]3CN(C(=O)CC[C@H](N)C(N)=O)C[C@@H]32)cc2ccccc21	171698205	HOJHENOZWOLGKF-JCGIZDLHSA-N	(2S)-5-[(4aS,7aR)-4-(1-methylindole-2-carbonyl)-2,3,4a,5,7,7a-hexahydropyrrolo[3,4-b][1,4]oxazin-6-yl]-2-amino-5-oxopentanamide		0													not_found
+WXCD00110023_AC0736_SE1753	NCC(=O)N1CCO[C@@H]2CN(C(=O)c3ccnc4[nH]ccc34)C[C@@H]21	171673739	CADHMWJSIGIALV-QWHCGFSZSA-N	1-[(4aS,7aR)-6-(1H-pyrrolo[2,3-b]pyridine-4-carbonyl)-2,3,4a,5,7,7a-hexahydropyrrolo[3,4-b][1,4]oxazin-4-yl]-2-aminoethanone		0													not_found
+WXCD00110070_SC00118_SF026	Cc1onc(-c2ccncn2)c1C(=O)N1CC[C@H]2CN(C(=O)[C@@H](N)CN)CC[C@H]21	171686329	YEDUEDNHISLFIH-KCQAQPDRSA-N	(2S)-1-[(3aS,7aR)-1-(5-methyl-3-pyrimidin-4-yl-1,2-oxazole-4-carbonyl)-3,3a,4,6,7,7a-hexahydro-2H-pyrrolo[3,2-c]pyridin-5-yl]-2,3-diaminopropan-1-one		0													not_found
+WXCD00111177_SE0057_AC0641	Cc1ccc2[nH]c(C(=O)NC[C@H]3OC[C@@H]4CCN(C(=O)C(C)CN)C[C@H]43)cc2c1	172894650	WSNUMXQENCNMQK-IHNADRLZSA-N	N-[[(3S,3aS,7aR)-5-(3-amino-2-methylpropanoyl)-3,3a,4,6,7,7a-hexahydro-1H-furo[3,4-c]pyridin-3-yl]methyl]-5-methyl-1H-indole-2-carboxamide		0													not_found
+WXCD00111294_AK00399_SBB469	N[C@@H](CCO)c1ccc(NC(=O)[C@H]2C[C@H]3OCC[C@@H]3N(C(=O)C[C@H]3COc4ccccc4O3)C2)cc1	171689033	FFAWAOCNEVBWAK-BRVYXMLXSA-N	(3aS,6S,7aR)-N-[4-[(1S)-1-amino-3-hydroxypropyl]phenyl]-4-[2-[(3S)-2,3-dihydro-1,4-benzodioxin-3-yl]acetyl]-3,3a,5,6,7,7a-hexahydro-2H-furo[3,2-b]pyridine-6-carboxamide		0													not_found
+WXCD00111673_SC0128_SF026	COc1ncc(C(=O)NC[C@@]23CCC[C@H]2CN(C(=O)[C@@H](N)CN)C3)cc1C	171686244	ZYDNNEIUXIJWEL-YZVOILCLSA-N	N-[[(3aR,6aR)-2-[(2S)-2,3-diaminopropanoyl]-1,3,4,5,6,6a-hexahydrocyclopenta[c]pyrrol-3a-yl]methyl]-6-methoxy-5-methylpyridine-3-carboxamide		0													not_found
+WXCD00116126_AG0027_AC2348	Cc1ccccc1NC(=O)c1ccc2c(c1)C1CN(C(=O)CCC(N)C(N)=O)CC1NC2=O	171680826	BCSACBXRGUHFDI-UHFFFAOYSA-N	2-(4,5-diamino-5-oxopentanoyl)-N-(2-methylphenyl)-5-oxo-3,3a,4,9b-tetrahydro-1H-pyrrolo[3,4-c]isoquinoline-8-carboxamide		0													not_found
+WXCD00120061_AC0641_SE0667	CC(CN)C(=O)N1C[C@H]2C[C@H]1CN2C(=O)c1cc2cn[nH]c2cn1					0													not_found
+WXCD00120062_SC00059_SF026	Cc1c(C(=O)N2CC3CCC2CN3C(=O)[C@@H](N)CN)nnn1-c1ccc(C2CC2)cc1Cl	172894528	JOBPITZPIYAUAV-HTWSVDAQSA-N	(2S)-2,3-diamino-1-[5-[1-(2-chloro-4-cyclopropylphenyl)-5-methyltriazole-4-carbonyl]-2,5-diazabicyclo[2.2.2]octan-2-yl]propan-1-one		0													not_found
+WXCD00120255_SA2354_AC0736	NCC(=O)N1CCC2CCC(C1)N2C(=O)CCc1cnccn1					0													not_found
+WXCD00120258_AG0130_AC0748	CC(C)c1ccccc1NC(=O)C1C2CCCC1CN(C(=O)[C@@H](N)CCC(N)=O)C2	171680706	PPPSPCUADMBVRE-IWNZYRNGSA-N	3-[(2S)-2,5-diamino-5-oxopentanoyl]-N-(2-propan-2-ylphenyl)-3-azabicyclo[3.3.1]nonane-9-carboxamide		0													not_found
+WXCD00120470_AC0736_SC00065	NCC(=O)N1C[C@@H]2C[C@@H]1C[C@@H]2NC(=O)c1cc(Cl)nc2[nH]ncc12	171673735	IAGJIAYRPSBCPA-RNSXUZJQSA-N	N-[(1R,4S,5S)-2-(2-aminoacetyl)-2-azabicyclo[2.2.1]heptan-5-yl]-6-chloro-1H-pyrazolo[5,4-b]pyridine-4-carboxamide		0													not_found
+WXCD00120470_AC0736_SE0015	NCC(=O)N1CC2CC1CC2NC(=O)c1ccc2c(c1)OCO2	171680455	SGUDJMUVIOMSJC-UHFFFAOYSA-N	N-[2-(2-aminoacetyl)-2-azabicyclo[2.2.1]heptan-5-yl]-1,3-benzodioxole-5-carboxamide		0													not_found
+WXCD00120470_SB2286_AC0736	NCC(=O)N[C@H]1C[C@@H]2C[C@@H]1CN2C(=O)CCc1c[nH]c2ncccc12	171686159	NXMLGUVKWQTONW-IPYPFGDCSA-N	2-amino-N-[(1S,4R,5S)-2-[3-(1H-pyrrolo[2,3-b]pyridin-3-yl)propanoyl]-2-azabicyclo[2.2.1]heptan-5-yl]acetamide		0													not_found
+WXCD00120470_SB7012_AC0736	NCC(=O)N[C@H]1C[C@@H]2C[C@@H]1CN2C(=O)CCc1cnc2[nH]ccc2c1	171688963	ARUNHHMBCQDXRC-ILXRZTDVSA-N	2-amino-N-[(1S,4R,5S)-2-[3-(1H-pyrrolo[2,3-b]pyridin-5-yl)propanoyl]-2-azabicyclo[2.2.1]heptan-5-yl]acetamide		0													not_found
+WXCD00120470_SE0625_SF026	NCC(N)C(=O)NC1C[C@@H]2C[C@@H]1CN2C(=O)C1C=CN2NC=CC2=C1	171686157	PRYIBWKKHFOFTL-LWPDBPSVSA-N	2,3-diamino-N-[(1S,4R)-2-(1,5-dihydropyrazolo[1,5-a]pyridine-5-carbonyl)-2-azabicyclo[2.2.1]heptan-5-yl]propanamide		0													not_found
+WXCD00120631_AF0354_AC0926	CCOC(=O)c1cnoc1NC(=O)[C@]12C[C@@](NC(=O)C(N)[C@H](C)CC)(C1)C2	171676374	ANFIMGXFKUAAMK-CKIQRSNPSA-N	ethyl 5-[[3-[[(3R)-2-amino-3-methylpentanoyl]amino]bicyclo[1.1.1]pentane-1-carbonyl]amino]-1,2-oxazole-4-carboxylate		0													not_found
+WXCD00120663_SC00118_SF026	Cc1onc(-c2ccncn2)c1C(=O)N1CC2CCCC(C1)N2C(=O)[C@@H](N)CN	171686246	SITLLJCOPNHCHV-RUXDESIVSA-N	(2S)-2,3-diamino-1-[3-(5-methyl-3-pyrimidin-4-yl-1,2-oxazole-4-carbonyl)-3,9-diazabicyclo[3.3.1]nonan-9-yl]propan-1-one		0													not_found
+WXCD00140009_AG0071_SB0538	CC(C)c1ccc(NC(=O)c2n[nH]c3c2CN(C(=O)CCCN)C3)cc1					0													not_found
+WXCD00140009_AG0071_SB3642	CC(C)c1ccc(NC(=O)c2n[nH]c3c2CN(C(=O)C(O)CN)C3)cc1					0													not_found
+WXCD00140009_AKF234_SE1015	Cc1ccc2cc(C(=O)N3Cc4[nH]nc(C(=O)N(CCN)C(C)(C)C)c4C3)sc2c1	171706505	HNDGCJZQGSBPRG-UHFFFAOYSA-N	N-(2-aminoethyl)-N-tert-butyl-5-(6-methyl-1-benzothiophene-2-carbonyl)-4,6-dihydro-1H-pyrrolo[3,4-d]pyrazole-3-carboxamide		0													not_found
+WXCD00141189_AK00118_AC2348	CC(NC(=O)c1cnn2c1CN(C(=O)CCC(N)C(N)=O)CC2)c1cc(F)cc(F)c1	171672700	BZXYTKKDNKYMMF-UHFFFAOYSA-N	5-(4,5-diamino-5-oxopentanoyl)-N-[1-(3,5-difluorophenyl)ethyl]-6,7-dihydro-4H-pyrazolo[1,5-a]pyrazine-3-carboxamide		0													not_found
+WXCD00141689_AK00118_AC2348	CC(NC(=O)c1cnc2n1CCN(C(=O)CCC(N)C(N)=O)C2C)c1cc(F)cc(F)c1	171672701	STRDBPLJHLMSII-UHFFFAOYSA-N	7-(4,5-diamino-5-oxopentanoyl)-N-[1-(3,5-difluorophenyl)ethyl]-8-methyl-6,8-dihydro-5H-imidazo[1,2-a]pyrazine-3-carboxamide		0													not_found
+WXCD00143571_AK00170_SB1118	CN1CCO[C@H]([C@H](N)C(=O)[C@@H]2Cc3nccnc3CN2C(=O)[C@H]2CCCN2C(=O)OC(C)(C)C)C1	171680941	HRCNXEIRPKKQSO-FYQPLNBISA-N	tert-butyl (2R)-2-[(7S)-7-[(2S)-2-amino-2-[(2S)-4-methylmorpholin-2-yl]acetyl]-7,8-dihydro-5H-pyrido[3,4-b]pyrazine-6-carbonyl]pyrrolidine-1-carboxylate		0													not_found
+WXCD00160257_SA00057_AC2348	NC(=O)C(N)CCC(=O)N1CCCCC1c1cc(NC(=O)CC(=O)Nc2ccc(F)cc2)[nH]n1	172895731	MNIVCQDRFJLQAS-UHFFFAOYSA-N	N'-[5-[1-(4,5-diamino-5-oxopentanoyl)piperidin-2-yl]-1H-pyrazol-3-yl]-N-(4-fluorophenyl)propanediamide		0													not_found
+WXCD00160257_SE0134_AC0748	Cc1ccc2cc(C(=O)Nc3cc(C4CCCCN4C(=O)[C@@H](N)CCC(N)=O)n[nH]3)ccc2n1	172895860	DPXKWRWXSOULRN-DIMJTDRSSA-N	N-[5-[1-[(2S)-2,5-diamino-5-oxopentanoyl]piperidin-2-yl]-1H-pyrazol-3-yl]-2-methylquinoline-6-carboxamide		0													not_found
+WXCD00161511_AG00052_SF026	CC1(C)C=Cc2cc(NC(=O)c3csc([C@H]4CCCN4C(=O)[C@@H](N)CN)n3)ccc2O1					0													not_found
+WXCD00170022_SC00046_AC2348	Cc1cccc(-c2ncccc2C(=O)N2CCCCC2C2CCN(C(=O)CC[C@H](N)C(N)=O)CC2)c1	172894988	MCJQUPMIDNKNJA-UXMRNZNESA-N	(2S)-2-amino-5-[4-[1-[2-(3-methylphenyl)pyridine-3-carbonyl]piperidin-2-yl]piperidin-1-yl]-5-oxopentanamide		0													not_found
+WXCD00170041_SC00091_SF026	NC[C@H](N)C(=O)N1CCC(N2CCC(NC(=O)c3cc(-c4ccco4)no3)CC2)CC1	171686333	KNIATSJROHADFH-INIZCTEOSA-N	N-[1-[1-[(2S)-2,3-diaminopropanoyl]piperidin-4-yl]piperidin-4-yl]-3-(furan-2-yl)-1,2-oxazole-5-carboxamide		0													not_found
+WXCD00180037_AC0736_SC00118	Cc1onc(-c2ccncn2)c1C(=O)N1CCC(OC2CCN(C(=O)CN)CC2)CC1	171679089	RUOAKGNLIAHLIS-UHFFFAOYSA-N	2-amino-1-[4-[1-(5-methyl-3-pyrimidin-4-yl-1,2-oxazole-4-carbonyl)piperidin-4-yl]oxypiperidin-1-yl]ethanone		0													not_found
+WXCD00192581_LP0007	Cc1ccnc(N2CCCC[C@H]2CN)n1	94903102	BPYAIHLGZDPOCI-JTQLQIEISA-N	[(2S)-1-(4-methylpyrimidin-2-yl)piperidin-2-yl]methanamine		0													not_found
+WXCD00195097_SC00050	CCn1nc(C(=O)N[C@@H]2CC[C@@H](N)C2)c2ccccc21					0													not_found
+WXCD00198547_AF0569	CC(C)(C)n1cc(NC(=O)[C@H]2CCCC[C@H]2N)cn1	172898873	FZKOAANLIGUMKG-NWDGAFQWSA-N	cis-(1S,2R)-2-amino-N-(1-tert-butylpyrazol-4-yl)cyclohexane-1-carboxamide		0													not_found
+WXCD00198547_AG00248	Cc1c2cccc(NC(=O)[C@H]3CCCC[C@H]3N)c2nn1C	172895408	ZLQCSCUHKAHJTF-QWHCGFSZSA-N	cis-(1S,2R)-2-amino-N-(2,3-dimethylindazol-7-yl)cyclohexane-1-carboxamide		0													not_found
+WXCD00198547_AG2633	N[C@@H]1CCCC[C@@H]1C(=O)Nc1cccc2cc[nH]c12	172894637	CLLCPKSRRWIIKI-NWDGAFQWSA-N	cis-(1S,2R)-2-amino-N-(1H-indol-7-yl)cyclohexane-1-carboxamide		0													not_found
+WXCD00198547_AG4050	N[C@@H]1CCCC[C@@H]1C(=O)Nc1ccc(S(=O)(=O)c2ccccc2)cc1	172895104	GMOBCDQYDNVUOL-ZWKOTPCHSA-N	cis-(1S,2R)-2-amino-N-[4-(benzenesulfonyl)phenyl]cyclohexane-1-carboxamide		0													not_found
+WXCD00198547_AK1188	N[C@@H]1CCCC[C@@H]1C(=O)NCCn1cccc1	172895741	NXLWYKUDKWNXNW-NWDGAFQWSA-N	cis-(1S,2R)-2-amino-N-(2-pyrrol-1-ylethyl)cyclohexane-1-carboxamide		0													not_found
+WXCD001_AKF234_LN00159494_SE0385	CC(C)(C)N(CCN)C(=O)c1cc2c(s1)CCN(C(=O)c1cc3cc(Br)ccc3s1)C2	171706291	BNANKULHJICXHC-UHFFFAOYSA-N	N-(2-aminoethyl)-5-(5-bromo-1-benzothiophene-2-carbonyl)-N-tert-butyl-6,7-dihydro-4H-thieno[3,2-c]pyridine-2-carboxamide		0													not_found
+WXCD00265364_AG00245	NCc1cc(C(=O)Nc2cc(F)cc3cc[nH]c23)ccn1	172894888	YVUPBTNGZRTGFA-UHFFFAOYSA-N	2-(aminomethyl)-N-(5-fluoro-1H-indol-7-yl)pyridine-4-carboxamide		0													not_found
+WXCD00265364_AG1188	NCc1cc(C(=O)Nc2ccc3nc(Cl)sc3c2)ccn1	172894778	IOEZVIUCWRRKKU-UHFFFAOYSA-N	2-(aminomethyl)-N-(2-chloro-1,3-benzothiazol-6-yl)pyridine-4-carboxamide		0													not_found
+WXCD00265364_AK00688	CC[C@H](NC(=O)c1ccnc(CN)c1)c1ccc(C)o1	172894882	RNMVBASTFXKVQC-ZDUSSCGKSA-N	2-(aminomethyl)-N-[(1S)-1-(5-methylfuran-2-yl)propyl]pyridine-4-carboxamide		0													not_found
+WXCD00265364_AK2087	NCc1cc(C(=O)NCc2cccc3c2OC(F)(F)O3)ccn1	172895018	HZDMVUWFYFHCKV-UHFFFAOYSA-N	2-(aminomethyl)-N-[(2,2-difluoro-1,3-benzodioxol-4-yl)methyl]pyridine-4-carboxamide		0													not_found
+WXCD00282838_AG00114	NCCc1ccc(C(=O)Nc2ccc3nonc3c2)cc1	172894686	ITZFACGMZXNQFW-UHFFFAOYSA-N	4-(2-aminoethyl)-N-(2,1,3-benzoxadiazol-5-yl)benzamide		0													not_found
+WXCD00282838_AG0515	NCCc1ccc(C(=O)Nc2ccc3c(c2)OC(F)(F)O3)cc1	172895172	DBIQOQKUQFLWHB-UHFFFAOYSA-N	4-(2-aminoethyl)-N-(2,2-difluoro-1,3-benzodioxol-5-yl)benzamide		0													not_found
+WXCD00282838_AG1107	Cc1cc(F)cc(NC(=O)c2ccc(CCN)cc2)c1	79050106	XVNZUJGACRIBJE-UHFFFAOYSA-N	4-(2-aminoethyl)-N-(3-fluoro-5-methylphenyl)benzamide		0													not_found
+WXCD00282838_AN2358	NCCc1ccc(C(=O)N2CCC(Oc3ccc(F)cc3F)CC2)cc1	172898881	HBPKCLKKUISNPS-UHFFFAOYSA-N	[4-(2-aminoethyl)phenyl]-[4-(2,4-difluorophenoxy)piperidin-1-yl]methanone		0													not_found
+WXCD00282838_AN3005	NCCc1ccc(C(=O)N2Cc3cccc(F)c3C2)cc1	172894981	ZRUPCWLECYIJLV-UHFFFAOYSA-N	[4-(2-aminoethyl)phenyl]-(4-fluoro-1,3-dihydroisoindol-2-yl)methanone		0													not_found
+WXCD00301103_AF0373	NC1(CC(=O)Nc2ccnc3cc(C(F)(F)F)ccc23)CCC1	172896077	GNIOYSWQCFPRAM-UHFFFAOYSA-N	2-(1-aminocyclobutyl)-N-[7-(trifluoromethyl)quinolin-4-yl]acetamide		0													not_found
+WXCD00301103_AF2686	CN(C)c1cc(NC(=O)CC2(N)CCC2)c2ccccc2n1	172895990	TYKAGHCTIWIPAT-UHFFFAOYSA-N	2-(1-aminocyclobutyl)-N-[2-(dimethylamino)quinolin-4-yl]acetamide		0													not_found
+WXCD00301103_AG0805	NC1(CC(=O)Nc2cccc(-c3cnco3)c2)CCC1	79854774	KSTUHNXAZRDXGJ-UHFFFAOYSA-N	2-(1-aminocyclobutyl)-N-[3-(1,3-oxazol-5-yl)phenyl]acetamide		0													not_found
+WXCD00301103_AG1636	NC1(CC(=O)Nc2cccc3c2CCO3)CCC1	172895247	BAZPCOJLIFZZKN-UHFFFAOYSA-N	2-(1-aminocyclobutyl)-N-(2,3-dihydro-1-benzofuran-4-yl)acetamide		0													not_found
+WXCD00301103_AG5254	NC1(CC(=O)Nc2ccc(C(F)(F)F)c3cccnc23)CCC1	172895074	NJVQKLPVOBIGRX-UHFFFAOYSA-N	2-(1-aminocyclobutyl)-N-[5-(trifluoromethyl)quinolin-8-yl]acetamide		0													not_found
+WXCD00301103_AK3951	NC1(CC(=O)NCc2csc3ccccc23)CCC1	172898878	CFTSNWYLOMZNGH-UHFFFAOYSA-N	2-(1-aminocyclobutyl)-N-(1-benzothiophen-3-ylmethyl)acetamide		0													not_found
+WXCD00306829_AG0036	Cc1c(F)cccc1NC(=O)C1CC2(CC(N)C2)C1	172895241	YSLMTWVXXMTSAR-UHFFFAOYSA-N	2-amino-N-(3-fluoro-2-methylphenyl)spiro[3.3]heptane-6-carboxamide		0													not_found
+WXCD00307074_AN00683	COc1ccc(C2=CCN(C(=O)C3CCC(N)CC3)CC2)cc1	172894833	ZWRXCVYSOMASTK-UHFFFAOYSA-N	(4-aminocyclohexyl)-[4-(4-methoxyphenyl)-3,6-dihydro-2H-pyridin-1-yl]methanone		0													not_found
+WXCD00601037_SD1157	Cc1ccc(-c2ccc(C(=O)N[C@H]3CC[C@@H](N)C3)cc2)o1	172894866	OKBZIZXOMUTDIN-CABCVRRESA-N	N-[(1S,3R)-3-aminocyclopentyl]-4-(5-methylfuran-2-yl)benzamide		0													not_found
+WXCD00604105_SD0552	Cc1cccc(C(=O)N2CCN(CCN)CC2)c1C	43251649	AUTLWNHEHSUPQL-UHFFFAOYSA-N	[4-(2-aminoethyl)piperazin-1-yl]-(2,3-dimethylphenyl)methanone		0													not_found
+WXCD00604308_HU0137	NCC1CCCCN1S(=O)(=O)CCc1ccccc1	61822852	OPUHQMUXJBUCLU-UHFFFAOYSA-N	[1-(2-phenylethylsulfonyl)piperidin-2-yl]methanamine		0													not_found
+WXCD00604308_LP0442	NCC1CCCCN1c1ccnc(-c2ccccc2)n1	172894824	FXGGWLUWORIWDJ-UHFFFAOYSA-N	[1-(2-phenylpyrimidin-4-yl)piperidin-2-yl]methanamine		0													not_found
+WXCD00604577_SB1558	NC1CC(NC(=O)Cc2ccc3c(c2)CCC3)C1	172895270	JZINKBCANZDKCM-UHFFFAOYSA-N	N-(3-aminocyclobutyl)-2-(2,3-dihydro-1H-inden-5-yl)acetamide		0													not_found
+WXCD00604577_SD00112	Cc1cc(C(=O)Nc2ccccc2C(=O)NC2CC(N)C2)c(C)o1	172895912	GKMVGVXQCOUVPD-UHFFFAOYSA-N	N-[2-[(3-aminocyclobutyl)carbamoyl]phenyl]-2,5-dimethylfuran-3-carboxamide		0													not_found
+WXCD00604577_SE0138	CN1CCc2cc(C(=O)NC3CC(N)C3)ccc21	172895202	HNFVOMCEJRGEEK-UHFFFAOYSA-N	N-(3-aminocyclobutyl)-1-methyl-2,3-dihydroindole-5-carboxamide		0													not_found
+WXCD00604577_SE0513	Cc1cccc2[nH]c(C(=O)NC3CC(N)C3)nc12	172895282	YXAUZIBEUIERFQ-UHFFFAOYSA-N	N-(3-aminocyclobutyl)-4-methyl-1H-benzimidazole-2-carboxamide		0													not_found
+WXCD00604577_SE1114	COc1ccc2ccccc2c1C(=O)NC1CC(N)C1	172898896	YOHFMOFGPWTYTN-UHFFFAOYSA-N	N-(3-aminocyclobutyl)-2-methoxynaphthalene-1-carboxamide		0													not_found
+WXCD00609512_SC0068_SF026	Cc1noc(C)c1C(=O)Nc1cnn(C2CCN(C(=O)[C@@H](N)CN)CC2)c1	171686335	WTMWIXFPXKGHGU-AWEZNQCLSA-N	N-[1-[1-[(2S)-2,3-diaminopropanoyl]piperidin-4-yl]pyrazol-4-yl]-3,5-dimethyl-1,2-oxazole-4-carboxamide		0													not_found
+WXCD00609512_SC0082_SF026	Cn1cc(C(=O)Nc2cnn(C3CCN(C(=O)[C@@H](N)CN)CC3)c2)cn1	171686327	VDWLSJTWFKHCFV-AWEZNQCLSA-N	N-[1-[1-[(2S)-2,3-diaminopropanoyl]piperidin-4-yl]pyrazol-4-yl]-1-methylpyrazole-4-carboxamide		0													not_found
+WXCD00609512_SC0100_SF026	Cc1nocc1C(=O)Nc1cnn(C2CCN(C(=O)[C@@H](N)CN)CC2)c1	171686325	QKGIPWQPPWGTFI-AWEZNQCLSA-N	N-[1-[1-[(2S)-2,3-diaminopropanoyl]piperidin-4-yl]pyrazol-4-yl]-3-methyl-1,2-oxazole-4-carboxamide		0													not_found
+WXCD00609512_SC0278_SF026	Cc1occ(C(F)(F)F)c1C(=O)Nc1cnn(C2CCN(C(=O)[C@@H](N)CN)CC2)c1	171686248	OCPWZUUIWDYBQX-AWEZNQCLSA-N	N-[1-[1-[(2S)-2,3-diaminopropanoyl]piperidin-4-yl]pyrazol-4-yl]-2-methyl-4-(trifluoromethyl)furan-3-carboxamide		0													not_found
+WXCD00609512_SC0296_SF026	Cc1nccc(C(=O)Nc2cnn(C3CCN(C(=O)[C@@H](N)CN)CC3)c2)n1	171686331	FWSCMMZYZQDBHW-AWEZNQCLSA-N	N-[1-[1-[(2S)-2,3-diaminopropanoyl]piperidin-4-yl]pyrazol-4-yl]-2-methylpyrimidine-4-carboxamide		0													not_found
+WXCD00610322_AK8027_SB4237	COc1ccc(CC(=O)N2CCc3ccc(CC(=O)Nc4nc5c(s4)C[C@@H](N)CC5)cc3C2)c(Br)c1	171677363	JODUGGBSMCGRQS-FQEVSTJZSA-N	N-[(6S)-6-amino-4,5,6,7-tetrahydro-1,3-benzothiazol-2-yl]-2-[2-[2-(2-bromo-4-methoxyphenyl)acetyl]-3,4-dihydro-1H-isoquinolin-7-yl]acetamide		0													not_found
+WXCD00611741_AN3044_AC0926	CC[C@@H](C)[C@H](N)C(=O)N[C@]12CC[C@@](C(=O)N(C)C[C@@H](O)c3ccccc3)(CC1)CC2	171688799	YSLFFVKQRIGHTH-HKUYPMAKSA-N	4-[[(2S,3R)-2-amino-3-methylpentanoyl]amino]-N-[(2S)-2-hydroxy-2-phenylethyl]-N-methylbicyclo[2.2.2]octane-1-carboxamide		0													not_found
+WXCD00612173_AK00399_SA00096	CC(C)(NC(=O)c1ccc(Cl)s1)C(=O)N1CCc2cccc(C(=O)Nc3ccc(C(N)CCO)cc3)c2C1	171678036	HPHTXZJLDYNIBP-UHFFFAOYSA-N	N-[4-(1-amino-3-hydroxypropyl)phenyl]-2-[2-[(5-chlorothiophene-2-carbonyl)amino]-2-methylpropanoyl]-3,4-dihydro-1H-isoquinoline-8-carboxamide		0													not_found
+WXCD00901093_SE0583	Cc1c[nH]c2cc(C(=O)N3CC[C@H](N)C3)ccc12	172895388	BJXYAOGWVZJFDE-NSHDSACASA-N	[(3S)-3-aminopyrrolidin-1-yl]-(3-methyl-1H-indol-6-yl)methanone		0													not_found
+WXCD00901093_SE0793	Cc1cc2[nH]c(C(=O)N3CC[C@H](N)C3)cc2s1	172894736	HFSZFFFIYMHKPN-QMMMGPOBSA-N	[(3S)-3-aminopyrrolidin-1-yl]-(2-methyl-4H-thieno[3,2-b]pyrrol-5-yl)methanone		0													not_found
+WXCD00903581_AG0061	Cc1cc(F)ccc1NC(=O)[C@@H]1CC[C@@H](N)CO1	172898937	QZFRRXHZTJHJJK-PWSUYJOCSA-N	(2S,5R)-5-amino-N-(4-fluoro-2-methylphenyl)oxane-2-carboxamide		0													not_found
+WXCD00903745_SC00090	Cc1snc2sc(C(=O)N3CCC[C@H](CN)C3)cc12	172895368	VXOCIVGJKOHTBM-SECBINFHSA-N	[(3R)-3-(aminomethyl)piperidin-1-yl]-(3-methylthieno[2,3-c][1,2]thiazol-5-yl)methanone		0													not_found
+WXCD00904111_AK00718	CC[C@@H](NC(=O)C1CC(N)C1)c1ccc(C)o1	172894841	NSXFEDCIJCFOEM-VQXHTEKXSA-N	3-amino-N-[(1R)-1-(5-methylfuran-2-yl)propyl]cyclobutane-1-carboxamide		0													not_found
+WXCD00904111_AN00473	NC1CC(C(=O)N2CCN(c3nsc4ccccc34)CC2)C1	172898941	ZSQHRHSWBSWODW-UHFFFAOYSA-N	(3-aminocyclobutyl)-[4-(1,2-benzothiazol-3-yl)piperazin-1-yl]methanone		0													not_found
+WXCD00904244_AC0736_SE1658	NCC(=O)N1CC2(C1)CN(C(=O)c1cccc3[nH]ncc13)C2	171673738	PQOKVYPXCHIICU-UHFFFAOYSA-N	2-amino-1-[2-(1H-indazole-4-carbonyl)-2,6-diazaspiro[3.3]heptan-6-yl]ethanone		0													not_found
+WXCD00904244_SF026_SC2212	NC[C@@H](N)C(=O)N1CC2(CN(C(=O)c3ccc(=O)[nH]c3)C2)C1	171688959	KVWLJRDKAMWLIM-SNVBAGLBSA-N	5-[2-[(2R)-2,3-diaminopropanoyl]-2,6-diazaspiro[3.3]heptane-6-carbonyl]-1H-pyridin-2-one		0													not_found
+WXCD00906492_LP0578	Cc1nc(N2CCC[C@H]2CN)c2ccccc2n1	172894883	GFCIVJOACMSCIK-NSHDSACASA-N	[(2S)-1-(2-methylquinazolin-4-yl)pyrrolidin-2-yl]methanamine		0													not_found
+WXCD00909758_HU0100	NCC1COCCN1S(=O)(=O)c1cc(F)cc(F)c1	172895404	VTXLMMOFBVSGLO-UHFFFAOYSA-N	[4-(3,5-difluorophenyl)sulfonylmorpholin-3-yl]methanamine		0													not_found
+WXCD01000773_AG3110	CCc1ccc(Cl)cc1NC(=O)[C@H]1CCC[C@H]1N	172896062	WAVAUGDDIXQPRC-NWDGAFQWSA-N	cis-(1S,2R)-2-amino-N-(5-chloro-2-ethylphenyl)cyclopentane-1-carboxamide		0													not_found
+WXCD01000773_AG6011	CN(C)S(=O)(=O)c1ccc(Cl)c(NC(=O)[C@H]2CCC[C@H]2N)c1	172895008	VQDNXQAGAKHFJC-CMPLNLGQSA-N	cis-(1S,2R)-2-amino-N-[2-chloro-5-(dimethylsulfamoyl)phenyl]cyclopentane-1-carboxamide		0													not_found
+WXCD01000773_AK0983	N[C@@H]1CCC[C@@H]1C(=O)NCc1cc2ccccc2[nH]1	172895210	CDYZIFARJJIYNW-QWHCGFSZSA-N	cis-(1S,2R)-2-amino-N-(1H-indol-2-ylmethyl)cyclopentane-1-carboxamide		0													not_found
+WXCD01002913_AG00114	N[C@H]1C=C[C@@H](C(=O)Nc2ccc3nonc3c2)C1	172895042	WKMRTRWHQYCVGD-SFYZADRCSA-N	(1S,4R)-4-amino-N-(2,1,3-benzoxadiazol-5-yl)cyclopent-2-ene-1-carboxamide		0													not_found
+WXCD01003804_SD0243	NC[C@H]1CN(C(=O)c2ccc(C(F)(F)F)cc2F)CCO1	172895400	DGCSNCGNFLTFDZ-VIFPVBQESA-N	[(2S)-2-(aminomethyl)morpholin-4-yl]-[2-fluoro-4-(trifluoromethyl)phenyl]methanone		0													not_found
+WXCD01003804_SE0219	NC[C@H]1CN(C(=O)c2cc3cc(F)c(F)cc3[nH]2)CCO1	172895321	SSUJQOADRZLKSZ-VIFPVBQESA-N	[(2S)-2-(aminomethyl)morpholin-4-yl]-(5,6-difluoro-1H-indol-2-yl)methanone		0													not_found
+WXCD01003804_SE1078	NC[C@H]1CN(C(=O)c2ccc3c(C4CCCCC4)c[nH]c3c2)CCO1	172898953	HVQGFAVCZISZQR-INIZCTEOSA-N	[(2S)-2-(aminomethyl)morpholin-4-yl]-(3-cyclohexyl-1H-indol-6-yl)methanone		0													not_found
+WXCD02007136_AK00792	N[C@@H]1CCC[C@H]1C(=O)NCc1c(F)ccc2c1CCO2	172894875	HWHZAMCAGOUSTO-ZWNOBZJWSA-N	trans-(1R,2R)-2-amino-N-[(5-fluoro-2,3-dihydro-1-benzofuran-4-yl)methyl]cyclopentane-1-carboxamide		0													not_found
+WXDL_LN00173533_AKF234_YV0123	Cc1ccc(Cl)cc1NC(=O)N1CCc2c(C(=O)N(CCN)C(C)(C)C)n[nH]c2C1	171706227	NQKMREGMEBEWFW-UHFFFAOYSA-N	3-N-(2-aminoethyl)-3-N-tert-butyl-6-N-(5-chloro-2-methylphenyl)-1,4,5,7-tetrahydropyrazolo[5,4-c]pyridine-3,6-dicarboxamide		0													not_found
+WXDL_LN00173533_AKF234_YV0128	CC(C)(C)N(CCN)C(=O)c1n[nH]c2c1CCN(C(=O)Nc1cc(Cl)ccc1Cl)C2	171706267	AHORSANZNBGWCJ-UHFFFAOYSA-N	3-N-(2-aminoethyl)-3-N-tert-butyl-6-N-(2,5-dichlorophenyl)-1,4,5,7-tetrahydropyrazolo[5,4-c]pyridine-3,6-dicarboxamide		0													not_found
+WXDL_WXCD00100011AC0736SB0446	NCC(=O)N1CCC2(CCN(C(=O)Cc3cccc(F)c3F)C2)C1					0													not_found
+WXDL_WXCD00142046BT1123AC1869	N[C@H](Cc1cccnc1)C(=O)N1CCc2c(cccc2-c2ccc3cc(O)ccc3c2)C1	172894507	DNSJXPZROAYUKF-AREMUKBSSA-N	(2R)-2-amino-1-[5-(6-hydroxynaphthalen-2-yl)-3,4-dihydro-1H-isoquinolin-2-yl]-3-pyridin-3-ylpropan-1-one		0													not_found
+WXDL_WXCD00142046BT1123AC2118	N[C@@H](C(=O)N1CCc2c(cccc2-c2ccc3cc(O)ccc3c2)C1)c1cccc(Cl)c1	172894503	UQFWOKBVESKUAM-AREMUKBSSA-N	(2R)-2-amino-2-(3-chlorophenyl)-1-[5-(6-hydroxynaphthalen-2-yl)-3,4-dihydro-1H-isoquinolin-2-yl]ethanone		0													not_found
+WXDL_WXCD00142184BT1886SF026	COc1ncc(Cl)cc1-c1n[nH]c2c1CN(C(=O)[C@@H](N)CN)CC2	171686252	QABXUUOHTAUHRF-NSHDSACASA-N	(2S)-2,3-diamino-1-[3-(5-chloro-2-methoxy-3-pyridinyl)-1,4,6,7-tetrahydropyrazolo[4,3-c]pyridin-5-yl]propan-1-one		0													not_found
+WXDL_WXCD00160266BT0538AC0736	CCCCCc1ccc(-c2ccc(C3CCN(C(=O)CN)CC3)cc2)cc1					0													not_found
+WXDL_WXCD00652067LQ3585AC0736	NCC(=O)N1CCc2cc(-c3cnc4[nH]cc(C(F)(F)F)c4c3)ccc2C1					0													not_found
+WXDL_WXCD00908905BT1646AC4147	NCC(C(=O)N1CCC(c2cccc(-c3ccccc3O)c2)CC1)c1ccccc1	172894867	AZHAQXALZBHJLP-UHFFFAOYSA-N	3-amino-1-[4-[3-(2-hydroxyphenyl)phenyl]piperidin-1-yl]-2-phenylpropan-1-one		0													not_found
+WXDL_WXCD02501976LQ2829AC0736	Cc1c[nH]c2ncc(-c3ccc(N4CCN(C(=O)CN)CC4)cc3)cc12					0													not_found
+WXFC0035	NCc1ccccc1C(F)F	71306246	KMFXUUBMQYTOGY-UHFFFAOYSA-N	[2-(difluoromethyl)phenyl]methanamine		0													not_found
+WXFC0160	NCC1CC(F)(F)C1	45480376	BUVXADKKXYLSTP-UHFFFAOYSA-N	(3,3-difluorocyclobutyl)methanamine		0													not_found
+WXFS0318	CC(C)(C)OC(=O)N1CCC(F)(CN)CC1	40152119	FCYNTMBZASDPHJ-UHFFFAOYSA-N	tert-butyl 4-(aminomethyl)-4-fluoropiperidine-1-carboxylate		0													not_found
+WXFS0320	CC(C)(C)OC(=O)N1CCC(F)(CN)C1	46242133	AIGHVUMGNOAZIB-UHFFFAOYSA-N	tert-butyl 3-(aminomethyl)-3-fluoropyrrolidine-1-carboxylate		0													not_found
+WXVL001____AK0590____SD0413	NCC(O)CNC(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-]	171678618	XHKPYPIPFBORRV-UHFFFAOYSA-N	N-(3-amino-2-hydroxypropyl)-2-nitro-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK0767____SD0101	COc1ccc(C(=O)NCC(C)(C)N)c(C)c1	171678617	YTLDGYZDXMNUSV-UHFFFAOYSA-N	N-(2-amino-2-methylpropyl)-4-methoxy-2-methylbenzamide		0													not_found
+WXVL001____AK0767____SD0413	CC(C)(N)CNC(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-]	119629609	GRGZWVCDSAKLOS-UHFFFAOYSA-N	N-(2-amino-2-methylpropyl)-2-nitro-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK0767____SD0480	CC(C)(N)CNC(=O)c1ccc(C(F)(F)F)cc1Cl	171678641	XKNOZDVSLPERHC-UHFFFAOYSA-N	N-(2-amino-2-methylpropyl)-2-chloro-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK0767____SD1214	Cc1cc(C(F)(F)F)ccc1C(=O)NCC(C)(C)N	171678620	DYSZEAWNVBNBOE-UHFFFAOYSA-N	N-(2-amino-2-methylpropyl)-2-methyl-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK0931____SA0263	NCCc1ccc(NC(=O)CCc2nc(-c3ccccc3)c(-c3ccccc3)o2)cc1	171679466	KXJRMTZCQRCMKS-UHFFFAOYSA-N	N-[4-(2-aminoethyl)phenyl]-3-(4,5-diphenyl-1,3-oxazol-2-yl)propanamide		0													not_found
+WXVL001____AK0951____SA0263	NCc1c(F)cccc1NC(=O)CCc1nc(-c2ccccc2)c(-c2ccccc2)o1	171679465	DKWJCTRZSRXDHT-UHFFFAOYSA-N	N-[2-(aminomethyl)-3-fluorophenyl]-3-(4,5-diphenyl-1,3-oxazol-2-yl)propanamide		0													not_found
+WXVL001____AK0954____SD0101	COc1ccc(C(=O)N(CCN)CCO)c(C)c1	171678738	DHZLMYJUAPOMOR-UHFFFAOYSA-N	N-(2-aminoethyl)-N-(2-hydroxyethyl)-4-methoxy-2-methylbenzamide		0													not_found
+WXVL001____AK1148____SD0101	COc1ccc(C(=O)N2CCC(N)C2)c(C)c1	112708544	FIGYTQKIWHXSIE-UHFFFAOYSA-N	(3-aminopyrrolidin-1-yl)-(4-methoxy-2-methylphenyl)methanone		0													not_found
+WXVL001____AK1148____SD0480	NC1CCN(C(=O)c2ccc(C(F)(F)F)cc2Cl)C1	171678647	COYIUHQQXKKHET-UHFFFAOYSA-N	(3-aminopyrrolidin-1-yl)-[2-chloro-4-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK1165____SD0101	COc1ccc(C(=O)N(CCN)C(C)C)c(C)c1	171678707	TYTNFDHHDPXYSQ-UHFFFAOYSA-N	N-(2-aminoethyl)-4-methoxy-2-methyl-N-propan-2-ylbenzamide		0													not_found
+WXVL001____AK1165____SD0413	CC(C)N(CCN)C(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-]	171678726	UFKABNBVBNRVIW-UHFFFAOYSA-N	N-(2-aminoethyl)-2-nitro-N-propan-2-yl-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK1273____SA0263	NCc1cccc(NC(=O)CCc2nc(-c3ccccc3)c(-c3ccccc3)o2)c1	171679460	QXKCEDNJPCFICV-UHFFFAOYSA-N	N-[3-(aminomethyl)phenyl]-3-(4,5-diphenyl-1,3-oxazol-2-yl)propanamide		0													not_found
+WXVL001____AK1291____SD0101	COc1ccc(C(=O)N2CC(N)C2)c(C)c1	171678650	JQCNZMPUYVLCGX-UHFFFAOYSA-N	(3-aminoazetidin-1-yl)-(4-methoxy-2-methylphenyl)methanone		0													not_found
+WXVL001____AK1291____SD0121	NC1CN(C(=O)c2cc(C(F)(F)F)ccc2Cl)C1	171678705	IPAGISZQMHGYGU-UHFFFAOYSA-N	(3-aminoazetidin-1-yl)-[2-chloro-5-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK1291____SD0133	NC1CN(C(=O)c2cccc(C(F)(F)F)c2Cl)C1	171678635	IOPCKVGLAFRKLL-UHFFFAOYSA-N	(3-aminoazetidin-1-yl)-[2-chloro-3-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK1291____SD0272	NC1CN(C(=O)c2ccc(Cl)cc2C(F)(F)F)C1	171678616	NXRABMVOLCQLAB-UHFFFAOYSA-N	(3-aminoazetidin-1-yl)-[4-chloro-2-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK1291____SD0480	NC1CN(C(=O)c2ccc(C(F)(F)F)cc2Cl)C1	171678714	GTNMBWTXLXFNCI-UHFFFAOYSA-N	(3-aminoazetidin-1-yl)-[2-chloro-4-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK1291____SD0544	NC1CN(C(=O)c2ccc(Cl)c(C(F)(F)F)c2)C1	171678646	RBFKQXDSJJBUOH-UHFFFAOYSA-N	(3-aminoazetidin-1-yl)-[4-chloro-3-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK3316____SA0263	CC(N)c1ccc(NC(=O)CCc2nc(-c3ccccc3)c(-c3ccccc3)o2)cc1	171679468	VGQRAUHQFWQRML-UHFFFAOYSA-N	N-[4-(1-aminoethyl)phenyl]-3-(4,5-diphenyl-1,3-oxazol-2-yl)propanamide		0													not_found
+WXVL001____AK3548____SA0263	C[C@H](N)c1cccc(NC(=O)CCc2nc(-c3ccccc3)c(-c3ccccc3)o2)c1	171679555	YLMZVCLJGRNIOC-SFHVURJKSA-N	N-[3-[(1S)-1-aminoethyl]phenyl]-3-(4,5-diphenyl-1,3-oxazol-2-yl)propanamide		0													not_found
+WXVL001____AK3723____SD1214	Cc1cc(C(F)(F)F)ccc1C(=O)NC1CC(N)C1	175663436	DEOMWAXZZKPWPA-UHFFFAOYSA-N	N-(3-aminocyclobutyl)-2-methyl-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK4218____SD0413	CC(CN)CNC(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-]	171678622	AUNAFYFZNQZLBZ-UHFFFAOYSA-N	N-(3-amino-2-methylpropyl)-2-nitro-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK5588____SD0101	COc1ccc(C(=O)N2CC(C)(N)C2)c(C)c1	171678706	RVKCBSQFGUXZSX-UHFFFAOYSA-N	(3-amino-3-methylazetidin-1-yl)-(4-methoxy-2-methylphenyl)methanone		0													not_found
+WXVL001____AK5588____SD0413	CC1(N)CN(C(=O)c2ccc(C(F)(F)F)cc2[N+](=O)[O-])C1	171678703	INWZIHIRCGNHTO-UHFFFAOYSA-N	(3-amino-3-methylazetidin-1-yl)-[2-nitro-4-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK5588____SD0480	CC1(N)CN(C(=O)c2ccc(C(F)(F)F)cc2Cl)C1	171678652	WLYIIADMTYDHRV-UHFFFAOYSA-N	(3-amino-3-methylazetidin-1-yl)-[2-chloro-4-(trifluoromethyl)phenyl]methanone		0													not_found
+WXVL001____AK5977____SD0101	COc1ccc(C(=O)NCC2(N)CC2)c(C)c1	171678633	AZUCFNHNIXYRGN-UHFFFAOYSA-N	N-[(1-aminocyclopropyl)methyl]-4-methoxy-2-methylbenzamide		0													not_found
+WXVL001____AK5977____SD0480	NC1(CNC(=O)c2ccc(C(F)(F)F)cc2Cl)CC1	171678639	JPKVIAMTWMWUQK-UHFFFAOYSA-N	N-[(1-aminocyclopropyl)methyl]-2-chloro-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK5977____SD1214	Cc1cc(C(F)(F)F)ccc1C(=O)NCC1(N)CC1	171678645	MFLNSXRROCKWNL-UHFFFAOYSA-N	N-[(1-aminocyclopropyl)methyl]-2-methyl-4-(trifluoromethyl)benzamide		0													not_found
+WXVL001____AK6646____SD1214	Cc1cc(C(F)(F)F)ccc1C(=O)NC1CCCC1N	171678643	NPBOCCIZFWQROI-UHFFFAOYSA-N	N-(2-aminocyclopentyl)-2-methyl-4-(trifluoromethyl)benzamide		0													not_found
+WXVL003____AK0954____HU0189	NCCN(CCO)S(=O)(=O)c1ccc(C(F)(F)F)cc1Cl	171678734	YDFQGDWTJNKGKC-UHFFFAOYSA-N	N-(2-aminoethyl)-2-chloro-N-(2-hydroxyethyl)-4-(trifluoromethyl)benzenesulfonamide		0													not_found
+WXVL003____AK0954____HU0337	NCCN(CCO)S(=O)(=O)c1ccc([N+](=O)[O-])cc1Cl	171678740	ABIUUSNZYJXHQK-UHFFFAOYSA-N	N-(2-aminoethyl)-2-chloro-N-(2-hydroxyethyl)-4-nitrobenzenesulfonamide		0													not_found
+WXVL003____AK0954____HU0431	NCCN(CCO)S(=O)(=O)c1ccc(Cl)cc1[N+](=O)[O-]	171678744	MJHAFSVIBSVMSV-UHFFFAOYSA-N	N-(2-aminoethyl)-4-chloro-N-(2-hydroxyethyl)-2-nitrobenzenesulfonamide		0													not_found
+WXVL003____AK0954____HU0463	NCCN(CCO)S(=O)(=O)c1ccc(C(F)(F)F)cc1[N+](=O)[O-]	171678742	WVAQNRXKWOXGBZ-UHFFFAOYSA-N	N-(2-aminoethyl)-N-(2-hydroxyethyl)-2-nitro-4-(trifluoromethyl)benzenesulfonamide		0													not_found
+WXVL003____AK1148____HU0189	NC1CCN(S(=O)(=O)c2ccc(C(F)(F)F)cc2Cl)C1	121592343	MPDWTJFJZDLJBN-UHFFFAOYSA-N	1-[2-chloro-4-(trifluoromethyl)phenyl]sulfonylpyrrolidin-3-amine		0													not_found
+WXVL003____AK1148____HU0463	NC1CCN(S(=O)(=O)c2ccc(C(F)(F)F)cc2[N+](=O)[O-])C1	171678613	LVAYODRVDFUGFY-UHFFFAOYSA-N	1-[2-nitro-4-(trifluoromethyl)phenyl]sulfonylpyrrolidin-3-amine		0													not_found
+WXVL003____AK1165____HU0189	CC(C)N(CCN)S(=O)(=O)c1ccc(C(F)(F)F)cc1Cl	171678619	YLIHCPDQURNYLM-UHFFFAOYSA-N	N-(2-aminoethyl)-2-chloro-N-propan-2-yl-4-(trifluoromethyl)benzenesulfonamide		0													not_found
+WXVL003____AK1165____HU0337	CC(C)N(CCN)S(=O)(=O)c1ccc([N+](=O)[O-])cc1Cl	171678709	QSQIXMVFDCVNHJ-UHFFFAOYSA-N	N-(2-aminoethyl)-2-chloro-4-nitro-N-propan-2-ylbenzenesulfonamide		0													not_found
+WXVL003____AK1291____HU0189	NC1CN(S(=O)(=O)c2ccc(C(F)(F)F)cc2Cl)C1	171678623	ZYMHAPUPYYCYDT-UHFFFAOYSA-N	1-[2-chloro-4-(trifluoromethyl)phenyl]sulfonylazetidin-3-amine		0													not_found
+WXVL003____AK1291____HU0463	NC1CN(S(=O)(=O)c2ccc(C(F)(F)F)cc2[N+](=O)[O-])C1	171678712	MLQOWKOUPOFZPD-UHFFFAOYSA-N	1-[2-nitro-4-(trifluoromethyl)phenyl]sulfonylazetidin-3-amine		0													not_found
+WXVL003____AK5588____HU0189	CC1(N)CN(S(=O)(=O)c2ccc(C(F)(F)F)cc2Cl)C1	171678657	MFEDUHWIZNZCGQ-UHFFFAOYSA-N	1-[2-chloro-4-(trifluoromethyl)phenyl]sulfonyl-3-methylazetidin-3-amine		0													not_found
+WXVL003____AK5588____HU0337	CC1(N)CN(S(=O)(=O)c2ccc([N+](=O)[O-])cc2Cl)C1	171678649	YZGVUZIHVYXTSG-UHFFFAOYSA-N	1-(2-chloro-4-nitrophenyl)sulfonyl-3-methylazetidin-3-amine		0													not_found
+WXVL003____AK5588____HU0431	CC1(N)CN(S(=O)(=O)c2ccc(Cl)cc2[N+](=O)[O-])C1	171678728	NBWUUERHEUXHJU-UHFFFAOYSA-N	1-(4-chloro-2-nitrophenyl)sulfonyl-3-methylazetidin-3-amine		0													not_found
+WXVL003____AK5588____HU0463	CC1(N)CN(S(=O)(=O)c2ccc(C(F)(F)F)cc2[N+](=O)[O-])C1	171678654	CQPWTTMSGJOVQO-UHFFFAOYSA-N	3-methyl-1-[2-nitro-4-(trifluoromethyl)phenyl]sulfonylazetidin-3-amine		0													not_found
+WXVL003____AK5977____HU0189	NCC1(NS(=O)(=O)c2ccc(C(F)(F)F)cc2Cl)CC1	171678637	DBHRODCNAIMIAR-UHFFFAOYSA-N	N-[1-(aminomethyl)cyclopropyl]-2-chloro-4-(trifluoromethyl)benzenesulfonamide		0													not_found
+WXVL003____AK5977____HU0337	NC1(CNS(=O)(=O)c2ccc([N+](=O)[O-])cc2Cl)CC1	171678631	ALTNOJNZEJCKER-UHFFFAOYSA-N	N-[(1-aminocyclopropyl)methyl]-2-chloro-4-nitrobenzenesulfonamide		0													not_found
+WXVL003____AK5977____HU0431	NC1(CNS(=O)(=O)c2ccc(Cl)cc2[N+](=O)[O-])CC1	171678625	RJXKELRFIPJWCL-UHFFFAOYSA-N	N-[(1-aminocyclopropyl)methyl]-4-chloro-2-nitrobenzenesulfonamide		0													not_found
+WXVL003____AK5977____HU0463	NC1(CNS(=O)(=O)c2ccc(C(F)(F)F)cc2[N+](=O)[O-])CC1	171678629	QSCMFJITMRSNNH-UHFFFAOYSA-N	N-[(1-aminocyclopropyl)methyl]-2-nitro-4-(trifluoromethyl)benzenesulfonamide		0													not_found
+WXVL004____AK0954____YV0120	COc1ccc(NC(=O)N(CCN)CCO)c(OC)c1	171678736	DKMYRMNMGUHALU-UHFFFAOYSA-N	1-(2-aminoethyl)-3-(2,4-dimethoxyphenyl)-1-(2-hydroxyethyl)urea		0													not_found
+WXVL004____AK0954____YV0156	NCCN(CCO)C(=O)Nc1ccc([N+](=O)[O-])cc1Cl	171678756	CASCMBVZUHJVSE-UHFFFAOYSA-N	1-(2-aminoethyl)-3-(2-chloro-4-nitrophenyl)-1-(2-hydroxyethyl)urea		0													not_found
+WXVL004____AK1148____YV0156	NC1CCN(C(=O)Nc2ccc([N+](=O)[O-])cc2Cl)C1	171678754	XDLCTOLWBUZOPU-UHFFFAOYSA-N	3-amino-N-(2-chloro-4-nitrophenyl)pyrrolidine-1-carboxamide		0													not_found
+WXVL004____AK1165____YV0120	COc1ccc(NC(=O)N(CCN)C(C)C)c(OC)c1	171678730	JXLLIERGDKPULG-UHFFFAOYSA-N	1-(2-aminoethyl)-3-(2,4-dimethoxyphenyl)-1-propan-2-ylurea		0													not_found
+WXVL004____AK1165____YV0156	CC(C)N(CCN)C(=O)Nc1ccc([N+](=O)[O-])cc1Cl	171678746	QNJGAOCJZWHWMJ-UHFFFAOYSA-N	1-(2-aminoethyl)-3-(2-chloro-4-nitrophenyl)-1-propan-2-ylurea		0													not_found
+WXVL004____AK1291____YV0156	NC1CN(C(=O)Nc2ccc([N+](=O)[O-])cc2Cl)C1	171678752	DNJWWEZSHWYHRN-UHFFFAOYSA-N	3-amino-N-(2-chloro-4-nitrophenyl)azetidine-1-carboxamide		0													not_found
+WXVL004____AK5588____YV0120	COc1ccc(NC(=O)N2CC(C)(N)C2)c(OC)c1	171678732	CCDGLHMXVXUFLE-UHFFFAOYSA-N	3-amino-N-(2,4-dimethoxyphenyl)-3-methylazetidine-1-carboxamide		0													not_found
+WXVL004____AK5977____YV0156	NC1(CNC(=O)Nc2ccc([N+](=O)[O-])cc2Cl)CC1	171678750	OTAMQGYHNREMPB-UHFFFAOYSA-N	1-[(1-aminocyclopropyl)methyl]-3-(2-chloro-4-nitrophenyl)urea		0													not_found
+WXVL006____AK1148____YL0064	NC1CCN(C(=S)Nc2ccc([N+](=O)[O-])cc2Cl)C1	171678621	MMYIEFUWXUXNLM-UHFFFAOYSA-N	3-amino-N-(2-chloro-4-nitrophenyl)pyrrolidine-1-carbothioamide		0													not_found
+WXVL006____AK1291____YL0064	NC1CN(C(=S)Nc2ccc([N+](=O)[O-])cc2Cl)C1	171678627	GMIGARHFHGHTDK-UHFFFAOYSA-N	3-amino-N-(2-chloro-4-nitrophenyl)azetidine-1-carbothioamide		0													not_found
+WXVL006____AK5588____YL0064	CC1(N)CN(C(=S)Nc2ccc([N+](=O)[O-])cc2Cl)C1	171678748	DTSDOUNHYODTSM-UHFFFAOYSA-N	3-amino-N-(2-chloro-4-nitrophenyl)-3-methylazetidine-1-carbothioamide		0													not_found
+WXVL006____AK5588____YL0085	COc1cc([N+](=O)[O-])ccc1NC(=S)N1CC(C)(N)C1	171678710	CFPYSIPTBHDETH-UHFFFAOYSA-N	3-amino-N-(2-methoxy-4-nitrophenyl)-3-methylazetidine-1-carbothioamide		0													not_found
+WXVL006____AK5977____YL0064	NCC1(NC(=S)Nc2ccc([N+](=O)[O-])cc2Cl)CC1	171678702	KSBBZIKEFHDECW-UHFFFAOYSA-N	1-[1-(aminomethyl)cyclopropyl]-3-(2-chloro-4-nitrophenyl)thiourea		0													not_found
+WXVL011B____AK3950____LQ2412	NC[C@H]1COc2ccccc2N1c1ccc(-c2ccccc2)nc1					0													not_found
+WXVL012____AK0767____TA0757	CC(Cc1ccc(Cl)cc1Cl)NCC(C)(C)N	171686311	IFSHMTAWNKIOEA-UHFFFAOYSA-N	1-N-[1-(2,4-dichlorophenyl)propan-2-yl]-2-methylpropane-1,2-diamine		0													not_found
+WXVL012____AK1148____TA0757	CC(Cc1ccc(Cl)cc1Cl)N1CCC(N)C1	171686309	STZYCQBLWJYDSQ-UHFFFAOYSA-N	1-[1-(2,4-dichlorophenyl)propan-2-yl]pyrrolidin-3-amine		0													not_found
+WXVL012____AK1291____TA0757	CC(Cc1ccc(Cl)cc1Cl)N1CC(N)C1	171686305	QHUYXWIOVBIGLG-UHFFFAOYSA-N	1-[1-(2,4-dichlorophenyl)propan-2-yl]azetidin-3-amine		0													not_found
+WXVL012____AK3723____TA0757	CC(Cc1ccc(Cl)cc1Cl)NC1CC(N)C1	171686307	WTNQLEKRSORBKL-UHFFFAOYSA-N	1-N-[1-(2,4-dichlorophenyl)propan-2-yl]cyclobutane-1,3-diamine		0													not_found
+WXVL012____AK5588____TA0757	CC(Cc1ccc(Cl)cc1Cl)N1CC(C)(N)C1	171678724	MLGWEYCVAGUGSZ-UHFFFAOYSA-N	1-[1-(2,4-dichlorophenyl)propan-2-yl]-3-methylazetidin-3-amine		0													not_found
+WXVL012____AK5977____TA0757	CC(Cc1ccc(Cl)cc1Cl)NCC1(N)CC1	171686313	BPSRKZUSRHEMDJ-UHFFFAOYSA-N	1-[[1-(2,4-dichlorophenyl)propan-2-ylamino]methyl]cyclopropan-1-amine		0													not_found
+WXVL013A____AK0954____LP0804	CSc1ncc(C#N)c(N(CCN)CCO)n1	171674107	YAYNBPVECZNLNO-UHFFFAOYSA-N	4-[2-aminoethyl(2-hydroxyethyl)amino]-2-methylsulfanylpyrimidine-5-carbonitrile		0													not_found
+WXVL021_AN00752_SC00098	CC1OCC2(CCN(C(=O)c3cc4occ(-c5cccnc5)c4[nH]3)CC2)C1N	171706205	GCABNKIUIBKLTP-UHFFFAOYSA-N	(4-amino-3-methyl-2-oxa-8-azaspiro[4.5]decan-8-yl)-(3-pyridin-3-yl-4H-furo[3,2-b]pyrrol-5-yl)methanone		0													not_found
+WXVL100____AK0003____AC0787____WXCD00100817	N=C(N)NCC(=O)N1CCC2(CC1)C(=O)NC[C@@H]2C(=O)NC1CCCC1					0													not_found
+WXVL100____AKJ410____AC0787____WXCD00102952	C[C@H](NC(=O)[C@@H]1CN(Cc2ccccc2)CC12CCN(C(=O)CNC(=N)N)CC2)c1cn[nH]c1					0													not_found
+WXVL100____AM0108____AC0736____WXCD00130263	COc1ccccc1N(C)C(=O)c1ncn2cc(NC(=O)CN)ccc12					0													not_found
+WXVL100____AM0267____AC0736____WXCD00130263	COc1ccc(N(C)C(=O)c2ncn3cc(NC(=O)CN)ccc23)cc1					0													not_found
+WXVL100____AN00115____AC0736____WXCD00102563	CC1(C)C2CN(C(=O)C[C@H]3CCCC34CN(C(=O)CN)C4)CC21					0													not_found
+WXVL_AG1850SB4624	CCOC(=O)Nc1ccc(NC(=O)C2CCC(CN)CC2)cc1	171678840	MALBKGYSZCWPQR-UHFFFAOYSA-N	ethyl N-[4-[[4-(aminomethyl)cyclohexanecarbonyl]amino]phenyl]carbamate		0													not_found
+WXVL_AG1850SB5824	CCOC(=O)Nc1ccc(NC(=O)C2CC(CN)C2)cc1	171678848	RWTZRHUKUPVVSA-UHFFFAOYSA-N	ethyl N-[4-[[3-(aminomethyl)cyclobutanecarbonyl]amino]phenyl]carbamate		0													not_found
+WXVL_AG3413SB2096	NCc1ccc(NC(=O)C2CCN(S(=O)(=O)c3ccccc3)CC2)cc1	171678836	PSHPYKBAYOZRGF-UHFFFAOYSA-N	N-[4-(aminomethyl)phenyl]-1-(benzenesulfonyl)piperidine-4-carboxamide		0													not_found
+WXVL_AK0590SC0762	COc1ccc2cc(-c3cc(C(=O)NC[C@H](O)CN)[nH]n3)ccc2c1	171688765	OAQVUCQRKPUJSD-CQSZACIVSA-N	N-[(2R)-3-amino-2-hydroxypropyl]-3-(6-methoxynaphthalen-2-yl)-1H-pyrazole-5-carboxamide		0													not_found
+WXVL_AK0590SC1292	NC[C@@H](O)CNC(=O)c1ccc(-c2ccc([N+](=O)[O-])cc2)o1	171688764	RDMVKYIETGMPQQ-LLVKDONJSA-N	N-[(2R)-3-amino-2-hydroxypropyl]-5-(4-nitrophenyl)furan-2-carboxamide		0													not_found
+WXVL_AK0931SC0436	NCCc1ccc(NC(=O)c2nc(-c3ccccc3)oc2C(F)(F)F)cc1	171674301	RLQDVYFLWNNTGE-UHFFFAOYSA-N	N-[4-(2-aminoethyl)phenyl]-2-phenyl-5-(trifluoromethyl)-1,3-oxazole-4-carboxamide		0													not_found
+WXVL_AK0931SC0749	NCCc1ccc(NC(=O)c2csc(-c3ccc(F)cc3)n2)cc1	166342365	UQBWFKTWKUGDBF-UHFFFAOYSA-N	N-[4-(2-aminoethyl)phenyl]-2-(4-fluorophenyl)-1,3-thiazole-4-carboxamide		0													not_found
+WXVL_AK0931SC1405	NCCc1ccc(NC(=O)c2cnn(-c3nc4cc(OC(F)(F)F)c(Cl)cc4[nH]3)c2)cc1	171675612	KLVOYJROPKNDNF-UHFFFAOYSA-N	N-[4-(2-aminoethyl)phenyl]-1-[6-chloro-5-(trifluoromethoxy)-1H-benzimidazol-2-yl]pyrazole-4-carboxamide		0													not_found
+WXVL_AK0951SB3618	NCc1c(F)cccc1NC(=O)CC1CCc2ccc(F)cc21	171677953	JNHBTIDNVUPCGR-UHFFFAOYSA-N	N-[2-(aminomethyl)-3-fluorophenyl]-2-(6-fluoro-2,3-dihydro-1H-inden-1-yl)acetamide		0													not_found
+WXVL_AK0951SD0793	NCc1c(F)cccc1NC(=O)c1ccc(OCCN2CCCCC2)cc1	171673609	YWFGMDGXUOFKAQ-UHFFFAOYSA-N	N-[2-(aminomethyl)-3-fluorophenyl]-4-(2-piperidin-1-ylethoxy)benzamide		0													not_found
+WXVL_AK0954SE0074	NCCN(CCO)C(=O)c1cc2cc(Cl)ccc2o1	171674275	ZNFCREXDDPOYNO-UHFFFAOYSA-N	N-(2-aminoethyl)-5-chloro-N-(2-hydroxyethyl)-1-benzofuran-2-carboxamide		0													not_found
+WXVL_AK1075LQ2346	CC(C)N(CCCN)c1ccc2cc[nH]c2n1	171678871	PAJIVFNQECWVPZ-UHFFFAOYSA-N	N'-propan-2-yl-N'-(1H-pyrrolo[2,3-b]pyridin-6-yl)propane-1,3-diamine		0													not_found
+WXVL_AK1273SB1264	Cc1ccc(F)cc1CC(=O)Nc1cccc(CN)c1	171674251	VEVDIOYVVSYOGZ-UHFFFAOYSA-N	N-[3-(aminomethyl)phenyl]-2-(5-fluoro-2-methylphenyl)acetamide		0													not_found
+WXVL_AK1273SB1634	Cc1cccc(C[C@H](NC(=O)OCC2c3ccccc3-c3ccccc32)C(=O)Nc2cccc(CN)c2)c1	171675775	UWWQTGWQISQPNR-PMERELPUSA-N	9H-fluoren-9-ylmethyl N-[(2S)-1-[3-(aminomethyl)anilino]-3-(3-methylphenyl)-1-oxopropan-2-yl]carbamate		0													not_found
+WXVL_AK1273SC0762	COc1ccc2cc(-c3cc(C(=O)Nc4cccc(CN)c4)n[nH]3)ccc2c1	171675585	VHDJIBFOCPUNDY-UHFFFAOYSA-N	N-[3-(aminomethyl)phenyl]-3-(6-methoxynaphthalen-2-yl)-1H-pyrazole-5-carboxamide		0													not_found
+WXVL_AK1486SD0893	CC1(C)CC(N)CC(C)(C)N1C(=O)c1cccc(-c2cn[nH]c2)c1	171680739	FIIIXYWBACBPCM-UHFFFAOYSA-N	(4-amino-2,2,6,6-tetramethylpiperidin-1-yl)-[3-(1H-pyrazol-4-yl)phenyl]methanone		0													not_found
+WXVL_AK1493SC0758	NCCCCNC(=O)c1cc(-c2ccc([N+](=O)[O-])cc2)n[nH]1	171675515	IBGNZBOEGIWPHE-UHFFFAOYSA-N	N-(4-aminobutyl)-3-(4-nitrophenyl)-1H-pyrazole-5-carboxamide		0													not_found
+WXVL_AK1493SC1481	NCCCCNC(=O)c1ccc(-c2ccc(OC(F)(F)F)cc2)o1	171675508	NJOPDWHRWGTBGO-UHFFFAOYSA-N	N-(4-aminobutyl)-5-[4-(trifluoromethoxy)phenyl]furan-2-carboxamide		0													not_found
+WXVL_AK1773SC0750	NCCOCCNC(=O)c1csc(-c2cc(Cl)cc(Cl)c2)n1	171675507	FGRDBUFHGVSHPL-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-2-(3,5-dichlorophenyl)-1,3-thiazole-4-carboxamide		0													not_found
+WXVL_AK1773SC0762	COc1ccc2cc(-c3cc(C(=O)NCCOCCN)[nH]n3)ccc2c1	171675530	JKGRVGQSNSBRDD-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-3-(6-methoxynaphthalen-2-yl)-1H-pyrazole-5-carboxamide		0													not_found
+WXVL_AK1773SC0852	NCCOCCNC(=O)c1csc(-c2ccc(Br)cc2)n1	171675605	LKERATHBPSBTNT-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-2-(4-bromophenyl)-1,3-thiazole-4-carboxamide		0													not_found
+WXVL_AK1773SC0864	NCCOCCNC(=O)c1cccc(-c2ccc(C(F)(F)F)cc2)n1	171675517	IKRSYXLPNFRNPJ-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-6-[4-(trifluoromethyl)phenyl]pyridine-2-carboxamide		0													not_found
+WXVL_AK1773SC1127	NCCOCCNC(=O)c1ccc(-c2ccc(C(F)(F)F)cc2)o1	171675590	NDRCJJUKUYHASU-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-5-[4-(trifluoromethyl)phenyl]furan-2-carboxamide		0													not_found
+WXVL_AK1773SC1292	NCCOCCNC(=O)c1ccc(-c2ccc([N+](=O)[O-])cc2)o1	171675603	GZIYTSCDXZRSHW-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-5-(4-nitrophenyl)furan-2-carboxamide		0													not_found
+WXVL_AK1773SC1405	NCCOCCNC(=O)c1cnn(-c2nc3cc(OC(F)(F)F)c(Cl)cc3[nH]2)c1	171686299	OIXXHIKEXZYRPA-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-1-[6-chloro-5-(trifluoromethoxy)-1H-benzimidazol-2-yl]pyrazole-4-carboxamide		0													not_found
+WXVL_AK1773SC1482	NCCOCCNC(=O)c1cncc(-c2ccc(OC(F)(F)F)cc2)n1	171675540	JMVOIKDTZFMEIT-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-6-[4-(trifluoromethoxy)phenyl]pyrazine-2-carboxamide		0													not_found
+WXVL_AK1773SD0926	NCCOCCNC(=O)c1cc(-c2ccc(C(F)(F)F)cc2)ccc1F	171675516	HGNOOZFMYJOKGV-UHFFFAOYSA-N	N-[2-(2-aminoethoxy)ethyl]-2-fluoro-5-[4-(trifluoromethyl)phenyl]benzamide		0													not_found
+WXVL_AK2807SE0012	NC1CCN(C(=O)c2ccc(F)c3ccccc23)c2ccccc21	171674155	NAYFADPLRFDBHF-UHFFFAOYSA-N	(4-amino-3,4-dihydro-2H-quinolin-1-yl)-(4-fluoronaphthalen-1-yl)methanone		0													not_found
+WXVL_AK2852YV0147	Cc1ccc2c(c1)C(N)CCCN2C(=O)Nc1ccccc1-c1ccccc1	171677205	DTLWDNLGBNTJJE-UHFFFAOYSA-N	5-amino-7-methyl-N-(2-phenylphenyl)-2,3,4,5-tetrahydro-1-benzazepine-1-carboxamide		0													not_found
+WXVL_AK3950SC0687	NC[C@H]1COc2ccccc2N1C(=O)c1nc(Br)cs1	171673330	YXDNFBIAGLMWLH-QMMMGPOBSA-N	[(3S)-3-(aminomethyl)-2,3-dihydro-1,4-benzoxazin-4-yl]-(4-bromo-1,3-thiazol-2-yl)methanone		0													not_found
+WXVL_AK3950SC0782	NC[C@H]1COc2ccccc2N1C(=O)c1cccc([N+](=O)[O-])n1	171673328	GIZFSVDGYKCAPK-JTQLQIEISA-N	[(3S)-3-(aminomethyl)-2,3-dihydro-1,4-benzoxazin-4-yl]-(6-nitro-2-pyridinyl)methanone		0													not_found
+WXVL_AK4025HU0161	N#Cc1ccc(CS(=O)(=O)Nc2ccc(CN)c(C(F)(F)F)c2)cc1	171697791	HLBUCTVZAGNDFF-UHFFFAOYSA-N	N-[4-(aminomethyl)-3-(trifluoromethyl)phenyl]-1-(4-cyanophenyl)methanesulfonamide		0													not_found
+WXVL_AK4182SC0202	CN(CCN)CCNC(=O)c1ccc(-c2ccc(Cl)cc2)o1	171675512	OWMYFEPXKXHGFZ-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-5-(4-chlorophenyl)furan-2-carboxamide		0													not_found
+WXVL_AK4182SC0421	Cc1nc(-c2ccc(C(F)(F)F)cc2)sc1C(=O)NCCN(C)CCN	171675588	ANLKHOOPOFSTAT-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-4-methyl-2-[4-(trifluoromethyl)phenyl]-1,3-thiazole-5-carboxamide		0													not_found
+WXVL_AK4182SC0750	CN(CCN)CCNC(=O)c1csc(-c2cc(Cl)cc(Cl)c2)n1	171686295	MDIFRIFORRETDM-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-2-(3,5-dichlorophenyl)-1,3-thiazole-4-carboxamide		0													not_found
+WXVL_AK4182SC1292	CN(CCN)CCNC(=O)c1ccc(-c2ccc([N+](=O)[O-])cc2)o1	171675599	QDXHNKMOKWDBTG-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-5-(4-nitrophenyl)furan-2-carboxamide		0													not_found
+WXVL_AK4182SC1405	CN(CCN)CCNC(=O)c1cnn(-c2nc3cc(Cl)c(OC(F)(F)F)cc3[nH]2)c1	171675525	XJLKBMVOLOUGKA-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-1-[6-chloro-5-(trifluoromethoxy)-1H-benzimidazol-2-yl]pyrazole-4-carboxamide		0													not_found
+WXVL_AK4182SC1480	CN(CCN)CCNC(=O)c1cccc(-c2ccc(OC(F)(F)F)cc2)n1	171675509	YCGDEDKHSNJTSA-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-6-[4-(trifluoromethoxy)phenyl]pyridine-2-carboxamide		0													not_found
+WXVL_AK4182SC1481	CN(CCN)CCNC(=O)c1ccc(-c2ccc(OC(F)(F)F)cc2)o1	171675519	VKJNQLZWKJEJKH-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-5-[4-(trifluoromethoxy)phenyl]furan-2-carboxamide		0													not_found
+WXVL_AK4182SD0926	CN(CCN)CCNC(=O)c1cc(-c2ccc(C(F)(F)F)cc2)ccc1F	171686293	CRRYUCIOKDJYHF-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-2-fluoro-5-[4-(trifluoromethyl)phenyl]benzamide		0													not_found
+WXVL_AK4182SE0353	CN(CCN)CCNC(=O)c1cc(-c2ccc(Br)cc2)nc2ccccc12	171675524	UUIMLTIQVWDBQP-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-2-(4-bromophenyl)quinoline-4-carboxamide		0													not_found
+WXVL_AK4182_SB1457	CN(CCN)CCNC(=O)C(F)(F)c1ccccc1	171682724	RSDNHYDOXVHPPH-UHFFFAOYSA-N	N-[2-[2-aminoethyl(methyl)amino]ethyl]-2,2-difluoro-2-phenylacetamide		0													not_found
+WXVL_AK4520SC0758	NCCc1cccc(NC(=O)c2cc(-c3ccc([N+](=O)[O-])cc3)n[nH]2)c1	171675528	MPFFZDXCALKJKA-UHFFFAOYSA-N	N-[3-(2-aminoethyl)phenyl]-3-(4-nitrophenyl)-1H-pyrazole-5-carboxamide		0													not_found
+WXVL_AK4520SC0762	COc1ccc2cc(-c3cc(C(=O)Nc4cccc(CCN)c4)n[nH]3)ccc2c1	171686297	POEHGILITRSCFX-UHFFFAOYSA-N	N-[3-(2-aminoethyl)phenyl]-3-(6-methoxynaphthalen-2-yl)-1H-pyrazole-5-carboxamide		0													not_found
+WXVL_AK4520SC0852	NCCc1cccc(NC(=O)c2csc(-c3ccc(Br)cc3)n2)c1	171675602	ATXYOWAOUQZXID-UHFFFAOYSA-N	N-[3-(2-aminoethyl)phenyl]-2-(4-bromophenyl)-1,3-thiazole-4-carboxamide		0													not_found
+WXVL_AK4520SC2105	NCCc1cccc(NC(=O)c2nn(-c3ccccc3)cc2[N+](=O)[O-])c1	171675604	ZUWREHQIIXNDDF-UHFFFAOYSA-N	N-[3-(2-aminoethyl)phenyl]-4-nitro-1-phenylpyrazole-3-carboxamide		0													not_found
+WXVL_AK5991SB4330	COc1cccc(-c2ccc(NC(=O)C3=C(C(=O)N4Cc5ccccc5C[C@H]4CN)CCC3)c(F)c2)c1	171675611	MIGNCJCUVQSKDH-QHCPKHFHSA-N	2-[(3S)-3-(aminomethyl)-3,4-dihydro-1H-isoquinoline-2-carbonyl]-N-[2-fluoro-4-(3-methoxyphenyl)phenyl]cyclopentene-1-carboxamide		0													not_found
+WXVL_BT0970LQ1300	NCc1ccc(-c2cnc3nccnc3c2)cc1	171680007	XWQMQQGNESOSHR-UHFFFAOYSA-N	(4-pyrido[2,3-b]pyrazin-7-ylphenyl)methanamine		0													not_found
+WXVL_BT0970LQ1675	NCc1ccc(-c2cncc(C(N)=O)c2)cc1	171679987	RGEWFASWHCYABF-UHFFFAOYSA-N	5-[4-(aminomethyl)phenyl]pyridine-3-carboxamide		0													not_found
+WXVL_BT0970LQ2278	COC(=O)c1cccc(C)c1-c1ccc(CN)cc1					0													not_found
+WXVL_BT0970LQ3311	COc1ccc2ncc(-c3ccc(CN)cc3)cc2c1	171679986	IKRLXKILJGLMTA-UHFFFAOYSA-N	[4-(6-methoxyquinolin-3-yl)phenyl]methanamine		0													not_found
+WXVL_BT0970LQ5141	CC(C)(C)NC(=O)c1cncc(-c2ccc(CN)cc2)c1	171679996	AGFBXZOBKVSFIP-UHFFFAOYSA-N	5-[4-(aminomethyl)phenyl]-N-tert-butylpyridine-3-carboxamide		0													not_found
+WXVL_BT0979LQ3926	NCCc1ccccc1-c1ccc2nn[nH]c2c1	171678859	HZMRNEBAXWQRJD-UHFFFAOYSA-N	2-[2-(2H-benzotriazol-5-yl)phenyl]ethanamine		0													not_found
+WXVL_BT2024LQ4870	COc1c(F)cc(F)cc1-c1ccc(CN2CCC(CN)CC2)cc1	171686315	BKBKSAGSGWZMAP-UHFFFAOYSA-N	[1-[[4-(3,5-difluoro-2-methoxyphenyl)phenyl]methyl]piperidin-4-yl]methanamine		0													not_found
+WXVL_BT3599LP1078	CCOC(=O)c1cc(-c2ccc(C[C@H](N)C(=O)O)cc2)nc2ccccc12	171678587	BPLVDUIUWBPBSH-KRWDZBQOSA-N	(2S)-2-amino-3-[4-(4-ethoxycarbonylquinolin-2-yl)phenyl]propanoic acid		0													not_found
+WXVL_BT3599LQ0002	Cn1cncc1-c1ccc(C[C@H](N)C(=O)O)cc1	171678588	MRROXWCRLYZVMO-NSHDSACASA-N	(2S)-2-amino-3-[4-(3-methylimidazol-4-yl)phenyl]propanoic acid		0													not_found
+WXVL_BT3599LQ4634	CCOC(=O)c1cccc(-c2ccc(C[C@H](N)C(=O)O)cc2)c1C	171678585	AAEBZLCPROQIQX-KRWDZBQOSA-N	(2S)-2-amino-3-[4-(3-ethoxycarbonyl-2-methylphenyl)phenyl]propanoic acid		0													not_found
