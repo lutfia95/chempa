@@ -188,7 +188,16 @@ class ClusterSummarizer:
             "chemical_landscape_report": report_text,
         }
 
-    def make_plots(self, df: pd.DataFrame, labels: np.ndarray, plot_space: np.ndarray, output_paths: Any) -> None:
+    def make_plots(
+        self,
+        df: pd.DataFrame,
+        labels: np.ndarray,
+        plot_space: np.ndarray,
+        output_paths: Any,
+        overview: Dict[str, Any],
+        chemical_landscape: Dict[str, Any],
+        metrics: ClusterMetricSummary,
+    ) -> None:
         plt = self._import_matplotlib()
         plot_df = df.copy()
         plot_df["cluster_id"] = labels
@@ -196,35 +205,195 @@ class ClusterSummarizer:
         plot_df["umap_y"] = plot_space[:, 1]
         plot_df["MW"] = pd.to_numeric(plot_df["MW"], errors="coerce")
         plot_df["logP"] = pd.to_numeric(plot_df["logP"], errors="coerce")
+        plot_df["TPSA"] = pd.to_numeric(plot_df.get("TPSA", pd.Series(dtype=float)), errors="coerce")
+        plot_df["Rings"] = pd.to_numeric(plot_df.get("Rings", pd.Series(dtype=float)), errors="coerce")
+        plot_df["is_outlier"] = plot_df["row_id"].isin(overview["outlier_summary"].get("row_id", pd.Series(dtype=int))).astype(int)
+        plot_df["super_region_id"] = self._super_region_membership_series(
+            plot_df,
+            overview["super_regions"],
+        )
 
-        self._scatter(plt, plot_df, "cluster_id", output_paths.plot_clusters_png, categorical=True)
-        self._scatter(plt, plot_df, "MW", output_paths.plot_mw_png, categorical=False)
-        self._scatter(plt, plot_df, "logP", output_paths.plot_logp_png, categorical=False)
+        self._scatter(plt, plot_df, "cluster_id", output_paths.plot_clusters_png, categorical=True, title="UMAP by Cluster")
+        self._scatter(plt, plot_df, "MW", output_paths.plot_mw_png, categorical=False, title="UMAP by Exact Molecular Weight")
+        self._scatter(plt, plot_df, "logP", output_paths.plot_logp_png, categorical=False, title="UMAP by logP")
+        self._scatter(plt, plot_df, "TPSA", output_paths.plot_tpsa_png, categorical=False, title="UMAP by TPSA")
+        self._scatter(plt, plot_df, "Rings", output_paths.plot_rings_png, categorical=False, title="UMAP by Ring Count")
+        self._scatter(
+            plt,
+            plot_df.loc[plot_df["super_region_id"] > 0].copy(),
+            "super_region_id",
+            output_paths.plot_super_regions_png,
+            categorical=True,
+            title="UMAP by Super-Region",
+        )
+        self._outlier_scatter(plt, plot_df, output_paths.plot_outliers_png)
+        self._cluster_size_histogram(plt, metrics.cluster_sizes, output_paths.plot_cluster_size_histogram_png)
+        self._barplot(
+            plt,
+            chemical_landscape["functional_group_summary"].head(10),
+            x_column="molecule_count",
+            y_column="functional_group",
+            path=output_paths.plot_functional_groups_png,
+            title="Top Functional Groups",
+            color="#1f6f8b",
+        )
+        self._barplot(
+            plt,
+            chemical_landscape["scaffold_family_summary"].head(10),
+            x_column="molecule_count",
+            y_column="scaffold_family",
+            path=output_paths.plot_scaffold_families_png,
+            title="Top Scaffold Families",
+            color="#d95f02",
+        )
+        self._property_profile_plot(
+            plt,
+            chemical_landscape["property_landscape"],
+            output_paths.plot_property_profile_png,
+        )
 
-    def _scatter(self, plt: Any, df: pd.DataFrame, color_column: str, path: Any, categorical: bool) -> None:
-        fig, ax = plt.subplots(figsize=(8, 6))
+    def _scatter(
+        self,
+        plt: Any,
+        df: pd.DataFrame,
+        color_column: str,
+        path: Any,
+        categorical: bool,
+        title: str,
+    ) -> None:
+        if df.empty:
+            return
+        fig, ax = plt.subplots(figsize=(9.5, 7.2))
+        fig.patch.set_facecolor("#f7f3eb")
+        ax.set_facecolor("#fcfaf5")
         if categorical:
             scatter = ax.scatter(
                 df["umap_x"],
                 df["umap_y"],
                 c=df[color_column],
-                cmap="tab20",
-                s=18,
-                alpha=0.85,
+                cmap="tab20b",
+                s=22,
+                alpha=0.88,
+                edgecolors="none",
             )
         else:
             scatter = ax.scatter(
                 df["umap_x"],
                 df["umap_y"],
                 c=df[color_column],
-                cmap="viridis",
-                s=18,
-                alpha=0.85,
+                cmap="cividis",
+                s=22,
+                alpha=0.88,
+                edgecolors="none",
             )
-        ax.set_xlabel("UMAP-1")
-        ax.set_ylabel("UMAP-2")
-        ax.set_title(f"UMAP colored by {color_column}")
-        fig.colorbar(scatter, ax=ax)
+        ax.set_xlabel("UMAP-1", color="#3b352d")
+        ax.set_ylabel("UMAP-2", color="#3b352d")
+        ax.set_title(title, fontsize=14, color="#2a2622", pad=14)
+        ax.grid(True, alpha=0.15, color="#7b6f5a", linewidth=0.6)
+        for spine in ax.spines.values():
+            spine.set_color("#a89a86")
+        cbar = fig.colorbar(scatter, ax=ax, pad=0.02, shrink=0.92)
+        cbar.outline.set_edgecolor("#a89a86")
+        fig.tight_layout()
+        fig.savefig(path, dpi=200)
+        plt.close(fig)
+
+    def _outlier_scatter(self, plt: Any, df: pd.DataFrame, path: Any) -> None:
+        if df.empty:
+            return
+        fig, ax = plt.subplots(figsize=(9.5, 7.2))
+        fig.patch.set_facecolor("#f7f3eb")
+        ax.set_facecolor("#fcfaf5")
+        background = df.loc[df["is_outlier"] == 0]
+        flagged = df.loc[df["is_outlier"] == 1]
+        if not background.empty:
+            ax.scatter(background["umap_x"], background["umap_y"], s=18, c="#9aa7b2", alpha=0.35, edgecolors="none")
+        if not flagged.empty:
+            ax.scatter(flagged["umap_x"], flagged["umap_y"], s=30, c="#c44536", alpha=0.95, edgecolors="white", linewidths=0.3)
+        ax.set_xlabel("UMAP-1", color="#3b352d")
+        ax.set_ylabel("UMAP-2", color="#3b352d")
+        ax.set_title("UMAP Outlier View", fontsize=14, color="#2a2622", pad=14)
+        ax.grid(True, alpha=0.15, color="#7b6f5a", linewidth=0.6)
+        for spine in ax.spines.values():
+            spine.set_color("#a89a86")
+        fig.tight_layout()
+        fig.savefig(path, dpi=200)
+        plt.close(fig)
+
+    def _cluster_size_histogram(self, plt: Any, cluster_sizes: Dict[int, int], path: Any) -> None:
+        if not cluster_sizes:
+            return
+        values = sorted(cluster_sizes.values(), reverse=True)
+        fig, ax = plt.subplots(figsize=(8.8, 6.4))
+        fig.patch.set_facecolor("#f7f3eb")
+        ax.set_facecolor("#fcfaf5")
+        ax.bar(range(1, len(values) + 1), values, color="#2f6c8f", edgecolor="#224f69", linewidth=0.6)
+        ax.set_xlabel("Cluster Rank by Size", color="#3b352d")
+        ax.set_ylabel("Molecules", color="#3b352d")
+        ax.set_title("Cluster Size Distribution", fontsize=14, color="#2a2622", pad=14)
+        ax.grid(True, axis="y", alpha=0.15, color="#7b6f5a", linewidth=0.6)
+        for spine in ax.spines.values():
+            spine.set_color("#a89a86")
+        fig.tight_layout()
+        fig.savefig(path, dpi=200)
+        plt.close(fig)
+
+    def _barplot(
+        self,
+        plt: Any,
+        df: pd.DataFrame,
+        x_column: str,
+        y_column: str,
+        path: Any,
+        title: str,
+        color: str,
+    ) -> None:
+        if df.empty:
+            return
+        plot_df = df.copy().sort_values(x_column, ascending=True)
+        fig, ax = plt.subplots(figsize=(10, 6.8))
+        fig.patch.set_facecolor("#f7f3eb")
+        ax.set_facecolor("#fcfaf5")
+        ax.barh(plot_df[y_column], plot_df[x_column], color=color, edgecolor="#2a2622", linewidth=0.4, alpha=0.9)
+        ax.set_xlabel("Molecule Count", color="#3b352d")
+        ax.set_ylabel("")
+        ax.set_title(title, fontsize=14, color="#2a2622", pad=14)
+        ax.grid(True, axis="x", alpha=0.15, color="#7b6f5a", linewidth=0.6)
+        for spine in ax.spines.values():
+            spine.set_color("#a89a86")
+        fig.tight_layout()
+        fig.savefig(path, dpi=200)
+        plt.close(fig)
+
+    def _property_profile_plot(self, plt: Any, property_landscape: Dict[str, Any], path: Any) -> None:
+        profile_keys = [
+            ("mw_profile", "MW"),
+            ("logp_profile", "logP"),
+            ("tpsa_profile", "TPSA"),
+            ("flexibility_profile", "Flexibility"),
+            ("ring_profile", "Ring System"),
+        ]
+        fig, ax = plt.subplots(figsize=(10.5, 6.8))
+        fig.patch.set_facecolor("#f7f3eb")
+        ax.set_facecolor("#fcfaf5")
+        palette = ["#355070", "#6d597a", "#b56576", "#e56b6f", "#eaac8b"]
+        left = np.zeros(len(profile_keys), dtype=float)
+        labels = [label for _, label in profile_keys]
+        all_bucket_names = []
+        for key, _ in profile_keys:
+            all_bucket_names.extend(property_landscape.get(key, {}).keys())
+        bucket_names = list(dict.fromkeys(all_bucket_names))
+        for index, bucket_name in enumerate(bucket_names):
+            widths = np.array([property_landscape.get(key, {}).get(bucket_name, 0.0) for key, _ in profile_keys], dtype=float)
+            ax.barh(labels, widths, left=left, color=palette[index % len(palette)], edgecolor="#fcfaf5", label=bucket_name)
+            left += widths
+        ax.set_xlim(0, 1)
+        ax.set_xlabel("Fraction of Library", color="#3b352d")
+        ax.set_title("Property Balance Profile", fontsize=14, color="#2a2622", pad=14)
+        ax.grid(True, axis="x", alpha=0.15, color="#7b6f5a", linewidth=0.6)
+        ax.legend(loc="lower right", frameon=True, facecolor="#fcfaf5", edgecolor="#a89a86")
+        for spine in ax.spines.values():
+            spine.set_color("#a89a86")
         fig.tight_layout()
         fig.savefig(path, dpi=200)
         plt.close(fig)
@@ -728,6 +897,19 @@ class ClusterSummarizer:
         top = ordered[:2]
         return ", ".join(f"{label} {value:.1%}" for label, value in top)
 
+    def _super_region_membership_series(self, df: pd.DataFrame, super_regions: pd.DataFrame) -> pd.Series:
+        membership: Dict[int, int] = {}
+        if not super_regions.empty:
+            for row in super_regions.to_dict(orient="records"):
+                cluster_ids = [
+                    int(value)
+                    for value in str(row.get("member_clusters", "")).split(",")
+                    if str(value).strip()
+                ]
+                for cluster_id in cluster_ids:
+                    membership[cluster_id] = int(row["super_region_id"])
+        return df["cluster_id"].map(membership).fillna(0).astype(int)
+
     def _functional_group_fallback_match(self, name: str, smiles: str) -> bool:
         upper = smiles.upper()
         if name == "amine":
@@ -756,6 +938,7 @@ class ClusterSummarizer:
 
     def _import_matplotlib(self) -> Any:
         os.environ.setdefault("MPLCONFIGDIR", self.config.runtime.matplotlib_config_dir)
+        os.environ.setdefault("XDG_CACHE_HOME", self.config.runtime.matplotlib_config_dir)
         try:
             import matplotlib
 

@@ -36,6 +36,14 @@ class PipelinePaths:
     plot_clusters_png: Path
     plot_mw_png: Path
     plot_logp_png: Path
+    plot_tpsa_png: Path
+    plot_rings_png: Path
+    plot_super_regions_png: Path
+    plot_outliers_png: Path
+    plot_cluster_size_histogram_png: Path
+    plot_functional_groups_png: Path
+    plot_scaffold_families_png: Path
+    plot_property_profile_png: Path
     metadata_json: Path
 
     def to_dict(self) -> Dict[str, str]:

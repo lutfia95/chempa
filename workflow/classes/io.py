@@ -62,6 +62,14 @@ class ResultPathsFactory:
             plot_clusters_png=output_dir / "umap_clusters.png",
             plot_mw_png=output_dir / "umap_mw.png",
             plot_logp_png=output_dir / "umap_logp.png",
+            plot_tpsa_png=output_dir / "umap_tpsa.png",
+            plot_rings_png=output_dir / "umap_rings.png",
+            plot_super_regions_png=output_dir / "umap_super_regions.png",
+            plot_outliers_png=output_dir / "umap_outliers.png",
+            plot_cluster_size_histogram_png=output_dir / "cluster_size_histogram.png",
+            plot_functional_groups_png=output_dir / "functional_group_barplot.png",
+            plot_scaffold_families_png=output_dir / "scaffold_family_barplot.png",
+            plot_property_profile_png=output_dir / "property_profile_stacked_bars.png",
             metadata_json=output_dir / "run_metadata.json",
         )
 

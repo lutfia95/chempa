@@ -376,6 +376,11 @@ Typical files you will inspect first:
 - `cluster_descriptors.tsv`
 - `cluster_metrics.json`
 - `umap_clusters.png`
+- `umap_super_regions.png`
+- `umap_outliers.png`
+- `functional_group_barplot.png`
+- `scaffold_family_barplot.png`
+- `property_profile_stacked_bars.png`
 
 ## Recommended Reading Order
 
@@ -398,5 +403,13 @@ If you want to interpret one run step by step, read the outputs in this order:
 15. `nearest_neighbors_embedding.tsv`
 16. `nearest_neighbors_fingerprint.tsv`
 17. `umap_clusters.png`
-18. `umap_mw.png`
-19. `umap_logp.png`
+18. `umap_super_regions.png`
+19. `umap_outliers.png`
+20. `umap_mw.png`
+21. `umap_logp.png`
+22. `umap_tpsa.png`
+23. `umap_rings.png`
+24. `cluster_size_histogram.png`
+25. `functional_group_barplot.png`
+26. `scaffold_family_barplot.png`
+27. `property_profile_stacked_bars.png`

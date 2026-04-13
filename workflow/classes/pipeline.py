@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import logging
 from dataclasses import asdict
 from pathlib import Path
 
@@ -18,6 +19,9 @@ from workflow.classes.summaries import ClusterSummarizer
 from workflow.config import PipelineConfig
 
 
+LOGGER = logging.getLogger(__name__)
+
+
 class MoleculeClusteringPipeline:
     def __init__(self, config: PipelineConfig, config_path: Path | None = None) -> None:
         self.config = config
@@ -33,21 +37,48 @@ class MoleculeClusteringPipeline:
         self.summarizer = ClusterSummarizer(config)
 
     def run(self) -> PipelineRunResult:
+        LOGGER.info("Loading input dataset")
         raw_df = self.loader.load()
+        LOGGER.info("Loaded %d raw rows", len(raw_df))
+
+        LOGGER.info("Standardizing molecules")
         standardized_df, standardization_summary = self.standardizer.run(raw_df)
         self.writer.write_tsv(standardized_df, self.paths.standardized_tsv)
+        LOGGER.info(
+            "Standardization complete: %d valid rows, %d invalid rows, %d duplicates removed",
+            len(standardized_df),
+            standardization_summary.invalid_rows,
+            standardization_summary.duplicate_rows_removed,
+        )
 
+        LOGGER.info("Computing Morgan fingerprints")
         fingerprint_dense, fingerprint_sparse = self.fingerprints.compute(standardized_df)
         sparse.save_npz(self.paths.fingerprints_npz, fingerprint_sparse)
+        LOGGER.info("Fingerprint matrix shape: %s", fingerprint_dense.shape)
 
+        LOGGER.info("Building embeddings using backend '%s'", self.config.embedding.backend)
         embeddings = self.embeddings.build_embeddings(standardized_df, fingerprint_dense)
         np.save(self.paths.embeddings_npy, embeddings)
+        LOGGER.info("Embedding matrix shape: %s", embeddings.shape)
 
+        LOGGER.info("Running dimensionality reduction")
         pca_space, cluster_space, plot_space = self.reducer.reduce(embeddings)
         np.save(self.paths.pca_npy, pca_space)
         np.save(self.paths.umap_cluster_npy, cluster_space)
+        LOGGER.info(
+            "Reduction complete: PCA=%s cluster_space=%s plot_space=%s",
+            pca_space.shape,
+            cluster_space.shape,
+            plot_space.shape,
+        )
 
+        LOGGER.info("Clustering reduced space")
         labels, metrics = self.clusterer.cluster(cluster_space)
+        LOGGER.info(
+            "Clustering complete: %d clusters, %d noise points",
+            metrics.cluster_count,
+            metrics.noise_count,
+        )
 
         valid_df = standardized_df.copy()
         valid_df["cluster_id"] = labels
@@ -63,6 +94,7 @@ class MoleculeClusteringPipeline:
         representatives = self.summarizer.representatives(valid_df, cluster_space, labels)
         scaffolds = self.summarizer.scaffold_table(valid_df, labels)
         descriptor_summary = self.summarizer.descriptor_summary(valid_df, labels)
+        LOGGER.info("Built cluster summaries")
 
         embedding_neighbors = self.embeddings.cosine_top_k(embeddings, self.config.summary.top_neighbors)
         embedding_neighbors = self.summarizer.decorate_neighbor_rows(
@@ -82,6 +114,11 @@ class MoleculeClusteringPipeline:
             score_column="similarity",
             similarity_type="tanimoto_fingerprint",
         )
+        LOGGER.info(
+            "Computed nearest neighbors: embedding=%d rows, fingerprint=%d rows",
+            len(embedding_neighbors),
+            len(fingerprint_neighbors),
+        )
 
         overview = self.summarizer.build_library_overview(
             valid_df,
@@ -91,7 +128,9 @@ class MoleculeClusteringPipeline:
             fingerprint_neighbors,
         )
         chemical_landscape = self.summarizer.build_chemical_landscape(valid_df, labels)
+        LOGGER.info("Built high-level overview and chemical landscape summaries")
 
+        # Persist tabular and narrative outputs before plotting so partial results remain inspectable if plotting fails.
         self.writer.write_tsv(representatives, self.paths.cluster_representatives_tsv)
         self.writer.write_tsv(scaffolds, self.paths.cluster_scaffolds_tsv)
         self.writer.write_tsv(descriptor_summary, self.paths.cluster_descriptors_tsv)
@@ -108,7 +147,11 @@ class MoleculeClusteringPipeline:
         self.writer.write_json(chemical_landscape["property_landscape"], self.paths.property_landscape_json)
         self.writer.write_text(chemical_landscape["chemical_landscape_report"], self.paths.chemical_landscape_report_txt)
         self.writer.write_json(self.summarizer.metrics_payload(metrics), self.paths.cluster_metrics_json)
-        self.summarizer.make_plots(valid_df, labels, plot_space, self.paths)
+        LOGGER.info("Wrote summary tables and reports to %s", self.paths.output_dir)
+
+        LOGGER.info("Rendering plots")
+        self.summarizer.make_plots(valid_df, labels, plot_space, self.paths, overview, chemical_landscape, metrics)
+        LOGGER.info("Plot rendering complete")
 
         metadata = {
             "config": self.config.to_dict(),
@@ -121,6 +164,7 @@ class MoleculeClusteringPipeline:
             "paths": self.paths.to_dict(),
         }
         self.writer.write_json(metadata, self.paths.metadata_json)
+        LOGGER.info("Metadata written to %s", self.paths.metadata_json)
 
         return PipelineRunResult(
             paths=self.paths,

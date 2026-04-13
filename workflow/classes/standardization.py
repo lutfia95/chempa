@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections import Counter
 from dataclasses import asdict
+import logging
 from typing import Any, Dict, List, Tuple
 
 import pandas as pd
@@ -10,12 +11,16 @@ from workflow.classes.data_models import StandardizationSummary
 from workflow.config import PipelineConfig
 
 
+LOGGER = logging.getLogger(__name__)
+
+
 class RDKitStandardizer:
     def __init__(self, config: PipelineConfig) -> None:
         self.config = config
 
     def run(self, df: pd.DataFrame) -> Tuple[pd.DataFrame, StandardizationSummary]:
         Chem, rdMolDescriptors, Crippen, Lipinski, MurckoScaffold, rdMolStandardize = self._imports()
+        LOGGER.info("RDKit standardization started for %d rows", len(df))
 
         smiles_column = self.config.input.smiles_column
         parent_strategy = self.config.standardization.parent_strategy.strip().lower()
@@ -96,6 +101,14 @@ class RDKitStandardizer:
             duplicate_rows_removed=duplicate_rows_removed,
             valid_rows=len(standardized),
             parent_strategy=parent_strategy,
+        )
+        LOGGER.info(
+            "RDKit standardization finished: total=%d valid=%d invalid=%d duplicates=%d strategy=%s",
+            summary.total_rows,
+            summary.valid_rows,
+            summary.invalid_rows,
+            summary.duplicate_rows_removed,
+            summary.parent_strategy,
         )
         standardized.attrs["standardization_summary"] = asdict(summary)
         return standardized, summary

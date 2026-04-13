@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import logging
 from typing import Tuple
 
 import numpy as np
@@ -9,6 +10,9 @@ from sklearn.preprocessing import normalize
 from workflow.config import PipelineConfig
 
 
+LOGGER = logging.getLogger(__name__)
+
+
 class EmbeddingFactory:
     def __init__(self, config: PipelineConfig) -> None:
         self.config = config
@@ -16,13 +20,16 @@ class EmbeddingFactory:
     def build_embeddings(self, df: pd.DataFrame, fingerprint_bits: np.ndarray) -> np.ndarray:
         backend = self.config.embedding.backend.strip().lower()
         if backend == "molformer":
+            LOGGER.info("Generating MoLFormer embeddings for %d molecules", len(df))
             embeddings = self._molformer_embeddings(df["standardized_smiles"].astype(str).tolist())
         elif backend == "morgan_bits":
+            LOGGER.info("Using Morgan bit vectors as embeddings")
             embeddings = fingerprint_bits.astype(np.float32)
         else:
             raise ValueError("Unsupported embedding backend. Expected 'molformer' or 'morgan_bits'.")
 
         if self.config.embedding.normalize:
+            LOGGER.info("Normalizing embeddings")
             embeddings = normalize(embeddings)
         return embeddings.astype(np.float32)
 
@@ -85,11 +92,23 @@ class EmbeddingFactory:
             raise
         model.to(device)
         model.eval()
+        LOGGER.info(
+            "Loaded embedding model '%s' on device '%s' with batch size %d",
+            self.config.embedding.model_name,
+            device,
+            max(1, self.config.embedding.batch_size),
+        )
 
         batches = []
         batch_size = max(1, self.config.embedding.batch_size)
         with torch.no_grad():
             for start in range(0, len(smiles), batch_size):
+                LOGGER.info(
+                    "Embedding batch %d-%d of %d",
+                    start + 1,
+                    min(start + batch_size, len(smiles)),
+                    len(smiles),
+                )
                 batch_smiles = smiles[start : start + batch_size]
                 encoded = tokenizer(
                     batch_smiles,
@@ -102,6 +121,7 @@ class EmbeddingFactory:
                 outputs = model(**encoded)
                 token_embeddings = outputs.last_hidden_state
                 attention_mask = encoded["attention_mask"].unsqueeze(-1)
+                # Pool token-level representations into one stable vector per molecule for downstream clustering.
                 pooled = self._pool(token_embeddings, attention_mask)
                 batches.append(pooled.detach().cpu().numpy())
 
