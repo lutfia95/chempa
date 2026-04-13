@@ -23,6 +23,16 @@ class PipelinePaths:
     cluster_descriptors_tsv: Path
     nearest_neighbors_embedding_tsv: Path
     nearest_neighbors_fingerprint_tsv: Path
+    library_overview_json: Path
+    executive_summary_txt: Path
+    super_regions_tsv: Path
+    cluster_interpretation_tsv: Path
+    outlier_summary_tsv: Path
+    similarity_agreement_summary_json: Path
+    functional_group_summary_tsv: Path
+    scaffold_family_summary_tsv: Path
+    property_landscape_json: Path
+    chemical_landscape_report_txt: Path
     plot_clusters_png: Path
     plot_mw_png: Path
     plot_logp_png: Path
@@ -86,4 +96,3 @@ class StandardizationSummary:
     duplicate_rows_removed: int
     valid_rows: int
     parent_strategy: str
-

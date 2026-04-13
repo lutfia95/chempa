@@ -365,6 +365,12 @@ Typical files you will inspect first:
 
 - `standardized.tsv`
 - `clusters.tsv`
+- `library_overview.json`
+- `executive_summary.txt`
+- `chemical_landscape_report.txt`
+- `super_regions.tsv`
+- `functional_group_summary.tsv`
+- `scaffold_family_summary.tsv`
 - `cluster_representatives.tsv`
 - `cluster_scaffolds.tsv`
 - `cluster_descriptors.tsv`
@@ -376,12 +382,21 @@ Typical files you will inspect first:
 If you want to interpret one run step by step, read the outputs in this order:
 
 1. `standardized.tsv`
-2. `cluster_metrics.json`
-3. `cluster_representatives.tsv`
-4. `cluster_scaffolds.tsv`
-5. `cluster_descriptors.tsv`
-6. `nearest_neighbors_embedding.tsv`
-7. `nearest_neighbors_fingerprint.tsv`
-8. `umap_clusters.png`
-9. `umap_mw.png`
-10. `umap_logp.png`
+2. `executive_summary.txt`
+3. `chemical_landscape_report.txt`
+4. `library_overview.json`
+5. `property_landscape.json`
+6. `super_regions.tsv`
+7. `functional_group_summary.tsv`
+8. `scaffold_family_summary.tsv`
+9. `cluster_metrics.json`
+10. `cluster_representatives.tsv`
+11. `cluster_scaffolds.tsv`
+12. `cluster_descriptors.tsv`
+13. `cluster_interpretation.tsv`
+14. `outlier_summary.tsv`
+15. `nearest_neighbors_embedding.tsv`
+16. `nearest_neighbors_fingerprint.tsv`
+17. `umap_clusters.png`
+18. `umap_mw.png`
+19. `umap_logp.png`

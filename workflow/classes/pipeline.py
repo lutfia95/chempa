@@ -83,11 +83,30 @@ class MoleculeClusteringPipeline:
             similarity_type="tanimoto_fingerprint",
         )
 
+        overview = self.summarizer.build_library_overview(
+            valid_df,
+            labels,
+            cluster_space,
+            embedding_neighbors,
+            fingerprint_neighbors,
+        )
+        chemical_landscape = self.summarizer.build_chemical_landscape(valid_df, labels)
+
         self.writer.write_tsv(representatives, self.paths.cluster_representatives_tsv)
         self.writer.write_tsv(scaffolds, self.paths.cluster_scaffolds_tsv)
         self.writer.write_tsv(descriptor_summary, self.paths.cluster_descriptors_tsv)
         self.writer.write_tsv(embedding_neighbors, self.paths.nearest_neighbors_embedding_tsv)
         self.writer.write_tsv(fingerprint_neighbors, self.paths.nearest_neighbors_fingerprint_tsv)
+        self.writer.write_json(overview["library_overview"], self.paths.library_overview_json)
+        self.writer.write_text(overview["executive_summary"], self.paths.executive_summary_txt)
+        self.writer.write_tsv(overview["super_regions"], self.paths.super_regions_tsv)
+        self.writer.write_tsv(overview["cluster_interpretation"], self.paths.cluster_interpretation_tsv)
+        self.writer.write_tsv(overview["outlier_summary"], self.paths.outlier_summary_tsv)
+        self.writer.write_json(overview["similarity_agreement"], self.paths.similarity_agreement_summary_json)
+        self.writer.write_tsv(chemical_landscape["functional_group_summary"], self.paths.functional_group_summary_tsv)
+        self.writer.write_tsv(chemical_landscape["scaffold_family_summary"], self.paths.scaffold_family_summary_tsv)
+        self.writer.write_json(chemical_landscape["property_landscape"], self.paths.property_landscape_json)
+        self.writer.write_text(chemical_landscape["chemical_landscape_report"], self.paths.chemical_landscape_report_txt)
         self.writer.write_json(self.summarizer.metrics_payload(metrics), self.paths.cluster_metrics_json)
         self.summarizer.make_plots(valid_df, labels, plot_space, self.paths)
 
@@ -96,6 +115,9 @@ class MoleculeClusteringPipeline:
             "config_path": str(self.config_path) if self.config_path else None,
             "standardization_summary": asdict(standardization_summary),
             "cluster_metrics": self.summarizer.metrics_payload(metrics),
+            "library_overview": overview["library_overview"],
+            "similarity_agreement": overview["similarity_agreement"],
+            "property_landscape": chemical_landscape["property_landscape"],
             "paths": self.paths.to_dict(),
         }
         self.writer.write_json(metadata, self.paths.metadata_json)
@@ -108,4 +130,3 @@ class MoleculeClusteringPipeline:
             cluster_count=int(metrics.cluster_count),
             noise_count=int(metrics.noise_count),
         )
-

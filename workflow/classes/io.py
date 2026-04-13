@@ -49,6 +49,16 @@ class ResultPathsFactory:
             cluster_descriptors_tsv=output_dir / "cluster_descriptors.tsv",
             nearest_neighbors_embedding_tsv=output_dir / "nearest_neighbors_embedding.tsv",
             nearest_neighbors_fingerprint_tsv=output_dir / "nearest_neighbors_fingerprint.tsv",
+            library_overview_json=output_dir / "library_overview.json",
+            executive_summary_txt=output_dir / "executive_summary.txt",
+            super_regions_tsv=output_dir / "super_regions.tsv",
+            cluster_interpretation_tsv=output_dir / "cluster_interpretation.tsv",
+            outlier_summary_tsv=output_dir / "outlier_summary.tsv",
+            similarity_agreement_summary_json=output_dir / "similarity_agreement_summary.json",
+            functional_group_summary_tsv=output_dir / "functional_group_summary.tsv",
+            scaffold_family_summary_tsv=output_dir / "scaffold_family_summary.tsv",
+            property_landscape_json=output_dir / "property_landscape.json",
+            chemical_landscape_report_txt=output_dir / "chemical_landscape_report.txt",
             plot_clusters_png=output_dir / "umap_clusters.png",
             plot_mw_png=output_dir / "umap_mw.png",
             plot_logp_png=output_dir / "umap_logp.png",
@@ -67,3 +77,7 @@ class ResultWriter:
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
 
+    @staticmethod
+    def write_text(text: str, path: Path) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(text, encoding="utf-8")
