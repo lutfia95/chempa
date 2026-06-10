@@ -1,0 +1,11 @@
+name: chempa-convert
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - rdkit
+  - openpyxl
+  - reportlab
+  - pillow
+  - requests
+  - cryptography
